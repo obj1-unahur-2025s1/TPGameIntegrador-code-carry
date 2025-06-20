@@ -213,3 +213,4 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":348,"timestamp":"2025-06-20T22:53:10.983Z"}
 {"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":180,"timestamp":"2025-06-20T22:53:11.291Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry","timeElapsed":97612,"timestamp":"2025-06-20T22:53:13.928Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":630,"timestamp":"2025-06-20T22:53:16.975Z"}
