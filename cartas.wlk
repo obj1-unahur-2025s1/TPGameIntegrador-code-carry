@@ -1,48 +1,128 @@
-import personajes.*
+import personaje.*
+import interfaz.*
+class Carta {
+    var nombre
+    var posicion = null
+    var posicionCooldown = null
+    var cooldown = 0
+    var tecla = null
+    const property esDanio 
+    const property cooldownInicial
 
-class Carta{
-  var property nombre
-  var property descripcion
-  var property cooldown
+    method image()
+    method position() = posicion
+    method tecla() = tecla
 
-  method usarSobre(objetivo, usuario){}
+
+    method cooldown() = cooldown
+    method reducirCooldown() {cooldown = (cooldown - 1).max(0)}
+    method reinciarCooldown() { cooldown = 0 }
+    method colocarCooldown() { cooldown = cooldownInicial }
+    method tieneCooldown() = cooldown > 0
+    method mensajeCooldown() = game.say(poro, "A la carta " + nombre + " le faltan " + cooldown + " turnos")
+
+    method asignarPrimeraPosicion() { 
+        tecla = "Q"
+        posicion = posicionUno.posicionCarta()
+        posicionCooldown = posicionUno.posicionCooldown()
+    }
+
+    method asignarSegundaPosicion() {
+        tecla = "W"
+        posicion = posicionDos.posicionCarta()
+        posicionCooldown = posicionDos.posicionCooldown()
+    }
+
+    method asignarTerceraPosicion() {
+        tecla = "E"
+        posicion = posicionTres.posicionCarta()
+        posicionCooldown = posicionTres.posicionCooldown()
+    }
+
+    method asignarCuartaPosicion() {
+        tecla = "R"
+        posicion = posicionCuatro.posicionCarta()
+        posicionCooldown = posicionCuatro.posicionCooldown()
+    }
+
+    method asignarQuintaPosicion() {
+        tecla = "T"
+        posicion = posicionCinco.posicionCarta()
+        posicionCooldown = posicionCinco.posicionCooldown()
+    }
+
+    method posicionDelCooldown() = posicionCooldown
+} 
+
+class CartaAD inherits Carta {
+    const property esAD = true
+    const property ataque
+
+    const habilidad
+
+
+    method atacarConCarta(enemigo) {
+        if (cooldown == 0) {
+            enemigo.recibirAtaque(self) 
+            self.colocarCooldown() 
+        }
+        
+        else {
+            self.mensajeCooldown()
+        }
+    }
 }
 
-object cartasDisponibles{
-  const todasLasCartas= [aatrox, ahri]
+class CartaAP inherits Carta {
+    const property esAD = false
+    const property poderMagico
 
-  method alAzar(cantidad){
-    return todasLasCartas.randomize().take(cantidad)
-  }
+    const habilidad
+
+    method atacarConCarta(enemigo) {
+        if (cooldown == 0) {
+            enemigo.recibirAtaque(self) 
+            self.colocarCooldown() }
+        
+        else {
+            self.mensajeCooldown()
+        }
+    }
 }
 
-object aatrox inherits Carta(nombre = "Aatrox", 
-  descripcion = "Aumenta su daño de ataque, curación y daño físico", 
-  cooldown = 2){
- 
-  override method usarSobre(objetivo, usuario){
-    usuario.aumentarDañoFisico(0.10)
-    usuario.aumentarDañoAtaque(0.15)
-    usuario.aumentarCuracion(0.10)
-  }
+class CartaSUPP inherits Carta {
+     
+    const property poderMagico
+
+    const habilidad
+
+    method curar(personaje) {
+        if (cooldown == 0) {
+            personaje.curarsePor(self)
+            self.colocarCooldown()
+        }
+        else {
+            self.mensajeCooldown()
+        }
+    }
 }
 
-object ahri inherits Carta(nombre = "Ahri", 
-  descripcion = "Lanza 3 ataques fisicos con +30% daño", 
-  cooldown = 3){
- 
-  override method usarSobre(objetivo, usuario){
-    const daño = usuario.dañoFisico() * 1.3
-    objetivo.recibirDaño(daño * 3)
-  }
+object garen inherits CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 40, habilidad = "null", esDanio = true) {
+    override method image() = "garenfinal.png"
 }
 
+object ahri inherits CartaAP(nombre = "Ahri", cooldownInicial = 5, poderMagico = 50, habilidad = "null", esDanio = true) {
+    override method image() = "ahrifinal.png"
+}
 
-//object garen inherits Carta(nombre = "Garen", descripcion = "Aniquila si el enemigo tiene 15% de vida, si no inflige 15% mas de ataque", cooldown = 2){
- 
- // override method usarSobre(objetivo, usuario){
-   // if (objetivo.vida )
-  //}
-//}
+object soraka inherits CartaSUPP(nombre = "Soraka", cooldownInicial = 10, poderMagico = 30, habilidad = "null", esDanio = false) {
+    override method image() = "sorakafinal.png"
+}
 
+object draven inherits CartaAD(nombre = "Draven", cooldownInicial = 8, ataque = 50, habilidad = "null", esDanio = true) {
+    override method image() = "dravenfinal.png"
+}
 
+object aatrox inherits CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 35, habilidad = "null", esDanio = true) {
+    override method image() = "aatroxfinal.png"
+}

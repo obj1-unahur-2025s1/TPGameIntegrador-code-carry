@@ -1,21 +1,32 @@
-import personajes.*
+import personaje.*
+import interfaz.*
+import juego.*
 import cartas.*
-import estadoCombate.*
-import wollok.game.*
-
-object nivelActual{
-    method iniciar(nivel){
-        poro.configurarNivel(nivel)
-
-        if (nivel == 1){
-            enemigoNivel1.configurar()
-            estadoCombate.iniciarCombate(poro, enemigoNivel1)
-        } else-if (nivel == 2){
-            enemigoNivel2.configurar()
-            estadoCombate.iniciarCombate(poro, enemigoNivel2)
-        } else (nivel == 3){
-            enemigoNivel3.configurar()
-            estadoCombate.iniciarCombate(poro, enemigoNivel3)
-        }
+class Nivel {
+    const jugador = poro
+    const property enemigo
+    const property numeroDeNivel 
+    const property cantidadDeMazo    
+    method iniciar() {
+        game.clear()
+        poro.reiniciarCooldowns()
+        poro.maximaVida()
+        enemigo.maximaVida()
+        jugador.agregarALaColeccion(ahri)
+        jugador.agregarALaColeccion(garen)
+        jugador.agregarALaColeccion(soraka)
+        jugador.agregarALaColeccion(draven)
+        jugador.agregarALaColeccion(aatrox)
+        poro.enemigoNuevo(enemigo)
+        interfaz.mostrarNivel(enemigo)
     }
 }
+
+object nivelUno inherits Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidadDeMazo = 2) {
+    method siguiente() = nivelDos
+}
+
+object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = enemigo2, cantidadDeMazo = 5){
+    method siguiente() = nivelUno
+}
+

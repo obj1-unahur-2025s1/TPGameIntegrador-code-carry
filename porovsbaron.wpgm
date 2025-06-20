@@ -1,0 +1,14 @@
+import wollok.game.*
+import personaje.*
+import juego.*
+import menu.*
+
+
+program PoroVsBaron {
+	game.title("Poro vs Baron")
+	game.cellSize(25)
+	game.height(17) // alto
+	game.width(25) // ancho
+	menu.mostrarMenu()
+	game.start()
+}
