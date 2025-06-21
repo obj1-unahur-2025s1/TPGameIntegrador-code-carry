@@ -15,6 +15,7 @@ class Carta {
     method tecla() = tecla
 
 
+    method posicionEnColeccion(nueva) { posicion = nueva }
     method cooldown() = cooldown
     method reducirCooldown() {cooldown = (cooldown - 1).max(0)}
     method reiniciarCooldown() { cooldown = 0 }

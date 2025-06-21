@@ -10,5 +10,6 @@ program PoroVsBaron {
 	game.height(17) // alto
 	game.width(25) // ancho
 	menu.mostrarMenu()
+	juego.campeonesInicales()
 	game.start()
 }

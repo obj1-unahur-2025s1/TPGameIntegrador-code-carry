@@ -12,13 +12,10 @@ object juego {
 
 
     method iniciar() {
-        self.campeonesInicales()
         nivel.iniciar()
         if(nivel == nivelDos) self.aparicionEnemigo(aparicionHeraldo) 
         self.iniciarMusicaFondo()
         self.teclasDeCombate()
-        
-        
     }
 
     method iniciarMusicaFondo(){
@@ -42,13 +39,7 @@ object juego {
         self.iniciar()
     }
 
-    method campeonesInicales() {
-        poro.agregarALaColeccion(garen)
-        poro.agregarALaColeccion(soraka)
-        poro.agregarALaColeccion(draven)
-        poro.agregarALaColeccion(ahri)
-        poro.agregarALaColeccion(aatrox)
-    }
+    
 
     method teclasDeCombate() {
         //TEST
@@ -63,5 +54,13 @@ object juego {
         keyboard.e().onPressDo{poro.usarLaCarta(3)}
         keyboard.r().onPressDo{poro.usarLaCarta(4)}
         keyboard.t().onPressDo{poro.usarLaCarta(5)}
+    }
+
+    method campeonesInicales() {
+        poro.agregarALaColeccion(garen)
+        poro.agregarALaColeccion(soraka)
+        poro.agregarALaColeccion(draven)
+        poro.agregarALaColeccion(ahri)
+        poro.agregarALaColeccion(aatrox)
     }
 }

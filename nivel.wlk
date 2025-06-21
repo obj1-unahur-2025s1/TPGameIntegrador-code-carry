@@ -9,6 +9,7 @@ class Nivel {
     const property cantidadDeMazo    
     method iniciar() {
         game.clear()
+        game.boardGround("fondoBatalla.jpg")
         jugador.desasignarCartas()
         jugador.limpiarMazo()
         jugador.reiniciarCooldowns()

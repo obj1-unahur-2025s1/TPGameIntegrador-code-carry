@@ -1,6 +1,7 @@
 import nivel.*
 import personaje.*
 import juego.*
+import menu.*
 
 object interfaz {
     method mostrarNivel(enemigo) {
@@ -51,14 +52,56 @@ object barraDePoro inherits BarraDeVida(personaje = poro, posicion = game.at(7,1
 object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {
 }
 
-object menuCartel {
-    method text() = "TOQUE ENTER PARA COMENZAR 
+// ----------MENU----------
 
-    C PARA VER COLECCIONES 
+class Opciones {
+    var estaSeleccionado
+    method text()
+    method position()
+    method textColor() = if (self.estaSeleccionado()) paleta.verde() else paleta.blanco() 
+    method estaSeleccionado() = estaSeleccionado
+    method cambiarSeleccion() { if (estaSeleccionado) estaSeleccionado = false else estaSeleccionado = true }
+    method entrar() {}
+}
 
-    I PARA VER INSTRUCCIONES."
-    method textColor() = paleta.blanco()
-    method position() = game.center()
+object iniciarJuego inherits Opciones(estaSeleccionado = true){
+    override method text() = "NUEVA PARTIDA"
+    override method position() = game.at(12,10)
+    override method entrar() { juego.iniciar() }
+}
+
+object irAlInventario inherits Opciones(estaSeleccionado = false) {
+    override method text() = "COLECCION"
+    override method position() = game.at(12,9)
+    override method entrar() { inventario.mostrarCartas() }
+} 
+
+object irAInstrucciones inherits Opciones(estaSeleccionado = false) {
+    override method text() = "INSTRUCCIONES" 
+    override method position() = game.at(12,8)
+    override method entrar() { instrucciones.mostrar() }
+}
+
+object salir inherits Opciones(estaSeleccionado = false){
+    override method text() = "SALIR"
+    override method position() = game.at(12,7)
+    override method entrar() { game.stop() }
+}
+
+object volverAlMenu {
+    method text() = "VOLVER AL MENU"
+    method textColor() = if (self.estaSeleccionado()) paleta.verde() else paleta.blanco() 
+    method position() = game.at(2,16)
+    method estaSeleccionado() = false
+}
+
+object instrucciones {
+    method mostrar() {
+        game.clear()
+        game.boardGround("fondoInstrucciones.jpeg")
+        game.addVisual(menuInstrucciones)
+        keyboard.enter().onPressDo{menu.mostrarMenu()}
+    }
 }
 
 object menuInstrucciones {
@@ -78,15 +121,6 @@ object menuInstrucciones {
     method textColor() = paleta.blanco()
     method position() = game.center()
 }
-
-//object menuColecciones {
-  //  method text() = "COLECCION DE CARTAS DISPONIBLES: " +  nombre de cartas + ":" + descripcion de las cartas + 
-    //"ENTER para vovler al menu"
-   // method textColor() = paleta.blanco()
-    //method position() = game.center()
-//}
-
-
 
 object turnoDe {
     var enemigo = null
@@ -190,4 +224,34 @@ object posicionCuatro {
 object posicionCinco {
     method posicionCarta() = game.at(1,1)
     method posicionCooldown() = self.posicionCarta()
+}
+
+// ----------COLECCIONES----------
+
+object inventario {
+    method mostrarCartas() {
+        game.clear()
+        game.addVisual(volverAlMenu)
+        poro.coleccion().forEach{ c=>  // Por cada carta
+        if (poro.coleccion().get(0) == c) { // Si la posicion 1,1 esta vacia 
+            c.posicionEnColeccion(game.at(1,12)) // Le setea la posicion ahi
+        }
+        if (poro.coleccion().get(1) == c) {
+            c.posicionEnColeccion(game.at(5,12))
+        }
+        if (poro.coleccion().get(2) == c) {
+            c.posicionEnColeccion(game.at(9,12))
+        }
+        if (poro.coleccion().get(3) == c) {
+            c.posicionEnColeccion(game.at(13,12))
+        }
+        if (poro.coleccion().get(4) == c) {
+            c.posicionEnColeccion(game.at(17,12))
+        }
+        game.addVisual(c)
+        }
+        game.addVisual(poro.coleccion().first())
+        keyboard.enter().onPressDo{menu.mostrarMenu()}
+    }
+
 }
