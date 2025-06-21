@@ -2,6 +2,7 @@ import personaje.*
 import interfaz.*
 import nivel.*
 import cartas.*
+import menu.*
 object juego {
     var nivel = nivelUno
     var enemigo = nivel.enemigo()
@@ -22,7 +23,7 @@ object juego {
         nivel = nivel.siguiente()
         self.iniciar()
     }
-
+    
     method campeonesInicales() {
         poro.agregarALaColeccion(garen)
         poro.agregarALaColeccion(soraka)

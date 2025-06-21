@@ -4,8 +4,8 @@ class Carta {
     const nombre
     var posicion = null
     var posicionCooldown = null
-    var cooldown = 0
     var tecla = null
+    var cooldown = 0
     const property esDanio 
     const property cooldownInicial
     const habilidad

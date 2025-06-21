@@ -19,8 +19,6 @@ object interfaz {
         cartasInterfaz.mostrarCartas(poro)
     }
 }
-
-
 class BarraDeVida {
     var personaje
     const posicion
@@ -48,18 +46,13 @@ object paleta {
 object barraDePoro inherits BarraDeVida(personaje = poro, posicion = game.at(7,1)) {}
 
 
-object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {
-}
+object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {}
 
 object menuCartel {
     method text() = "TOQUE ENTER PARA COMENZAR"
     method textColor() = paleta.blanco()
     method position() = game.center()
 }
-
-
-
-
 
 object turnoDe {
     var enemigo = null
@@ -140,6 +133,12 @@ object cartasInterfaz {
     }
 }
 
+object volverAlMenu {
+    method text() = "Volver al Menu"
+    method textColor() = paleta.blanco()
+    method position() = game.at(1,16)
+}
+
 object posicionUno {
     method posicionCarta() = game.at(1,13)
     method posicionCooldown() = self.posicionCarta()
@@ -163,4 +162,36 @@ object posicionCuatro {
 object posicionCinco {
     method posicionCarta() = game.at(1,1)
     method posicionCooldown() = self.posicionCarta()
+}
+
+// ----------COLECCIONES----------
+
+object irAlInventario {
+    method text() = "PRESIONA {I} PARA IR AL INVENTARIO"
+    method textColor() = paleta.blanco()
+    method position() = game.at(20,20)
+} 
+
+object coleccionDeCartasInterfaz {
+    method mostrarCartas() {
+        poro.coleccion().forEach{
+        c=>  // Por cada carta
+        if (game.getObjectsIn(game.at(1,1)) == null) { // Si la posicion 1,1 esta vacia 
+            c.posicion(game.at(1,1)) // Le setea la posicion ahi
+        }
+        if (game.getObjectsIn(game.at(1,3)) == null) {
+            c.posicion(game.at(1,3))
+        }
+        if (game.getObjectsIn(game.at(1,5)) == null) {
+            c.posicion(game.at(1,5))
+        }
+        if (game.getObjectsIn(game.at(1,7)) == null) {
+            c.posicion(game.at(1,7))
+        }
+        if (game.getObjectsIn(game.at(1,9)) == null) {
+            c.posicion(game.at(1,9))
+        }
+        game.addVisual(c)
+        }
+    }
 }
