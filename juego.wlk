@@ -6,11 +6,30 @@ object juego {
     var nivel = nivelUno
     var enemigo = nivel.enemigo()
     method nivel() = nivel
+    const musicaFondo= new Sound(file = "Worlds-London-MusicaFondo.mp3")
+    const aparicionHeraldo= new Sound(file="AudioHeraldo.mp3")
+    const aparicionBaron= new Sound(file="AlertaBaron.mp3")
+
 
     method iniciar() {
         self.campeonesInicales()
         nivel.iniciar()
+        if(nivel == nivelDos) self.aparicionEnemigo(aparicionHeraldo) 
+        self.iniciarMusicaFondo()
         self.teclasDeCombate()
+        
+        
+    }
+
+    method iniciarMusicaFondo(){
+        musicaFondo.shouldLoop(true)
+        musicaFondo.volume(0.1)
+        musicaFondo.play()
+    }
+
+    method aparicionEnemigo(unaAparicion){
+        unaAparicion.volume(1)
+        unaAparicion.play()
     }
 
     method reiniciarPartida() {
