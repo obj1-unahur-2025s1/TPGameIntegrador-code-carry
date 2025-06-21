@@ -3,23 +3,22 @@ import interfaz.*
 import personaje.*
 
 object menu {
-    const opciones = [iniciarJuego, irAlInventario, irAInstrucciones, salir]
+    const opciones = [iniciarJuego, irAlInventario, irAInstrucciones, salir] // LISTA DE OPCIONES
     method mostrarMenu() {
-        game.clear()
-        poro.coleccion().forEach{c=>c.desasignarPosicion()}
+        game.clear() // LIMPIA EL TABLERO
+        poro.coleccion().forEach{c=>c.desasignarPosicion()} // DESASIGNA LAS CARTAS CADA VEZ QUE VUELVE AL MENU DESDE LA COLECCION
         // VISUALES
-        game.boardGround("fondoMenu.jpeg")
-        game.addVisual(iniciarJuego)
-        game.addVisual(irAlInventario)
-        game.addVisual(irAInstrucciones)
-        game.addVisual(salir)
+        game.addVisual(fondoMenu) // FONDO DEL MENU
+        game.addVisual(iniciarJuego) // PRIMER OPCION = INICIAR PARTIDA
+        game.addVisual(irAlInventario) // SEGUNDA OPCION = COLECCION
+        game.addVisual(irAInstrucciones) // TERCERA OPCION = INSTRUCCIONES
+        game.addVisual(salir) // CUARTA OPCION = SALIR
         //SELECCION
-        keyboard.enter().onPressDo{self.elSeleccionado().entrar()}
+        keyboard.enter().onPressDo{self.elSeleccionado().entrar()} // AL TOCAR ENTER ENTRA A LA OPCION SELECCIONADA
         //TECLAS
-        self.teclasDeMenu()
+        self.teclasDeMenu() // TECLAS ASIGNADAS = ARRIBA|ABAJO|ENTER
     }
-
-    method elSeleccionado() = opciones.find{o=>o.estaSeleccionado()}
+    method elSeleccionado() = opciones.find{o=>o.estaSeleccionado()} // RETORNA LA OPCION SELECCIONADA
 
     method cambiarOpcionArriba() {
         if (iniciarJuego.estaSeleccionado()) {
@@ -60,8 +59,8 @@ object menu {
     }
 
     method teclasDeMenu() {
-        keyboard.up().onPressDo{self.cambiarOpcionArriba()}
-        keyboard.down().onPressDo{self.cambiarOpcionAbajo()}
+        keyboard.up().onPressDo{self.cambiarOpcionArriba()} // AL PRESIONAR {ARRIBA} SELECCIONA LA OPCION SUPERIOR
+        keyboard.down().onPressDo{self.cambiarOpcionAbajo()} // AL PRESIONAR {ABAJO} SELECCIONA LA OPCION INFERIOR
     }
 }
 

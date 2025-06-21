@@ -1,0 +1,5 @@
+import personaje.*
+ 
+class Estado {
+    
+}

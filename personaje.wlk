@@ -2,7 +2,6 @@ import interfaz.*
 import cartas.*
 import juego.*
 import nivel.*
-import mazo.*
 class Personaje {
   const property vidaInicial 
   var vida = vidaInicial
@@ -118,14 +117,14 @@ class Personaje {
     coleccion.forEach{ c=>c.reducirCooldown() } 
     enemigo.coleccion().forEach{ c=>c.reducirCooldown() } 
     }
-  //nive.cantidadDeMazo()
+
   method llenarMazo(unaCantidad) {
     coleccion.randomized().forEach{c=>
     if (mazo.size() < juego.nivel().cantidadDeMazo())
       self.agregarAlMazo(c)
     }
-  }
-  method agregarALaColeccion(unaCarta) { if (!coleccion.contains(unaCarta)) coleccion.add(unaCarta) }
+  } 
+  method agregarALaColeccion(unaCarta) { if (!coleccion.contains(unaCarta)) coleccion.add(unaCarta) } 
 
   method limpiarMazo() { mazo.clear() }
 
@@ -152,17 +151,17 @@ class Personaje {
 
   method desasignarCartas() { coleccion.forEach{c=>c.desasignarPosicion()} mazo.forEach{c=>c.desasignarPosicion()}}
 
-
   method reiniciarCooldowns() { coleccion.forEach{c=>c.reiniciarCooldown()} }
 
-  //sonido
+  // ----  SONIDO  ----
+
+  method sonido()
+
   method sonidoEfecto(unSonido){
     const sonidoEfecto= new Sound(file = unSonido)
     sonidoEfecto.volume(1)
     sonidoEfecto.play()
   }
-  method sonido()
-
 }
 
 class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
@@ -180,8 +179,6 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
       keyboard.enter().onPressDo{juego.subirDeNivel()}
     }
   }
-
-
 }
 
 object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
@@ -192,14 +189,12 @@ object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, tur
 
   method enemigoNuevo(nuevo) { enemigo = nuevo }
   
-
   override method recibirAtaque(danio) {
     super(danio)
     if (self.estaMuerto()){
       juego.reiniciarPartida()
     }
   }
-
 }
 
 object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva") {
@@ -214,7 +209,8 @@ object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defen
 }
 
 object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Heraldo") {
-  override method position() = game.at(13,2)
   override method sonido()= "AtaqueLarva.mp3"
   method image() = "heraldoNuevo-normal.png"
+  
+  override method position() = game.at(13,2)
 }

@@ -11,7 +11,6 @@ object juego {
     const aparicionBaron= new Sound(file="AlertaBaron.mp3")
     const aparicionLarva= new Sound(file="AparicionLarva.mp3")
 
-
     method iniciar() {
         nivel.iniciar()
         if(nivel == nivelUno) self.aparicionEnemigo(aparicionLarva) else-if(nivel== nivelDos) self.aparicionEnemigo(aparicionHeraldo)
@@ -42,8 +41,6 @@ object juego {
         nivel = nivel.siguiente()
         self.iniciar()
     }
-
-    
 
     method teclasDeCombate() {
         //TEST

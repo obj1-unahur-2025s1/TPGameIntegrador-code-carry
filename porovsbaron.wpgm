@@ -3,7 +3,6 @@ import personaje.*
 import juego.*
 import menu.*
 
-
 program PoroVsBaron {
 	game.title("Poro vs Baron")
 	game.cellSize(25)

@@ -16,27 +16,11 @@ object interfaz {
         turnoDe.enemigoActual(enemigo)
         game.addVisual(turnoDe)
         game.addVisual(boolPrueba)
-
         cartasInterfaz.mostrarCartas(poro)
     }
 }
 
-
-class BarraDeVida {
-    var personaje
-    const posicion
-    method text() = "VIDA:" + personaje.vida().toString()
-    method textColor() = if (personaje.vida() == 0) paleta.rojo() else paleta.blanco()
-    method position() = posicion
-
-    method cambiar(nuevo) { personaje = nuevo }
-}
-
-object nivelInterfaz {
-    method text() = "NIVEL " + juego.nivel().numeroDeNivel().toString() + " : " + juego.nivel().enemigo().nombre()
-    method textColor() = paleta.blanco()
-    method position() = game.at(12,16)
-}
+// ----------PALETA DE COLORES----------
 
 object paleta {
     const property blanco = "FFFFFF"
@@ -44,12 +28,7 @@ object paleta {
     const property verde = "00FF00"
     const property amarillo = "FFFF00"
     const property azul = "0000FF"
-}
-
-object barraDePoro inherits BarraDeVida(personaje = poro, posicion = game.at(7,1)) {}
-
-
-object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {
+    const property violeta = "6100FF"
 }
 
 // ----------MENU----------
@@ -88,20 +67,19 @@ object salir inherits Opciones(estaSeleccionado = false){
     override method entrar() { game.stop() }
 }
 
-object volverAlMenu {
-    method text() = "VOLVER AL MENU"
-    method textColor() = if (self.estaSeleccionado()) paleta.verde() else paleta.blanco() 
-    method position() = game.at(2,16)
-    method estaSeleccionado() = false
-}
-
 object instrucciones {
     method mostrar() {
         game.clear()
-        game.boardGround("fondoInstrucciones.jpeg")
+        game.addVisual(fondoInstrucciones)
         game.addVisual(menuInstrucciones)
+        game.addVisual(mensajeVolverAlMenu)
         keyboard.enter().onPressDo{menu.mostrarMenu()}
     }
+}
+
+object mensajeVolverAlMenu inherits Opciones(estaSeleccionado = false) {
+    override method position() = game.at(12,1)
+    override method text() = "Presione ENTER para volver al menu"
 }
 
 object menuInstrucciones {
@@ -117,9 +95,40 @@ object menuInstrucciones {
         - Si pierdes, podes reintentar una vez mas el nivel.
         - Si pierdes tus intentos, vuelves al inicio.
 
-        ENTER para vovler al menu"
+        "
     method textColor() = paleta.blanco()
     method position() = game.center()
+}
+
+// ----------TESTING----------
+
+object boolPrueba {
+    method text() = poro.esSuTurno().toString() + " " + juego.nivel().enemigo().esSuTurno().toString()
+    method position() = game.center()
+}
+
+// ----------INTERFACES IN GAME----------
+
+class BarraDeVida {
+    var personaje
+    const posicion
+    method text() = "VIDA:" + personaje.vida().toString()
+    method textColor() = if (personaje.vida() == 0) paleta.rojo() else paleta.blanco()
+    method position() = posicion
+
+    method cambiar(nuevo) { personaje = nuevo }
+}
+
+object barraDePoro inherits BarraDeVida(personaje = poro, posicion = game.at(7,1)) {}
+
+object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {
+    override method textColor() = if (personaje.vida() == 0) paleta.rojo() else paleta.violeta()
+}
+
+object nivelInterfaz {
+    method text() = "NIVEL " + juego.nivel().numeroDeNivel().toString() + " : " + juego.nivel().enemigo().nombre()
+    method textColor() = paleta.blanco()
+    method position() = game.at(12,16)
 }
 
 object turnoDe {
@@ -130,22 +139,19 @@ object turnoDe {
     method textColor() = if (poro.esSuTurno()) paleta.verde() else paleta.rojo()
 }
 
+object nivelCompletado {
+    method text() = "TOQUE ENTER PARA PASAR AL SIGUIENTE NIVEL"
+    method position() = game.center()
+    method textColor() = paleta.blanco()
+}
+
 object enemigoMuerto {
     method text() = "¡El enemigo " + juego.nivel().enemigo().nombre() + " a sido derrotado!" 
     method textColor() = paleta.amarillo()
     method position() = game.at(12,14)
 }
 
-object boolPrueba {
-    method text() = poro.esSuTurno().toString() + " " + juego.nivel().enemigo().esSuTurno().toString()
-    method position() = game.center()
-}
-
-object nivelCompletado {
-    method text() = "TOQUE ENTER PARA PASAR AL SIGUIENTE NIVEL"
-    method position() = game.center()
-    method textColor() = paleta.blanco()
-}
+// ----------MOSTRAR DAMAGE O HEALTH----------
 
 object danioInflijido {
     var danioInflijido = null
@@ -176,6 +182,19 @@ object curacionTotal {
     method textColor() = paleta.verde()
     method position() = game.at(posicion.x()+3, posicion.y() +3)
 }
+
+// ----------POSICION DE LAS CARTAS IN GAME----------
+
+object cartasInterfaz { 
+    method mostrarCartas(personaje) { 
+        personaje.mazo().forEach{ c=>
+            game.addVisual(c)
+            game.addVisual(new CooldownInterfaz(carta = c, posicion = c.posicionDelCooldown()))
+            game.addVisual(new Tecla(carta = c))
+        }
+    }
+}
+
 class CooldownInterfaz {
     var carta
     var posicion
@@ -189,16 +208,6 @@ class Tecla {
     method text() = carta.tecla()
     method position() = game.at(carta.position().x()+2, carta.position().y()+2)
     method textColor() = paleta.blanco()
-}
-
-object cartasInterfaz { 
-    method mostrarCartas(personaje) { 
-        personaje.mazo().forEach{ c=>
-            game.addVisual(c)
-            game.addVisual(new CooldownInterfaz(carta = c, posicion = c.posicionDelCooldown()))
-            game.addVisual(new Tecla(carta = c))
-        }
-    }
 }
 
 object posicionUno {
@@ -231,27 +240,83 @@ object posicionCinco {
 object inventario {
     method mostrarCartas() {
         game.clear()
-        game.addVisual(volverAlMenu)
-        poro.coleccion().forEach{ c=>  // Por cada carta
-        if (poro.coleccion().get(0) == c) { // Si la posicion 1,1 esta vacia 
-            c.posicionEnColeccion(game.at(1,12)) // Le setea la posicion ahi
+        poro.coleccion().forEach{ c=>  // POR CADA CARTA DE LA COLECCION
+        if (poro.coleccion().get(0) == c) { // 1
+            c.posicionEnColeccion(game.at(1,12)) // LE SETEO LA POSICION A LA CARTA
         }
-        if (poro.coleccion().get(1) == c) {
-            c.posicionEnColeccion(game.at(5,12))
+        if (poro.coleccion().get(1) == c) { // 2
+            c.posicionEnColeccion(game.at(5,12)) // LE SETEO LA POSICION A LA CARTA
         }
-        if (poro.coleccion().get(2) == c) {
-            c.posicionEnColeccion(game.at(9,12))
+        if (poro.coleccion().get(2) == c) { // 3
+            c.posicionEnColeccion(game.at(9,12)) // LE SETEO LA POSICION A LA CARTA
         }
-        if (poro.coleccion().get(3) == c) {
-            c.posicionEnColeccion(game.at(13,12))
+        if (poro.coleccion().get(3) == c) { // 4
+            c.posicionEnColeccion(game.at(13,12)) // LE SETEO LA POSICION A LA CARTA
         }
-        if (poro.coleccion().get(4) == c) {
-            c.posicionEnColeccion(game.at(17,12))
+        if (poro.coleccion().get(4) == c) { // 5
+            c.posicionEnColeccion(game.at(17,12)) // LE SETEO LA POSICION A LA CARTA
         }
+        
         game.addVisual(c)
         }
-        game.addVisual(poro.coleccion().first())
+        game.addVisual(mensajeVolverAlMenu)
         keyboard.enter().onPressDo{menu.mostrarMenu()}
     }
 
+
+    method agregarDESPUES(c) {
+        if (poro.coleccion().get(5) == c) { // 6
+            c.posicionEnColeccion(game.at(20,12)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(6) == c) { // 7
+            c.posicionEnColeccion(game.at(1,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(7) == c) { // 8
+            c.posicionEnColeccion(game.at(5,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(8) == c) { // 9
+            c.posicionEnColeccion(game.at(9,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(9) == c) { // 10
+            c.posicionEnColeccion(game.at(13,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(10) == c) { // 11
+            c.posicionEnColeccion(game.at(17,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(11) == c) { // 12
+            c.posicionEnColeccion(game.at(20,8)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(12) == c) { // 13
+            c.posicionEnColeccion(game.at(1,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(13) == c) { // 14
+            c.posicionEnColeccion(game.at(5,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(14) == c) { // 15
+            c.posicionEnColeccion(game.at(9,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(15) == c) { // 16
+            c.posicionEnColeccion(game.at(13,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(16) == c) { // 17
+            c.posicionEnColeccion(game.at(17,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+        if (poro.coleccion().get(17) == c) { // 18
+            c.posicionEnColeccion(game.at(20,4)) // LE SETEO LA POSICION A LA CARTA
+        }
+    }
 }
+
+// ----------FONDOS----------
+
+class Fondo {
+    const imagen
+    method image() = imagen
+    method position() = game.at(0,0)
+}
+
+object fondoMenu inherits Fondo(imagen = "fondoMenu.jpeg") {}
+
+object fondoBatalla inherits Fondo(imagen = "fondoBatalla.jpg") {}
+
+object fondoInstrucciones inherits Fondo(imagen = "fondoInstrucciones.jpeg") {}

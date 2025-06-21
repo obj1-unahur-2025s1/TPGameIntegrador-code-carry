@@ -2,13 +2,13 @@ import personaje.*
 import interfaz.*
 class Carta {
     const nombre
-    var posicion = null
-    var posicionCooldown = null
+    var posicion = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
+    var posicionCooldown = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
+    var tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
     var cooldown = 0
-    var tecla = null
-    const property esDanio 
-    const property cooldownInicial
-    const habilidad
+    const property esDanio // Para saber si es una carta de ataque o una de curacion
+    const property cooldownInicial 
+    const habilidad 
 
     method image()
     method position() = posicion
@@ -16,6 +16,8 @@ class Carta {
     method sonido()
 
     method posicionEnColeccion(nueva) { posicion = nueva }
+
+    // ----  COOLDOWNS  ----
     method cooldown() = cooldown
     method reducirCooldown() {cooldown = (cooldown - 1).max(0)}
     method reiniciarCooldown() { cooldown = 0 }
@@ -34,6 +36,8 @@ class Carta {
             self.mensajeCooldown()
         }
     }
+
+    // ----  POSICIONES  ----
     method desasignarPosicion() {
         posicion = null
         tecla = null
@@ -72,7 +76,7 @@ class Carta {
 
     method posicionDelCooldown() = posicionCooldown
 
-    // sonido 
+    // ----  SONIDO  ---
     method sonidoEfecto(unSonido){
     const sonidoEfecto= new Sound(file = unSonido)
     sonidoEfecto.volume(1)
@@ -84,16 +88,12 @@ class CartaAD inherits Carta {
     const property esAD = true
     const property ataque
     override method sonido()="Sonido-Carta-AD.mp3"
-
-
 }
 
 class CartaAP inherits Carta {
     const property esAD = false
     const property poderMagico
     override method sonido()="Sonido-Carta-AP.mp3"
-
-
 }
 
 class CartaSUPP inherits Carta {

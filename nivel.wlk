@@ -2,6 +2,7 @@ import personaje.*
 import interfaz.*
 import juego.*
 import cartas.*
+
 class Nivel {
     const jugador = poro
     const property enemigo
@@ -9,7 +10,7 @@ class Nivel {
     const property cantidadDeMazo    
     method iniciar() {
         game.clear()
-        game.boardGround("fondoBatalla.jpg")
+        game.addVisual(fondoBatalla)
         jugador.desasignarCartas()
         jugador.limpiarMazo()
         jugador.reiniciarCooldowns()
