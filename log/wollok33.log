@@ -1587,3 +1587,26 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":682,"timestamp":"2025-06-21T02:13:28.743Z"}
 {"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":783,"timestamp":"2025-06-21T02:13:29.727Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":449157,"timestamp":"2025-06-21T02:14:01.703Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1103,"timestamp":"2025-06-21T17:51:43.940Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":390,"timestamp":"2025-06-21T17:51:44.403Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":628,"timestamp":"2025-06-21T17:51:45.095Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":270,"timestamp":"2025-06-21T17:51:45.368Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":871,"timestamp":"2025-06-21T17:51:46.260Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":136,"timestamp":"2025-06-21T17:51:47.427Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":310,"timestamp":"2025-06-21T17:51:47.740Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":277,"timestamp":"2025-06-21T17:51:48.030Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wtest","timeElapsed":384,"timestamp":"2025-06-21T17:51:48.419Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":206,"timestamp":"2025-06-21T17:51:48.840Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":330,"timestamp":"2025-06-21T17:51:49.176Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":461,"timestamp":"2025-06-21T17:51:49.638Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":493,"timestamp":"2025-06-21T17:51:50.204Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":313,"timestamp":"2025-06-21T17:51:50.823Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":372,"timestamp":"2025-06-21T17:51:51.228Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":223,"timestamp":"2025-06-21T17:51:51.463Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":560,"timestamp":"2025-06-21T17:51:52.025Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":327,"timestamp":"2025-06-21T17:51:52.352Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":308,"timestamp":"2025-06-21T17:51:52.663Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":785,"timestamp":"2025-06-21T17:51:53.449Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":709,"timestamp":"2025-06-21T17:51:54.160Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":408,"timestamp":"2025-06-21T17:51:54.582Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":431,"timestamp":"2025-06-21T17:51:55.047Z"}

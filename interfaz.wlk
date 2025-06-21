@@ -4,7 +4,7 @@ import juego.*
 
 object interfaz {
     method mostrarNivel(enemigo) {
-        game.boardGround("fondoJuego.jpg")
+        game.boardGround("fondoBatalla.jpg")
         game.addVisual(nivelInterfaz)
         game.addVisual(poro)
         game.addVisual(barraDePoro)
@@ -52,12 +52,39 @@ object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), 
 }
 
 object menuCartel {
-    method text() = "TOQUE ENTER PARA COMENZAR"
+    method text() = "TOQUE ENTER PARA COMENZAR 
+
+    C PARA VER COLECCIONES 
+
+    I PARA VER INSTRUCCIONES."
     method textColor() = paleta.blanco()
     method position() = game.center()
 }
 
+object menuInstrucciones {
+    method text() = "INSTRUCCIONES
+        - ¡Recupera tus Porogalletas!
+        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)
+        - Cada carta tiene un cooldown y efecto especial.
+        - Peleas en 3 niveles contra: 
+        1. Larva del Vacio 
+        2. Heraldo de la Grieta 
+        3. Baron Nashor.
+        - Si ganas los 3 niveles, recuperas tus Porogalletas.
+        - Si pierdes, podes reintentar una vez mas el nivel.
+        - Si pierdes tus intentos, vuelves al inicio.
 
+        ENTER para vovler al menu"
+    method textColor() = paleta.blanco()
+    method position() = game.center()
+}
+
+//object menuColecciones {
+  //  method text() = "COLECCION DE CARTAS DISPONIBLES: " +  nombre de cartas + ":" + descripcion de las cartas + 
+    //"ENTER para vovler al menu"
+   // method textColor() = paleta.blanco()
+    //method position() = game.center()
+//}
 
 
 
