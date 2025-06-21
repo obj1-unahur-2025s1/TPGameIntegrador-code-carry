@@ -14,7 +14,7 @@ object interfaz {
         game.addVisual(barraDeEnemigo)
         turnoDe.enemigoActual(enemigo)
         game.addVisual(turnoDe)
-        //game.addVisual(boolPrueba)
+        game.addVisual(boolPrueba)
 
         cartasInterfaz.mostrarCartas(poro)
     }

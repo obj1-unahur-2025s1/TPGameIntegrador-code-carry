@@ -89,9 +89,6 @@ class Personaje {
 
   method maximaVida() { vida = vidaInicial }
 
-  // MAZO DE CARTAS POR NIVEL
-
-
   // COLECCION DE CARTAS
 
   method usarLaCarta(numero) { 

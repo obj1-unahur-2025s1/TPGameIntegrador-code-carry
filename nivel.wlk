@@ -16,7 +16,17 @@ class Nivel {
         enemigo.maximaVida()
         jugador.llenarMazo(cantidadDeMazo)
         poro.enemigoNuevo(enemigo)
+        self.iniciarJugador()
         interfaz.mostrarNivel(enemigo)
+    }
+
+    method iniciarJugador() {
+        if (enemigo.esSuTurno()){
+            enemigo.cambiarTurno()
+        }
+        if (!jugador.esSuTurno()){
+            jugador.cambiarTurno()
+        }
     }
 }
 
