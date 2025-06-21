@@ -1,13 +1,14 @@
 import personaje.*
 import interfaz.*
 class Carta {
-    var nombre
+    const nombre
     var posicion = null
     var posicionCooldown = null
     var cooldown = 0
     var tecla = null
     const property esDanio 
     const property cooldownInicial
+    const habilidad
 
     method image()
     method position() = posicion
@@ -16,10 +17,16 @@ class Carta {
 
     method cooldown() = cooldown
     method reducirCooldown() {cooldown = (cooldown - 1).max(0)}
-    method reinciarCooldown() { cooldown = 0 }
+    method reiniciarCooldown() { cooldown = 0 }
     method colocarCooldown() { cooldown = cooldownInicial }
     method tieneCooldown() = cooldown > 0
     method mensajeCooldown() = game.say(poro, "A la carta " + nombre + " le faltan " + cooldown + " turnos")
+
+    method desasignarPosicion() {
+        posicion = null
+        tecla = null
+        posicionCooldown = null
+    }
 
     method asignarPrimeraPosicion() { 
         tecla = "Q"
@@ -58,8 +65,6 @@ class CartaAD inherits Carta {
     const property esAD = true
     const property ataque
 
-    const habilidad
-
 
     method atacarConCarta(enemigo) {
         if (cooldown == 0) {
@@ -77,8 +82,6 @@ class CartaAP inherits Carta {
     const property esAD = false
     const property poderMagico
 
-    const habilidad
-
     method atacarConCarta(enemigo) {
         if (cooldown == 0) {
             enemigo.recibirAtaque(self) 
@@ -93,8 +96,6 @@ class CartaAP inherits Carta {
 class CartaSUPP inherits Carta {
      
     const property poderMagico
-
-    const habilidad
 
     method curar(personaje) {
         if (cooldown == 0) {

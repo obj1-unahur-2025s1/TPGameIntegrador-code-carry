@@ -9,24 +9,22 @@ class Nivel {
     const property cantidadDeMazo    
     method iniciar() {
         game.clear()
-        poro.reiniciarCooldowns()
-        poro.maximaVida()
+        jugador.desasignarCartas()
+        jugador.limpiarMazo()
+        jugador.reiniciarCooldowns()
+        jugador.maximaVida()
         enemigo.maximaVida()
-        jugador.agregarALaColeccion(ahri)
-        jugador.agregarALaColeccion(garen)
-        jugador.agregarALaColeccion(soraka)
-        jugador.agregarALaColeccion(draven)
-        jugador.agregarALaColeccion(aatrox)
+        jugador.llenarMazo(cantidadDeMazo)
         poro.enemigoNuevo(enemigo)
         interfaz.mostrarNivel(enemigo)
     }
 }
 
-object nivelUno inherits Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidadDeMazo = 2) {
+object nivelUno inherits Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidadDeMazo = 3) {
     method siguiente() = nivelDos
 }
 
-object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = enemigo2, cantidadDeMazo = 5){
+object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeMazo = 4){
     method siguiente() = nivelUno
 }
 

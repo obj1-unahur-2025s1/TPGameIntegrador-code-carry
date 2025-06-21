@@ -1,12 +1,14 @@
 import personaje.*
 import interfaz.*
 import nivel.*
+import cartas.*
 object juego {
     var nivel = nivelUno
     var enemigo = nivel.enemigo()
     method nivel() = nivel
 
     method iniciar() {
+        self.campeonesInicales()
         nivel.iniciar()
         self.teclasDeCombate()
     }
@@ -19,6 +21,14 @@ object juego {
     method subirDeNivel() {
         nivel = nivel.siguiente()
         self.iniciar()
+    }
+
+    method campeonesInicales() {
+        poro.agregarALaColeccion(garen)
+        poro.agregarALaColeccion(soraka)
+        poro.agregarALaColeccion(draven)
+        poro.agregarALaColeccion(ahri)
+        poro.agregarALaColeccion(aatrox)
     }
 
     method teclasDeCombate() {

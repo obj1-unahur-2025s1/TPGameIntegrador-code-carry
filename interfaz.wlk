@@ -70,9 +70,9 @@ object turnoDe {
 }
 
 object enemigoMuerto {
-    method text() = "ENEMIGO DERROTADO"
+    method text() = "¡El enemigo " + juego.nivel().enemigo().nombre() + " a sido derrotado!" 
     method textColor() = paleta.amarillo()
-    method position() = game.at(10,14)
+    method position() = game.at(12,14)
 }
 
 object boolPrueba {
@@ -132,11 +132,10 @@ class Tecla {
 
 object cartasInterfaz { 
     method mostrarCartas(personaje) { 
-        personaje.coleccion().forEach{ c=>
-            game.addVisualCharacter(c)
+        personaje.mazo().forEach{ c=>
+            game.addVisual(c)
             game.addVisual(new CooldownInterfaz(carta = c, posicion = c.posicionDelCooldown()))
             game.addVisual(new Tecla(carta = c))
-            game.showAttributes(c)
         }
     }
 }

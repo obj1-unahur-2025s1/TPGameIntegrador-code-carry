@@ -16,7 +16,7 @@ class Mazo {
     method asignarSusPosiciones() { cartas.forEach{ c=>c.asignarPosicion() } }
 
     method agregarCarta(carta) { cartas.add(carta) }
-    
+
     method borrarCartas() { cartas.clear() }
 
     method actualizarNivel(unNivel) { nivelActual = unNivel }

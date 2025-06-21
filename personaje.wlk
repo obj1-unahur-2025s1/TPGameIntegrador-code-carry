@@ -10,8 +10,9 @@ class Personaje {
   var defensa
   var turno 
   var enemigo
-  const property coleccion = []
   const property esAD = true
+  const property coleccion = []
+  const property mazo = []
 
   method noEsMiTurno() = game.say(self,"No es mi turno")
 
@@ -70,11 +71,11 @@ class Personaje {
 
   method curarsePor(unaCarta) { 
     game.removeVisual(danioInflijido)
-    var curazao = vidaInicial - vida 
-    vida =  (vida + unaCarta.poderMagico() * 3).min(100)
+    const curazao = vidaInicial - vida 
+    vida =  ( vida + unaCarta.poderMagico() * 3 ).min(100)
     curacionTotal.posicionMia(self.position())
     curacionTotal.corroborarCuracion(curazao)
-    game.schedule(1000, { => game.addVisual(curacionTotal) })
+    game.schedule( 1000, { => game.addVisual(curacionTotal) } )
     enemigo.cambiarTurno()
     }
 
@@ -94,7 +95,7 @@ class Personaje {
   // COLECCION DE CARTAS
 
   method usarLaCarta(numero) { 
-    const cartaAUsar = coleccion.get(numero - 1)
+    const cartaAUsar = mazo.get(numero - 1)
     if (turno and self.puedoUsarLaCarta(cartaAUsar)) {
       if (cartaAUsar.esDanio()) {
         cartaAUsar.atacarConCarta(enemigo)
@@ -114,32 +115,43 @@ class Personaje {
   }
 
   method reducirCooldowns() { 
-    coleccion.forEach{c=>c.reducirCooldown()} 
-    enemigo.coleccion().forEach{c=>c.reducirCooldown()} 
+    coleccion.forEach{ c=>c.reducirCooldown() } 
+    enemigo.coleccion().forEach{ c=>c.reducirCooldown() } 
     }
+  //nive.cantidadDeMazo()
+  method llenarMazo(unaCantidad) {
+    coleccion.randomized().forEach{c=>
+    if (mazo.size() < juego.nivel().cantidadDeMazo())
+      self.agregarAlMazo(c)
+    }
+  }
+  method agregarALaColeccion(unaCarta) { if (!coleccion.contains(unaCarta)) coleccion.add(unaCarta) }
 
-  method agregarALaColeccion(unaCarta) { 
-    if (!coleccion.contains(unaCarta)) {
-      coleccion.add(unaCarta) 
-      if (coleccion.size() == 1){
+  method limpiarMazo() { mazo.clear() }
+
+  method agregarAlMazo(unaCarta) { 
+    if (!mazo.contains(unaCarta)) {
+      mazo.add(unaCarta) 
+      if (mazo.size() == 1){
         unaCarta.asignarPrimeraPosicion()
       }
-      if (coleccion.size() == 2) {
+      if (mazo.size() == 2) {
         unaCarta.asignarSegundaPosicion()
       }
-      if (coleccion.size() == 3) {
+      if (mazo.size() == 3) {
         unaCarta.asignarTerceraPosicion()
       }
-      if (coleccion.size() == 4) {
+      if (mazo.size() == 4) {
         unaCarta.asignarCuartaPosicion()
       }
-      if(coleccion.size() == 5) {
+      if(mazo.size() == 5) {
         unaCarta.asignarQuintaPosicion()
       }
     }
   }
 
-  method mezclarColeccion() { coleccion.randomized() }
+  method desasignarCartas() { coleccion.forEach{c=>c.desasignarPosicion()} mazo.forEach{c=>c.desasignarPosicion()}}
+
 
   method reiniciarCooldowns() { coleccion.forEach{c=>c.reiniciarCooldown()} }
 
@@ -159,9 +171,9 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
       keyboard.enter().onPressDo{juego.subirDeNivel()}
     }
   }
-  }
+}
 
-object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()){
+object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
   
   method image() = "poro-normal.png" 
   
@@ -175,18 +187,14 @@ object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, tur
       juego.reiniciarPartida()
     }
   }
-
 }
 
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva"){
+object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva") {
 
   method image() = "larva-normal.png"
-
-
 }
 
-object enemigo2 inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Enemigo 2"){
-
-  method image() = "enemigo2.png"
-
+object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Heraldo") {
+  override method position() = game.at(13,2)
+  method image() = "heraldoNuevo-normal.png"
 }
