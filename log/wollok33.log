@@ -3068,3 +3068,15 @@
 {"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":132,"timestamp":"2025-06-21T20:00:59.098Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry","timeElapsed":301609,"timestamp":"2025-06-21T20:02:01.222Z"}
 {"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":920,"timestamp":"2025-06-21T20:02:04.932Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":305,"timestamp":"2025-06-21T20:03:18.236Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":291,"timestamp":"2025-06-21T20:03:18.597Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":162,"timestamp":"2025-06-21T20:05:24.129Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":362,"timestamp":"2025-06-21T20:05:24.497Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":134,"timestamp":"2025-06-21T20:05:24.644Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":578,"timestamp":"2025-06-21T20:05:25.237Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":278,"timestamp":"2025-06-21T20:05:25.532Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":368,"timestamp":"2025-06-21T20:05:25.900Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry","timeElapsed":249346,"timestamp":"2025-06-21T20:06:13.359Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":850,"timestamp":"2025-06-21T20:06:16.574Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry","timeElapsed":16551,"timestamp":"2025-06-21T20:06:32.275Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":977,"timestamp":"2025-06-21T20:06:36.071Z"}

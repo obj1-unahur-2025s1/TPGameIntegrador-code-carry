@@ -13,7 +13,7 @@ class Carta {
     method image()
     method position() = posicion
     method tecla() = tecla
-
+    method sonido()
 
     method posicionEnColeccion(nueva) { posicion = nueva }
     method cooldown() = cooldown
@@ -23,6 +23,17 @@ class Carta {
     method tieneCooldown() = cooldown > 0
     method mensajeCooldown() = game.say(poro, "A la carta " + nombre + " le faltan " + cooldown + " turnos")
 
+    method atacarConCarta(enemigo) {
+        if (cooldown == 0) {
+            self.sonidoEfecto(self.sonido())
+            enemigo.recibirAtaque(self) 
+            self.colocarCooldown() 
+        }
+        
+        else {
+            self.mensajeCooldown()
+        }
+    }
     method desasignarPosicion() {
         posicion = null
         tecla = null
@@ -60,46 +71,38 @@ class Carta {
     }
 
     method posicionDelCooldown() = posicionCooldown
+
+    // sonido 
+    method sonidoEfecto(unSonido){
+    const sonidoEfecto= new Sound(file = unSonido)
+    sonidoEfecto.volume(1)
+    sonidoEfecto.play()
+  }
 } 
 
 class CartaAD inherits Carta {
     const property esAD = true
     const property ataque
+    override method sonido()="Sonido-Carta-AD.mp3"
 
 
-    method atacarConCarta(enemigo) {
-        if (cooldown == 0) {
-            enemigo.recibirAtaque(self) 
-            self.colocarCooldown() 
-        }
-        
-        else {
-            self.mensajeCooldown()
-        }
-    }
 }
 
 class CartaAP inherits Carta {
     const property esAD = false
     const property poderMagico
+    override method sonido()="Sonido-Carta-AP.mp3"
 
-    method atacarConCarta(enemigo) {
-        if (cooldown == 0) {
-            enemigo.recibirAtaque(self) 
-            self.colocarCooldown() }
-        
-        else {
-            self.mensajeCooldown()
-        }
-    }
+
 }
 
 class CartaSUPP inherits Carta {
      
     const property poderMagico
-
+    override method sonido()="Sonido-Carta-Supp3.mp3"
     method curar(personaje) {
         if (cooldown == 0) {
+            self.sonidoEfecto(self.sonido())
             personaje.curarsePor(self)
             self.colocarCooldown()
         }

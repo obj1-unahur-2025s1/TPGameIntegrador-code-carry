@@ -9,23 +9,27 @@ object juego {
     const musicaFondo= new Sound(file = "Worlds-London-MusicaFondo.mp3")
     const aparicionHeraldo= new Sound(file="AudioHeraldo.mp3")
     const aparicionBaron= new Sound(file="AlertaBaron.mp3")
+    const aparicionLarva= new Sound(file="AparicionLarva.mp3")
 
 
     method iniciar() {
         nivel.iniciar()
-        if(nivel == nivelDos) self.aparicionEnemigo(aparicionHeraldo) 
+        if(nivel == nivelUno) self.aparicionEnemigo(aparicionLarva) else-if(nivel== nivelDos) self.aparicionEnemigo(aparicionHeraldo)
         self.iniciarMusicaFondo()
         self.teclasDeCombate()
     }
 
     method iniciarMusicaFondo(){
         musicaFondo.shouldLoop(true)
-        musicaFondo.volume(0.1)
+        musicaFondo.volume(0.05)
         musicaFondo.play()
     }
 
     method aparicionEnemigo(unaAparicion){
         unaAparicion.volume(1)
+        if(unaAparicion == vacuolarva){
+            unaAparicion.volume(0.05)
+        }
         unaAparicion.play()
     }
 
