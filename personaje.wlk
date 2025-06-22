@@ -26,7 +26,7 @@ class Personaje {
     if (turno) {
       enemigo.recibirAtaque(self) 
       self.cambiarTurno() 
-      self.sonidoEfecto(self.sonido())
+      self.sonidoAtaque().play()
       }
     else {
       self.noEsMiTurno()
@@ -58,10 +58,11 @@ class Personaje {
       game.say(self, "Mi vida esta al maximo")
     }
     else-if (turno) {
+      const sonidoHeal = new Sound(file = "HaelSound.mp3")
       const curacion = vidaInicial - vida
       vida = vidaInicial 
       game.say(self, "CURACION")
-      self.sonidoEfecto("HaelSound.mp3")
+      sonidoHeal.play()
       curacionTotal.posicionMia(self.position())
       curacionTotal.corroborarCuracion(curacion)
       game.schedule(1000, { => game.addVisual(curacionTotal) })
@@ -155,18 +156,14 @@ class Personaje {
 
   // ----  SONIDO  ----
 
-  method sonido()
-
-  method sonidoEfecto(unSonido){
-    const sonidoEfecto= new Sound(file = unSonido)
-    sonidoEfecto.volume(1)
-    sonidoEfecto.play()
-  }
+  method sonidoAtaque()
 }
 
 class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
   const nombre
   override method position() = game.at(15,2)
+
+  method sonidoAparicion()
   
   method nombre() = nombre
   override method recibirAtaque(danio) {
@@ -184,7 +181,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
 object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
    
   method image() = "poro-normal.png" 
-  override method sonido()= "BolaDeNieve.mp3"
+  override method sonidoAtaque()= new Sound(file="BolaDeNieve.mp3") //.volume(1)
   override method position() = game.at(6,2)
 
   method enemigoNuevo(nuevo) { enemigo = nuevo }
@@ -198,19 +195,20 @@ object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, tur
 }
 
 object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva") {
-  override method sonido()= "AtaqueLarva.mp3"
+  override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
+  override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
-
-  override method sonidoEfecto(unSonido){
-    const sonidoEfecto= new Sound(file = unSonido)
-    sonidoEfecto.volume(0.5)
-    sonidoEfecto.play()
-  }
 }
 
 object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Heraldo") {
-  override method sonido()= "AtaqueLarva.mp3"
+  override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
+  override method sonidoAparicion() = new Sound(file="AudioHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
-  
   override method position() = game.at(13,2)
+}
+
+object baron inherits PersonajeEnemigo(vidaInicial = 200, ataque = 30, defensa = 20, nombre = "Baron") {
+  override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
+  override method sonidoAparicion() = new Sound(file = "AudioHeraldo.mp3")
+  method image() = "Baron.jpg"
 }

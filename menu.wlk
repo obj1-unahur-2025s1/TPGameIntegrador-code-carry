@@ -20,41 +20,41 @@ object menu {
     }
     method elSeleccionado() = opciones.find{o=>o.estaSeleccionado()} // RETORNA LA OPCION SELECCIONADA
 
-    method cambiarOpcionArriba() {
-        if (iniciarJuego.estaSeleccionado()) {
-            iniciarJuego.cambiarSeleccion()
-            salir.cambiarSeleccion()
+    method cambiarOpcionArriba() { 
+        if (iniciarJuego.estaSeleccionado()) { // Si la primera opcion es verdadera
+            iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a false
+            salir.cambiarSeleccion() // Salir cambia a true
         }
-        else-if (irAlInventario.estaSeleccionado()) {
-            irAlInventario.cambiarSeleccion()
-            iniciarJuego.cambiarSeleccion()
+        else-if (irAlInventario.estaSeleccionado()) { // Si la segunda opcion es verdadera
+            irAlInventario.cambiarSeleccion() // Coleccion cambia false
+            iniciarJuego.cambiarSeleccion() // Iniciar cambia a true
         }
-        else-if (irAInstrucciones.estaSeleccionado()) {
-            irAInstrucciones.cambiarSeleccion()
-            irAlInventario.cambiarSeleccion()
+        else-if (irAInstrucciones.estaSeleccionado()) { // Si la tercera opcion es verdader
+            irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a false 
+            irAlInventario.cambiarSeleccion() // Coleccion cambia a true
         }
-        else {
-            salir.cambiarSeleccion()
-            irAInstrucciones.cambiarSeleccion()
+        else { // Sino por descarte, salir esta en verdadero
+            salir.cambiarSeleccion() // salir cambia a false
+            irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a true
         }
     }
 
     method cambiarOpcionAbajo() {
-        if (iniciarJuego.estaSeleccionado()) {
-            iniciarJuego.cambiarSeleccion()
-            irAlInventario.cambiarSeleccion()
+        if (iniciarJuego.estaSeleccionado()) { // Si iniciar juego esta en verdadero
+            iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a false
+            irAlInventario.cambiarSeleccion() // Inventario cambia a true
         }
-        else-if (irAlInventario.estaSeleccionado()) {
-            irAlInventario.cambiarSeleccion()
-            irAInstrucciones.cambiarSeleccion()
+        else-if (irAlInventario.estaSeleccionado()) { // Si coleccion esta en verdadero 
+            irAlInventario.cambiarSeleccion() // Coleccion cambia a false 
+            irAInstrucciones.cambiarSeleccion() // Instruccion cambia a true 
         }
-        else-if (irAInstrucciones.estaSeleccionado()) {
-            irAInstrucciones.cambiarSeleccion()
-            salir.cambiarSeleccion()
+        else-if (irAInstrucciones.estaSeleccionado()) { // Si instruccion esta en verdadero
+            irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a false
+            salir.cambiarSeleccion() // Salir cambia a true
         }
-        else {
-            salir.cambiarSeleccion()
-            iniciarJuego.cambiarSeleccion()
+        else { // Por descarte salir esta en verdadero
+            salir.cambiarSeleccion() // Salir cambia a falso
+            iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a true
         }
     }
 

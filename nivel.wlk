@@ -40,3 +40,5 @@ object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeM
     method siguiente() = nivelUno
 }
 
+object nivelTres inherits Nivel(numeroDeNivel = 3, enemigo = baron, cantidadDeMazo = 5){
+}

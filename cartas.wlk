@@ -13,7 +13,6 @@ class Carta {
     method image()
     method position() = posicion
     method tecla() = tecla
-    method sonido()
 
     method posicionEnColeccion(nueva) { posicion = nueva }
 
@@ -24,18 +23,6 @@ class Carta {
     method colocarCooldown() { cooldown = cooldownInicial }
     method tieneCooldown() = cooldown > 0
     method mensajeCooldown() = game.say(poro, "A la carta " + nombre + " le faltan " + cooldown + " turnos")
-
-    method atacarConCarta(enemigo) {
-        if (cooldown == 0) {
-            self.sonidoEfecto(self.sonido())
-            enemigo.recibirAtaque(self) 
-            self.colocarCooldown() 
-        }
-        
-        else {
-            self.mensajeCooldown()
-        }
-    }
 
     // ----  POSICIONES  ----
     method desasignarPosicion() {
@@ -84,26 +71,41 @@ class Carta {
   }
 } 
 
-class CartaAD inherits Carta {
+class CartaDanio inherits Carta(esDanio = true) {
+    method sonidoAtaque()
+    method atacarConCarta(enemigo) {
+        if (cooldown == 0) {
+            enemigo.recibirAtaque(self)
+            self.sonidoAtaque().play()
+            self.colocarCooldown() 
+        }
+        
+        else {
+            self.mensajeCooldown()
+        }
+    }
+}
+
+class CartaAD inherits CartaDanio {
     const property esAD = true
     const property ataque
-    override method sonido()="Sonido-Carta-AD.mp3"
+    override method sonidoAtaque()= new Sound(file = "Sonido-Carta-AD.mp3")
 }
 
-class CartaAP inherits Carta {
+class CartaAP inherits CartaDanio {
     const property esAD = false
     const property poderMagico
-    override method sonido()="Sonido-Carta-AP.mp3"
+    override method sonidoAtaque()=new Sound(file = "Sonido-Carta-AP.mp3")
 }
 
-class CartaSUPP inherits Carta {
+class CartaSUPP inherits Carta(esDanio = false) {
      
     const property poderMagico
-    override method sonido()="Sonido-Carta-Supp3.mp3"
+    method sonidoCuracion()= new Sound(file = "Sonido-Carta-Supp3.mp3")
     method curar(personaje) {
         if (cooldown == 0) {
-            self.sonidoEfecto(self.sonido())
             personaje.curarsePor(self)
+            self.sonidoCuracion().play()
             self.colocarCooldown()
         }
         else {
@@ -112,22 +114,22 @@ class CartaSUPP inherits Carta {
     }
 }
 
-object garen inherits CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 40, habilidad = "null", esDanio = true) {
+object garen inherits CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 40, habilidad = "null") {
     override method image() = "garenfinal.png"
 }
 
-object ahri inherits CartaAP(nombre = "Ahri", cooldownInicial = 5, poderMagico = 50, habilidad = "null", esDanio = true) {
+object ahri inherits CartaAP(nombre = "Ahri", cooldownInicial = 5, poderMagico = 50, habilidad = "null") {
     override method image() = "ahrifinal.png"
 }
 
-object soraka inherits CartaSUPP(nombre = "Soraka", cooldownInicial = 10, poderMagico = 30, habilidad = "null", esDanio = false) {
+object soraka inherits CartaSUPP(nombre = "Soraka", cooldownInicial = 10, poderMagico = 30, habilidad = "null") {
     override method image() = "sorakafinal.png"
 }
 
-object draven inherits CartaAD(nombre = "Draven", cooldownInicial = 8, ataque = 50, habilidad = "null", esDanio = true) {
+object draven inherits CartaAD(nombre = "Draven", cooldownInicial = 8, ataque = 50, habilidad = "null") {
     override method image() = "dravenfinal.png"
 }
 
-object aatrox inherits CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 35, habilidad = "null", esDanio = true) {
+object aatrox inherits CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 35, habilidad = "null") {
     override method image() = "aatroxfinal.png"
 }

@@ -3,19 +3,16 @@ import interfaz.*
 import nivel.*
 import cartas.*
 object juego {
-    var nivel = nivelUno
-    var enemigo = nivel.enemigo()
+    var nivel = nivelUno // Reconoce el nivel actual
+    var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
     method nivel() = nivel
-    const musicaFondo= new Sound(file = "Worlds-London-MusicaFondo.mp3")
-    const aparicionHeraldo= new Sound(file="AudioHeraldo.mp3")
-    const aparicionBaron= new Sound(file="AlertaBaron.mp3")
-    const aparicionLarva= new Sound(file="AparicionLarva.mp3")
-
+    const musicaFondo= new Sound(file = "Worlds-London-MusicaFondo.mp3") // musica de la batalla
+    const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
     method iniciar() {
-        nivel.iniciar()
-        if(nivel == nivelUno) self.aparicionEnemigo(aparicionLarva) else-if(nivel== nivelDos) self.aparicionEnemigo(aparicionHeraldo)
-        self.iniciarMusicaFondo()
-        self.teclasDeCombate()
+        nivel.iniciar() // inicia el nivel
+        enemigo.sonidoAparicion().play()
+        self.iniciarMusicaFondo() // inicia la musica de batalla
+        self.teclasDeCombate() // setea las teclas para atacar
     }
 
     method iniciarMusicaFondo(){
@@ -24,20 +21,13 @@ object juego {
         musicaFondo.play()
     }
 
-    method aparicionEnemigo(unaAparicion){
-        unaAparicion.volume(1)
-        if(unaAparicion == vacuolarva){
-            unaAparicion.volume(0.05)
-        }
-        unaAparicion.play()
-    }
-
     method reiniciarPartida() {
         nivel = nivelUno
         self.iniciar()
     }
 
     method subirDeNivel() {
+        musicaFondo.stop()
         nivel = nivel.siguiente()
         self.iniciar()
     }
