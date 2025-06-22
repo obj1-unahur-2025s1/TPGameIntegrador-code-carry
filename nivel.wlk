@@ -37,8 +37,9 @@ object nivelUno inherits Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidad
 }
 
 object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeMazo = 4){
-    method siguiente() = nivelUno
+    method siguiente() = nivelTres
 }
 
 object nivelTres inherits Nivel(numeroDeNivel = 3, enemigo = baron, cantidadDeMazo = 5){
+    method siguiente() = nivelUno
 }

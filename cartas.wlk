@@ -86,18 +86,6 @@ class CartaDanio inherits Carta(esDanio = true) {
     }
 }
 
-class CartaAD inherits CartaDanio {
-    const property esAD = true
-    const property ataque
-    override method sonidoAtaque()= new Sound(file = "Sonido-Carta-AD.mp3")
-}
-
-class CartaAP inherits CartaDanio {
-    const property esAD = false
-    const property poderMagico
-    override method sonidoAtaque()=new Sound(file = "Sonido-Carta-AP.mp3")
-}
-
 class CartaSUPP inherits Carta(esDanio = false) {
      
     const property poderMagico
@@ -112,6 +100,18 @@ class CartaSUPP inherits Carta(esDanio = false) {
             self.mensajeCooldown()
         }
     }
+}
+
+class CartaAD inherits CartaDanio {
+    const property esAD = true
+    const property ataque
+    override method sonidoAtaque()= new Sound(file = "Sonido-Carta-AD.mp3")
+}
+
+class CartaAP inherits CartaDanio {
+    const property esAD = false
+    const property poderMagico
+    override method sonidoAtaque()=new Sound(file = "Sonido-Carta-AP.mp3")
 }
 
 object garen inherits CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 40, habilidad = "null") {

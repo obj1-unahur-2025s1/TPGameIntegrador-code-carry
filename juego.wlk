@@ -7,7 +7,7 @@ object juego {
     var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
     method nivel() = nivel
     const musicaFondo= new Sound(file = "Worlds-London-MusicaFondo.mp3") // musica de la batalla
-    const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
+    //const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
     method iniciar() {
         nivel.iniciar() // inicia el nivel
         enemigo.sonidoAparicion().play()
