@@ -4,7 +4,7 @@ class Carta {
     const nombre
     var posicion = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
     var posicionCooldown = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
-    var tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
+    var property tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
     var cooldown = 0
     const property esDanio // Para saber si es una carta de ataque o una de curacion
     const property cooldownInicial 
@@ -12,7 +12,6 @@ class Carta {
 
     method image()
     method position() = posicion
-    method tecla() = tecla
 
     method posicionEnColeccion(nueva) { posicion = nueva }
 
@@ -31,37 +30,10 @@ class Carta {
         posicionCooldown = null
     }
 
-    method asignarPrimeraPosicion() { 
-        tecla = "Q"
-        posicion = posicionUno.posicionCarta()
-        posicionCooldown = posicionUno.posicionCooldown()
+    method asignarPosicion(unaPosicion) {
+        posicion = unaPosicion
+        posicionCooldown = unaPosicion
     }
-
-    method asignarSegundaPosicion() {
-        tecla = "W"
-        posicion = posicionDos.posicionCarta()
-        posicionCooldown = posicionDos.posicionCooldown()
-    }
-
-    method asignarTerceraPosicion() {
-        tecla = "E"
-        posicion = posicionTres.posicionCarta()
-        posicionCooldown = posicionTres.posicionCooldown()
-    }
-
-    method asignarCuartaPosicion() {
-        tecla = "R"
-        posicion = posicionCuatro.posicionCarta()
-        posicionCooldown = posicionCuatro.posicionCooldown()
-    }
-
-    method asignarQuintaPosicion() {
-        tecla = "T"
-        posicion = posicionCinco.posicionCarta()
-        posicionCooldown = posicionCinco.posicionCooldown()
-    }
-
-    method posicionDelCooldown() = posicionCooldown
 
     // ----  SONIDO  ---
     method sonidoEfecto(unSonido){

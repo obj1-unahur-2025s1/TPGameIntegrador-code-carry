@@ -5,7 +5,7 @@ import menu.*
 
 object interfaz {
     method mostrarNivel(enemigo) {
-        game.boardGround("fondoBatalla.jpg")
+        //game.boardGround("fondoBatalla.jpg")    
         game.addVisual(nivelInterfaz)
         game.addVisual(poro)
         game.addVisual(barraDePoro)
@@ -15,8 +15,8 @@ object interfaz {
         game.addVisual(barraDeEnemigo)
         turnoDe.enemigoActual(enemigo)
         game.addVisual(turnoDe)
-        game.addVisual(boolPrueba)
-        cartasInterfaz.mostrarCartas(poro)
+        //game.addVisual(boolPrueba) 
+        cartasMazoInGame.mostrar()
     }
 }
 
@@ -52,7 +52,7 @@ object iniciarJuego inherits Opciones(estaSeleccionado = true){
 object irAlInventario inherits Opciones(estaSeleccionado = false) {
     override method text() = "COLECCION"
     override method position() = game.at(12,9)
-    override method entrar() { inventario.mostrarCartas() }
+    override method entrar() { inventarioPrueba.mostrarCartas() } // ESTOY TESTEANDO LA COLECCION
 } 
 
 object irAInstrucciones inherits Opciones(estaSeleccionado = false) {
@@ -195,6 +195,37 @@ object cartasInterfaz {
     }
 }
 
+object cartasMazoInGame {
+    method mostrar() {
+        var posiMazo = 1
+        const x = 1
+        var y = 13
+        poro.mazo().forEach{ 
+            carta => carta.asignarPosicion(game.at(x,y)) 
+            game.addVisual(carta)
+            game.addVisual(new CooldownInterfaz(carta = carta, posicion = game.at(x,y)))
+            if (posiMazo == 1) {
+                carta.tecla("Q")
+            }
+            if (posiMazo == 2){
+                carta.tecla("W")
+            }
+            if (posiMazo == 3){
+                carta.tecla("E")
+            }
+            if (posiMazo == 4){
+                carta.tecla("R")
+            }
+            if (posiMazo == 5) {
+                carta.tecla("T")
+            }
+            game.addVisual(new Tecla(carta = carta))
+            y -= 3
+            posiMazo += 1
+        }
+    }
+}
+
 class CooldownInterfaz {
     var carta
     var posicion
@@ -210,33 +241,43 @@ class Tecla {
     method textColor() = paleta.blanco()
 }
 
-object posicionUno {
-    method posicionCarta() = game.at(1,13)
-    method posicionCooldown() = self.posicionCarta()
-}
-
-object posicionDos {
-    method posicionCarta() = game.at(1,10)
-    method posicionCooldown() = self.posicionCarta()
-}
-
-object posicionTres {
-    method posicionCarta() = game.at(1,7)
-    method posicionCooldown() = self.posicionCarta()
-}
-
-object posicionCuatro {
-    method posicionCarta() = game.at(1,4)
-    method posicionCooldown() = self.posicionCarta()
-}
-
-object posicionCinco {
-    method posicionCarta() = game.at(1,1)
-    method posicionCooldown() = self.posicionCarta()
-}
-
 // ----------COLECCIONES----------
 
+object inventarioPrueba {
+    method mostrarCartas() {
+        game.clear()
+        var x = 1
+        var y = 12
+        poro.coleccion().forEach{
+            carta => carta.posicionEnColeccion(game.at(x,y)) 
+            game.addVisual(carta) 
+            if (x == 21) { x = 1 y -= 4 } // 1,12 ; 5,12 ; 9,12 ; 13,12 ; 17,12 ; 21,12 
+            else { x += 4 }
+            }
+        game.addVisual(mensajeVolverAlMenu)
+        keyboard.enter().onPressDo{menu.mostrarMenu()}
+        }
+        
+    }
+
+
+
+// ----------FONDOS----------
+
+class Fondo {
+    const imagen
+    method image() = imagen
+    method position() = game.at(0,0)
+}
+
+object fondoMenu inherits Fondo(imagen = "FondoMenu.png") {}
+
+object fondoBatalla inherits Fondo(imagen = "FondoBatalla.png") {}
+
+object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}
+
+
+// EL DESASTRE
 object inventario {
     method mostrarCartas() {
         game.clear()
@@ -302,17 +343,3 @@ object inventario {
         keyboard.enter().onPressDo{menu.mostrarMenu()}
     }
 }
-
-// ----------FONDOS----------
-
-class Fondo {
-    const imagen
-    method image() = imagen
-    method position() = game.at(0,0)
-}
-
-object fondoMenu inherits Fondo(imagen = "FondoMenu.png") {}
-
-object fondoBatalla inherits Fondo(imagen = "FondoBatalla.png") {}
-
-object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}

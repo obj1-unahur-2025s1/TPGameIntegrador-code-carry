@@ -4,22 +4,22 @@ import juego.*
 import cartas.*
 
 class Nivel {
-    const jugador = poro
-    const property enemigo
-    const property numeroDeNivel 
-    const property cantidadDeMazo    
+    const jugador = poro // Poro
+    const property enemigo // Enemigo del nivel
+    const property numeroDeNivel // Numero del nivel
+    const property cantidadDeMazo   // Cantidad maxima del mazo que permite el nivel
     method iniciar() {
-        game.clear()
-        game.addVisual(fondoBatalla)
-        jugador.desasignarCartas()
-        jugador.limpiarMazo()
-        jugador.reiniciarCooldowns()
-        jugador.maximaVida()
-        enemigo.maximaVida()
-        jugador.llenarMazo(cantidadDeMazo)
-        poro.enemigoNuevo(enemigo)
-        self.iniciarJugador()
-        interfaz.mostrarNivel(enemigo)
+        game.clear() // Limpia el tablero
+        game.addVisual(fondoBatalla) // Agrega el fondo de batalla
+        jugador.desasignarCartas() // Desasigna las ubicaciones cartas 
+        jugador.limpiarMazo() // Limpia el mazo
+        jugador.reiniciarCooldowns() // Reinicia el cooldowns de las cartas
+        jugador.maximaVida() // Maxima vida al poro
+        enemigo.maximaVida() // Maxima vida al enemigo
+        jugador.llenarMazo(cantidadDeMazo) // Llena el mazo segun la cantidad que permita el nivel
+        poro.enemigoNuevo(enemigo) // El poro eligue como target al nuevo enemigo
+        self.iniciarJugador() // Hace que el jugador inicie los turnos
+        interfaz.mostrarNivel(enemigo) // Añade al enemigo en pantalla
     }
 
     method iniciarJugador() {

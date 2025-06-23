@@ -13,7 +13,6 @@ class Personaje {
   const property coleccion = []
   const property mazo = []
  
-
   method noEsMiTurno() = game.say(self,"No es mi turno")
 
   method position()
@@ -88,67 +87,32 @@ class Personaje {
 
   method cambiarTurno() { turno = !turno }
 
-  method puedoUsarLaCarta(unaCarta) = unaCarta.cooldown() == 0
-
   method maximaVida() { vida = vidaInicial }
-
-  // COLECCION DE CARTAS
 
   method usarLaCarta(numero) { 
     const cartaAUsar = mazo.get(numero - 1)
     if (turno and self.puedoUsarLaCarta(cartaAUsar)) {
-      if (cartaAUsar.esDanio()) {
-        cartaAUsar.atacarConCarta(enemigo)
-        
-      }
-      else {
-        cartaAUsar.curar(self)
-      }
+      if (cartaAUsar.esDanio()) { cartaAUsar.atacarConCarta(enemigo) }
+      else { cartaAUsar.curar(self) }
       self.cambiarTurno()
     }
-    else-if(!turno) {
-      self.noEsMiTurno()
-    }
-    else-if (cartaAUsar.tieneCooldown()) {
-      cartaAUsar.mensajeCooldown()
-    }
+    else-if (!turno) { self.noEsMiTurno() }
+    else-if (cartaAUsar.tieneCooldown()) { cartaAUsar.mensajeCooldown() }
   }
 
-  method reducirCooldowns() { 
-    coleccion.forEach{ c=>c.reducirCooldown() } 
-    enemigo.coleccion().forEach{ c=>c.reducirCooldown() } 
-    }
+  // COLECCION DE CARTAS
 
-  method llenarMazo(unaCantidad) {
-    coleccion.randomized().forEach{c=>
-    if (mazo.size() < juego.nivel().cantidadDeMazo())
-      self.agregarAlMazo(c)
-    }
-  } 
+  method reducirCooldowns() { coleccion.forEach{ c=>c.reducirCooldown() } }
+
+  method llenarMazo(unaCantidad) { coleccion.randomized().forEach{c=> if (mazo.size() < juego.nivel().cantidadDeMazo()) self.agregarAlMazo(c) } } 
+
   method agregarALaColeccion(unaCarta) { if (!coleccion.contains(unaCarta)) coleccion.add(unaCarta) } 
 
   method limpiarMazo() { mazo.clear() }
 
-  method agregarAlMazo(unaCarta) { 
-    if (!mazo.contains(unaCarta)) {
-      mazo.add(unaCarta) 
-      if (mazo.size() == 1){
-        unaCarta.asignarPrimeraPosicion()
-      }
-      if (mazo.size() == 2) {
-        unaCarta.asignarSegundaPosicion()
-      }
-      if (mazo.size() == 3) {
-        unaCarta.asignarTerceraPosicion()
-      }
-      if (mazo.size() == 4) {
-        unaCarta.asignarCuartaPosicion()
-      }
-      if(mazo.size() == 5) {
-        unaCarta.asignarQuintaPosicion()
-      }
-    }
-  }
+  method puedoUsarLaCarta(unaCarta) = unaCarta.cooldown() == 0
+
+  method agregarAlMazo(unaCarta) { mazo.add(unaCarta) }
 
   method desasignarCartas() { coleccion.forEach{c=>c.desasignarPosicion()} mazo.forEach{c=>c.desasignarPosicion()}}
 
@@ -194,21 +158,25 @@ object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, tur
   }
 }
 
+
+// ENEMIGOS
+
+// NIVEL 1
 object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva") {
   override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
 }
-
+// NIVEL 2
 object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Heraldo") {
   override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
-  override method sonidoAparicion() = new Sound(file="AudioHeraldo.mp3") //.volume(1)
+  override method sonidoAparicion() = new Sound(file="AlertaHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
   override method position() = game.at(13,2)
 }
-
+// NIVEL 3
 object baron inherits PersonajeEnemigo(vidaInicial = 200, ataque = 30, defensa = 20, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
-  override method sonidoAparicion() = new Sound(file = "AudioHeraldo.mp3")
+  override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
   method image() = "Baron-normal.png"
 }
