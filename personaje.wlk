@@ -210,5 +210,5 @@ object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa 
 object baron inherits PersonajeEnemigo(vidaInicial = 200, ataque = 30, defensa = 20, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
   override method sonidoAparicion() = new Sound(file = "AudioHeraldo.mp3")
-  method image() = "Baron.jpg"
+  method image() = "Baron-normal.png"
 }

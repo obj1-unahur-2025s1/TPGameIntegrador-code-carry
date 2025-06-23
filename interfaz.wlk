@@ -256,17 +256,8 @@ object inventario {
         if (poro.coleccion().get(4) == c) { // 5
             c.posicionEnColeccion(game.at(17,12)) // LE SETEO LA POSICION A LA CARTA
         }
-        
-        game.addVisual(c)
-        }
-        game.addVisual(mensajeVolverAlMenu)
-        keyboard.enter().onPressDo{menu.mostrarMenu()}
-    }
-
-
-    method agregarDESPUES(c) {
         if (poro.coleccion().get(5) == c) { // 6
-            c.posicionEnColeccion(game.at(20,12)) // LE SETEO LA POSICION A LA CARTA
+            c.posicionEnColeccion(game.at(21,12)) // LE SETEO LA POSICION A LA CARTA
         }
         if (poro.coleccion().get(6) == c) { // 7
             c.posicionEnColeccion(game.at(1,8)) // LE SETEO LA POSICION A LA CARTA
@@ -284,7 +275,7 @@ object inventario {
             c.posicionEnColeccion(game.at(17,8)) // LE SETEO LA POSICION A LA CARTA
         }
         if (poro.coleccion().get(11) == c) { // 12
-            c.posicionEnColeccion(game.at(20,8)) // LE SETEO LA POSICION A LA CARTA
+            c.posicionEnColeccion(game.at(21,8)) // LE SETEO LA POSICION A LA CARTA
         }
         if (poro.coleccion().get(12) == c) { // 13
             c.posicionEnColeccion(game.at(1,4)) // LE SETEO LA POSICION A LA CARTA
@@ -302,8 +293,13 @@ object inventario {
             c.posicionEnColeccion(game.at(17,4)) // LE SETEO LA POSICION A LA CARTA
         }
         if (poro.coleccion().get(17) == c) { // 18
-            c.posicionEnColeccion(game.at(20,4)) // LE SETEO LA POSICION A LA CARTA
+            c.posicionEnColeccion(game.at(21,4)) // LE SETEO LA POSICION A LA CARTA
         }
+
+        game.addVisual(c)
+        }
+        game.addVisual(mensajeVolverAlMenu)
+        keyboard.enter().onPressDo{menu.mostrarMenu()}
     }
 }
 
@@ -315,8 +311,8 @@ class Fondo {
     method position() = game.at(0,0)
 }
 
-object fondoMenu inherits Fondo(imagen = "fondoMenu.jpeg") {}
+object fondoMenu inherits Fondo(imagen = "FondoMenu.png") {}
 
-object fondoBatalla inherits Fondo(imagen = "fondoBatalla.jpg") {}
+object fondoBatalla inherits Fondo(imagen = "FondoBatalla.png") {}
 
-object fondoInstrucciones inherits Fondo(imagen = "fondoInstrucciones.jpeg") {}
+object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}

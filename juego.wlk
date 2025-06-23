@@ -48,10 +48,23 @@ object juego {
     }
 
     method campeonesInicales() {
-        poro.agregarALaColeccion(garen)
-        poro.agregarALaColeccion(soraka)
-        poro.agregarALaColeccion(draven)
-        poro.agregarALaColeccion(ahri)
         poro.agregarALaColeccion(aatrox)
+        poro.agregarALaColeccion(ahri)
+        poro.agregarALaColeccion(alistar)
+        poro.agregarALaColeccion(amumu)
+        poro.agregarALaColeccion(ashe)
+        poro.agregarALaColeccion(aurelion)
+        poro.agregarALaColeccion(blitz)
+        poro.agregarALaColeccion(brand)
+        poro.agregarALaColeccion(camille)
+        poro.agregarALaColeccion(draven)
+        poro.agregarALaColeccion(fiora)
+        poro.agregarALaColeccion(garen)
+        poro.agregarALaColeccion(jhin)
+        poro.agregarALaColeccion(karma)
+        poro.agregarALaColeccion(morgana)
+        poro.agregarALaColeccion(nasus)
+        poro.agregarALaColeccion(pyke)
+        poro.agregarALaColeccion(soraka)
     }
 }
