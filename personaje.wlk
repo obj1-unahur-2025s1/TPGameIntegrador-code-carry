@@ -147,7 +147,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
   }
 }
 
-object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
+object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
    
   method image() = "poro-normal.png" 
   override method sonidoAtaque()= new Sound(file="BolaDeNieve.mp3") //.volume(1)
@@ -167,20 +167,20 @@ object poro inherits Personaje(vidaInicial = 100, ataque = 15, defensa = 25, tur
 // ENEMIGOS
 
 // NIVEL 1
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 70, ataque = 10, defensa = 10, nombre = "Vacuolarva") {
+object vacuolarva inherits PersonajeEnemigo(vidaInicial = 750, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
   override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
 }
 // NIVEL 2
-object heraldo inherits PersonajeEnemigo(vidaInicial = 80, ataque = 15, defensa = 10, nombre = "Heraldo") {
+object heraldo inherits PersonajeEnemigo(vidaInicial = 1000, ataque = 45, defensa = 30, nombre = "Heraldo") {
   override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AlertaHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
   override method position() = game.at(13,2)
 }
 // NIVEL 3
-object baron inherits PersonajeEnemigo(vidaInicial = 200, ataque = 30, defensa = 20, nombre = "Baron") {
+object baron inherits PersonajeEnemigo(vidaInicial = 1500, ataque = 60, defensa = 40, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
   override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
   method image() = "Baron-normal.png"
