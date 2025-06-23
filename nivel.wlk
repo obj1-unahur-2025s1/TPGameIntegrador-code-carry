@@ -1,3 +1,4 @@
+import menu.*
 import personaje.*
 import interfaz.*
 import juego.*
@@ -41,5 +42,5 @@ object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeM
 }
 
 object nivelTres inherits Nivel(numeroDeNivel = 3, enemigo = baron, cantidadDeMazo = 5){
-    method siguiente() = nivelUno
+    method siguiente() = menu
 }
