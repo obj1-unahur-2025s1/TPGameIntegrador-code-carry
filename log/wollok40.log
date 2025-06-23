@@ -2170,3 +2170,819 @@
 {"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":238,"timestamp":"2025-06-23T04:35:00.708Z"}
 {"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":193,"timestamp":"2025-06-23T04:35:00.929Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\Cris Ramirez\\Desktop\\Tp Final\\TPGameIntegrador-code-carry","timeElapsed":876359,"timestamp":"2025-06-23T04:35:03.382Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3222,"timestamp":"2025-06-23T15:09:26.787Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":63283,"timestamp":"2025-06-23T15:10:26.843Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3123,"timestamp":"2025-06-23T15:10:36.793Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":622197,"timestamp":"2025-06-23T15:20:55.882Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":14602,"timestamp":"2025-06-23T15:21:36.440Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":3118620,"timestamp":"2025-06-23T16:13:13.853Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2484,"timestamp":"2025-06-23T16:13:24.338Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":138823,"timestamp":"2025-06-23T16:15:40.674Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3261,"timestamp":"2025-06-23T16:15:52.871Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":53539,"timestamp":"2025-06-23T16:16:43.138Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2818,"timestamp":"2025-06-23T16:16:55.877Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":12990,"timestamp":"2025-06-23T16:17:06.043Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":4411,"timestamp":"2025-06-23T16:17:19.889Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":563307,"timestamp":"2025-06-23T16:26:38.780Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":933,"timestamp":"2025-06-23T16:27:13.077Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1328,"timestamp":"2025-06-23T16:27:14.421Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":463,"timestamp":"2025-06-23T16:27:14.905Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":391,"timestamp":"2025-06-23T16:27:15.357Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":520,"timestamp":"2025-06-23T16:27:15.879Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":566,"timestamp":"2025-06-23T16:27:16.449Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":929,"timestamp":"2025-06-23T16:27:17.389Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1049,"timestamp":"2025-06-23T16:27:18.439Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":700,"timestamp":"2025-06-23T16:27:19.145Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":469,"timestamp":"2025-06-23T16:27:19.621Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":688,"timestamp":"2025-06-23T16:27:20.395Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1870,"timestamp":"2025-06-23T16:27:22.340Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":363,"timestamp":"2025-06-23T16:27:22.708Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":510,"timestamp":"2025-06-23T16:27:23.220Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":489,"timestamp":"2025-06-23T16:27:23.710Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1133,"timestamp":"2025-06-23T16:27:24.848Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":505,"timestamp":"2025-06-23T16:27:25.496Z"}
+{"level":"info","message":"⌛ Validating sonido.wlk","timeElapsed":361,"timestamp":"2025-06-23T16:27:25.861Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wtest","timeElapsed":338,"timestamp":"2025-06-23T16:27:26.200Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":438,"timestamp":"2025-06-23T16:27:26.642Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":492,"timestamp":"2025-06-23T16:27:27.135Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":425,"timestamp":"2025-06-23T16:27:27.562Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":432,"timestamp":"2025-06-23T16:27:28.019Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":477,"timestamp":"2025-06-23T16:27:28.500Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":662,"timestamp":"2025-06-23T16:27:29.166Z"}
+{"level":"info","message":"⌛ Validating estado.wlk","timeElapsed":536,"timestamp":"2025-06-23T16:27:29.709Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":548,"timestamp":"2025-06-23T16:27:30.269Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":410,"timestamp":"2025-06-23T16:27:30.686Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":359,"timestamp":"2025-06-23T16:27:31.050Z"}
+{"level":"info","message":"⌛ Validating sonido.wlk","timeElapsed":349,"timestamp":"2025-06-23T16:27:31.401Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wtest","timeElapsed":361,"timestamp":"2025-06-23T16:27:31.764Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":374,"timestamp":"2025-06-23T16:27:32.139Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":371,"timestamp":"2025-06-23T16:27:32.532Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":351,"timestamp":"2025-06-23T16:27:32.887Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":367,"timestamp":"2025-06-23T16:27:33.255Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":349,"timestamp":"2025-06-23T16:27:33.606Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":383,"timestamp":"2025-06-23T16:27:33.990Z"}
+{"level":"info","message":"⌛ Validating estado.wlk","timeElapsed":340,"timestamp":"2025-06-23T16:27:34.333Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":5467,"timestamp":"2025-06-23T16:28:02.269Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse cartas.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  35 |         tecla = null\n  36 |         posicionCooldown = null\n> 37 |     }\n     |     ^\n  38 | \n  39 |     method asignarPosicion(unaPosicion) {\n\nExpected one of the following: \n\n'@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"}\r\n\r\n    \", whitespace\n","stack":"Error: Failed to parse cartas.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  35 |         tecla = null\n  36 |         posicionCooldown = null\n> 37 |     }\n     |     ^\n  38 | \n  39 |     method asignarPosicion(unaPosicion) {\n\nExpected one of the following: \n\n'@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"}\r\n\r\n    \", whitespace\n\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:13026\n    at Array.map (<anonymous>)\n    at D1n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:12950)\n    at W2.buildEnvironmentFrom (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:5254)\n    at W2.updateEnvironmentWith (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:4989)\n    at GF (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:7383)\n    at L3.invoke (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:157326)\n    at o.fire (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:158096)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:57871\n    at Kr (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-06-23T16:29:57.290Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1095,"timestamp":"2025-06-23T16:29:59.420Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1153,"timestamp":"2025-06-23T16:30:01.139Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":905,"timestamp":"2025-06-23T16:30:03.362Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":2203,"timestamp":"2025-06-23T16:30:05.925Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1330,"timestamp":"2025-06-23T16:30:07.515Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1931,"timestamp":"2025-06-23T16:30:09.963Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3088,"timestamp":"2025-06-23T16:30:30.864Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":886,"timestamp":"2025-06-23T16:30:32.266Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":166447,"timestamp":"2025-06-23T16:30:43.243Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":5174,"timestamp":"2025-06-23T16:30:56.036Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":66076,"timestamp":"2025-06-23T16:31:56.930Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3189,"timestamp":"2025-06-23T16:32:04.139Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":2103,"timestamp":"2025-06-23T16:32:07.832Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":552,"timestamp":"2025-06-23T16:32:12.894Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":672,"timestamp":"2025-06-23T16:32:13.587Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":713,"timestamp":"2025-06-23T16:32:14.359Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":522,"timestamp":"2025-06-23T16:32:14.882Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":538,"timestamp":"2025-06-23T16:32:15.452Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":812,"timestamp":"2025-06-23T16:32:16.500Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":532,"timestamp":"2025-06-23T16:32:17.040Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":481,"timestamp":"2025-06-23T16:32:17.523Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":807,"timestamp":"2025-06-23T16:32:18.334Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":657,"timestamp":"2025-06-23T16:32:19.015Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":634,"timestamp":"2025-06-23T16:32:19.651Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":136,"timestamp":"2025-06-23T16:32:19.855Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":437,"timestamp":"2025-06-23T16:32:20.359Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":847,"timestamp":"2025-06-23T16:32:21.481Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":112,"timestamp":"2025-06-23T16:32:21.621Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":419,"timestamp":"2025-06-23T16:32:22.069Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":582,"timestamp":"2025-06-23T16:32:22.652Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":427,"timestamp":"2025-06-23T16:32:23.082Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":749,"timestamp":"2025-06-23T16:32:23.836Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":499,"timestamp":"2025-06-23T16:32:24.593Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":367,"timestamp":"2025-06-23T16:32:25.025Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":728,"timestamp":"2025-06-23T16:32:25.759Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":541,"timestamp":"2025-06-23T16:32:26.375Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1213,"timestamp":"2025-06-23T16:32:27.709Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":902,"timestamp":"2025-06-23T16:32:28.637Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":629,"timestamp":"2025-06-23T16:32:29.270Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":462,"timestamp":"2025-06-23T16:32:29.814Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":762,"timestamp":"2025-06-23T16:32:30.585Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":546,"timestamp":"2025-06-23T16:32:31.133Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":538,"timestamp":"2025-06-23T16:32:31.825Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":640,"timestamp":"2025-06-23T16:32:32.630Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1043,"timestamp":"2025-06-23T16:32:33.674Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":829,"timestamp":"2025-06-23T16:32:34.636Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":710,"timestamp":"2025-06-23T16:32:35.410Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":401,"timestamp":"2025-06-23T16:32:35.833Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":438,"timestamp":"2025-06-23T16:32:36.402Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":549,"timestamp":"2025-06-23T16:32:36.961Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":574,"timestamp":"2025-06-23T16:32:37.619Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":719,"timestamp":"2025-06-23T16:32:38.568Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":545,"timestamp":"2025-06-23T16:32:39.249Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":825,"timestamp":"2025-06-23T16:32:40.571Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":752,"timestamp":"2025-06-23T16:32:41.481Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":495,"timestamp":"2025-06-23T16:32:42.010Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":913,"timestamp":"2025-06-23T16:32:43.355Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":421,"timestamp":"2025-06-23T16:32:43.869Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":575,"timestamp":"2025-06-23T16:32:44.576Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":648,"timestamp":"2025-06-23T16:32:45.401Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":803,"timestamp":"2025-06-23T16:32:46.210Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":621,"timestamp":"2025-06-23T16:32:47.288Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":382,"timestamp":"2025-06-23T16:32:47.694Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":798,"timestamp":"2025-06-23T16:32:48.496Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1392,"timestamp":"2025-06-23T16:32:49.891Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":479,"timestamp":"2025-06-23T16:32:50.372Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":451,"timestamp":"2025-06-23T16:32:50.825Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":669,"timestamp":"2025-06-23T16:32:51.516Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":414,"timestamp":"2025-06-23T16:32:51.950Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":837,"timestamp":"2025-06-23T16:32:52.812Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1335,"timestamp":"2025-06-23T16:32:54.236Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2321,"timestamp":"2025-06-23T16:32:56.606Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1000,"timestamp":"2025-06-23T16:32:57.618Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":820,"timestamp":"2025-06-23T16:32:58.685Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":688,"timestamp":"2025-06-23T16:32:59.375Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":474,"timestamp":"2025-06-23T16:32:59.865Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":468,"timestamp":"2025-06-23T16:33:00.335Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":450,"timestamp":"2025-06-23T16:33:00.863Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":425,"timestamp":"2025-06-23T16:33:01.426Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":378,"timestamp":"2025-06-23T16:33:01.875Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":427,"timestamp":"2025-06-23T16:33:02.305Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":408,"timestamp":"2025-06-23T16:33:02.811Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":399,"timestamp":"2025-06-23T16:33:03.322Z"}
+{"level":"error","message":"✘ Completions for node Return (undefined - cartas.wlk) failed: Error: [Return]{337f0f} at cartas.wlk:-- exhausted all cases without a match [Return]{337f0f} at cartas.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{337f0f} at cartas.wlk:-- exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:33:03.485Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":117,"timestamp":"2025-06-23T16:33:03.512Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":655,"timestamp":"2025-06-23T16:33:04.173Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":585,"timestamp":"2025-06-23T16:33:04.794Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":481,"timestamp":"2025-06-23T16:33:05.280Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":493,"timestamp":"2025-06-23T16:33:05.780Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":395,"timestamp":"2025-06-23T16:33:06.379Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":438,"timestamp":"2025-06-23T16:33:06.839Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":633,"timestamp":"2025-06-23T16:33:07.478Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":491,"timestamp":"2025-06-23T16:33:07.975Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":457,"timestamp":"2025-06-23T16:33:08.433Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2256,"timestamp":"2025-06-23T16:33:10.791Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":459,"timestamp":"2025-06-23T16:33:11.677Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":536,"timestamp":"2025-06-23T16:33:12.245Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":375,"timestamp":"2025-06-23T16:33:12.693Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":415,"timestamp":"2025-06-23T16:33:13.111Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":389,"timestamp":"2025-06-23T16:33:13.594Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":429,"timestamp":"2025-06-23T16:33:14.045Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":394,"timestamp":"2025-06-23T16:33:14.538Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1527,"timestamp":"2025-06-23T16:33:16.096Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":421,"timestamp":"2025-06-23T16:33:16.520Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":398,"timestamp":"2025-06-23T16:33:16.920Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":382,"timestamp":"2025-06-23T16:33:17.303Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":384,"timestamp":"2025-06-23T16:33:17.803Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":347,"timestamp":"2025-06-23T16:33:18.291Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":477,"timestamp":"2025-06-23T16:33:18.776Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":379,"timestamp":"2025-06-23T16:33:19.160Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":376,"timestamp":"2025-06-23T16:33:19.540Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":449,"timestamp":"2025-06-23T16:33:20.023Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":365,"timestamp":"2025-06-23T16:33:20.424Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":438,"timestamp":"2025-06-23T16:33:20.962Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":519,"timestamp":"2025-06-23T16:33:21.505Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":439,"timestamp":"2025-06-23T16:33:21.945Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":559,"timestamp":"2025-06-23T16:33:22.508Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":458,"timestamp":"2025-06-23T16:33:22.974Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":543,"timestamp":"2025-06-23T16:33:23.534Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":497,"timestamp":"2025-06-23T16:33:24.037Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":444,"timestamp":"2025-06-23T16:33:24.768Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":512,"timestamp":"2025-06-23T16:33:25.320Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":488,"timestamp":"2025-06-23T16:33:25.809Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":466,"timestamp":"2025-06-23T16:33:26.343Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":539,"timestamp":"2025-06-23T16:33:26.958Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":479,"timestamp":"2025-06-23T16:33:27.443Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":463,"timestamp":"2025-06-23T16:33:27.921Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":648,"timestamp":"2025-06-23T16:33:28.693Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":810,"timestamp":"2025-06-23T16:33:29.628Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":502,"timestamp":"2025-06-23T16:33:30.145Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1044,"timestamp":"2025-06-23T16:33:31.209Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":865,"timestamp":"2025-06-23T16:33:32.083Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":2343,"timestamp":"2025-06-23T16:33:34.733Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":783,"timestamp":"2025-06-23T16:33:35.600Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":665,"timestamp":"2025-06-23T16:33:36.314Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1793,"timestamp":"2025-06-23T16:33:38.118Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":721,"timestamp":"2025-06-23T16:33:38.843Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":557,"timestamp":"2025-06-23T16:33:39.412Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":2434,"timestamp":"2025-06-23T16:33:41.848Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":848,"timestamp":"2025-06-23T16:33:42.711Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1326,"timestamp":"2025-06-23T16:33:44.068Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":801,"timestamp":"2025-06-23T16:33:44.876Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":586,"timestamp":"2025-06-23T16:33:45.470Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":550,"timestamp":"2025-06-23T16:33:46.043Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":631,"timestamp":"2025-06-23T16:33:46.680Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":526,"timestamp":"2025-06-23T16:33:47.211Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":652,"timestamp":"2025-06-23T16:33:47.882Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":800,"timestamp":"2025-06-23T16:33:48.688Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":690,"timestamp":"2025-06-23T16:33:49.381Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":625,"timestamp":"2025-06-23T16:33:50.202Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":488,"timestamp":"2025-06-23T16:33:50.703Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":785,"timestamp":"2025-06-23T16:33:51.488Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":527,"timestamp":"2025-06-23T16:33:52.024Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":494,"timestamp":"2025-06-23T16:33:52.534Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":472,"timestamp":"2025-06-23T16:33:53.008Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":467,"timestamp":"2025-06-23T16:33:53.477Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":446,"timestamp":"2025-06-23T16:33:53.955Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":578,"timestamp":"2025-06-23T16:33:54.535Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1384,"timestamp":"2025-06-23T16:33:55.924Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":604,"timestamp":"2025-06-23T16:33:56.543Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1344,"timestamp":"2025-06-23T16:33:58.035Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":748,"timestamp":"2025-06-23T16:33:58.811Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":497,"timestamp":"2025-06-23T16:33:59.312Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":911,"timestamp":"2025-06-23T16:34:00.236Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":745,"timestamp":"2025-06-23T16:34:01.005Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":431,"timestamp":"2025-06-23T16:34:01.474Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":606,"timestamp":"2025-06-23T16:34:02.081Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":607,"timestamp":"2025-06-23T16:34:02.733Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":834,"timestamp":"2025-06-23T16:34:03.625Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":538,"timestamp":"2025-06-23T16:34:16.803Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":523,"timestamp":"2025-06-23T16:34:17.602Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":758,"timestamp":"2025-06-23T16:34:18.421Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":416,"timestamp":"2025-06-23T16:34:19.141Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":804,"timestamp":"2025-06-23T16:34:20.177Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1114,"timestamp":"2025-06-23T16:34:21.292Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":459,"timestamp":"2025-06-23T16:34:24.343Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":576,"timestamp":"2025-06-23T16:34:24.920Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":567,"timestamp":"2025-06-23T16:34:25.522Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":511,"timestamp":"2025-06-23T16:34:26.039Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":459,"timestamp":"2025-06-23T16:34:26.688Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":666,"timestamp":"2025-06-23T16:34:27.412Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":5989,"timestamp":"2025-06-23T16:35:05.058Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3771,"timestamp":"2025-06-23T16:36:07.043Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":1059,"timestamp":"2025-06-23T16:36:09.181Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":743,"timestamp":"2025-06-23T16:36:14.072Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1169,"timestamp":"2025-06-23T16:36:15.555Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":678,"timestamp":"2025-06-23T16:36:16.237Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1030,"timestamp":"2025-06-23T16:36:17.269Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":507,"timestamp":"2025-06-23T16:36:17.917Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":804,"timestamp":"2025-06-23T16:36:18.760Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":791,"timestamp":"2025-06-23T16:36:19.858Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":710,"timestamp":"2025-06-23T16:36:20.651Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":535,"timestamp":"2025-06-23T16:36:21.188Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":713,"timestamp":"2025-06-23T16:36:22.059Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1134,"timestamp":"2025-06-23T16:36:25.299Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":922,"timestamp":"2025-06-23T16:36:26.239Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1568,"timestamp":"2025-06-23T16:36:28.219Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1877,"timestamp":"2025-06-23T16:36:30.179Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":789,"timestamp":"2025-06-23T16:36:31.297Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1908,"timestamp":"2025-06-23T16:36:33.254Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":891,"timestamp":"2025-06-23T16:36:35.015Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":886,"timestamp":"2025-06-23T16:36:36.002Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1224,"timestamp":"2025-06-23T16:36:37.227Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":627,"timestamp":"2025-06-23T16:36:38.104Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":555,"timestamp":"2025-06-23T16:36:38.971Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1940,"timestamp":"2025-06-23T16:36:40.930Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":754,"timestamp":"2025-06-23T16:36:43.242Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":869,"timestamp":"2025-06-23T16:36:44.223Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":544,"timestamp":"2025-06-23T16:36:45.839Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1075,"timestamp":"2025-06-23T16:36:46.986Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":573,"timestamp":"2025-06-23T16:36:53.158Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":845,"timestamp":"2025-06-23T16:36:54.142Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1085,"timestamp":"2025-06-23T16:36:55.924Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1554,"timestamp":"2025-06-23T16:36:57.887Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":706,"timestamp":"2025-06-23T16:36:58.610Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":606,"timestamp":"2025-06-23T16:36:59.242Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":732,"timestamp":"2025-06-23T16:37:00.092Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":477,"timestamp":"2025-06-23T16:37:00.638Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1180,"timestamp":"2025-06-23T16:37:01.926Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1257,"timestamp":"2025-06-23T16:37:03.445Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":888,"timestamp":"2025-06-23T16:37:06.304Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":684,"timestamp":"2025-06-23T16:37:07.102Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":733,"timestamp":"2025-06-23T16:37:11.489Z"}
+{"level":"error","message":"✘ Completions for node Send ([108:9, 108:23] - personaje.wlk) failed: Error: [Send]{805426} at personaje.wlk:108 exhausted all cases without a match [Send]{805426} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [Send]{805426} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:37:11.699Z"}
+{"level":"error","message":"✘ Completions for node If ([108:5, 111:14] - personaje.wlk) failed: Error: [If]{818c2a} at personaje.wlk:108 exhausted all cases without a match [If]{818c2a} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [If]{818c2a} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:37:11.701Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":193,"timestamp":"2025-06-23T16:37:11.718Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":553,"timestamp":"2025-06-23T16:37:12.506Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":501,"timestamp":"2025-06-23T16:37:13.110Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":905,"timestamp":"2025-06-23T16:37:14.210Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":990,"timestamp":"2025-06-23T16:37:15.751Z"}
+{"level":"info","message":"⌛ Autocomplete - Send","timeElapsed":190,"timestamp":"2025-06-23T16:37:15.994Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1142,"timestamp":"2025-06-23T16:37:17.548Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse personaje.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  111 |             }\n  112 |         game.onTick(1000, \"ocultarMensaje\", {game.removeVisual(estoyLista)}) \n> 113 |         } \n      |         ^\n  114 |     }\n  115 | \n\nExpected one of the following: \n\n'@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"} \r\n    \", whitespace\n","stack":"Error: Failed to parse personaje.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  111 |             }\n  112 |         game.onTick(1000, \"ocultarMensaje\", {game.removeVisual(estoyLista)}) \n> 113 |         } \n      |         ^\n  114 |     }\n  115 | \n\nExpected one of the following: \n\n'@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"} \r\n    \", whitespace\n\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:13026\n    at Array.map (<anonymous>)\n    at D1n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:12950)\n    at W2.buildEnvironmentFrom (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:5254)\n    at W2.updateEnvironmentWith (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:4989)\n    at GF (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:7383)\n    at L3.invoke (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:157326)\n    at o.fire (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:158096)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:57871\n    at Kr (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-06-23T16:37:17.991Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":694,"timestamp":"2025-06-23T16:37:24.304Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":789,"timestamp":"2025-06-23T16:37:25.397Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":582,"timestamp":"2025-06-23T16:37:26.465Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":581,"timestamp":"2025-06-23T16:37:27.260Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":853,"timestamp":"2025-06-23T16:37:28.117Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1068,"timestamp":"2025-06-23T16:37:29.325Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1011,"timestamp":"2025-06-23T16:37:30.753Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1141,"timestamp":"2025-06-23T16:37:31.894Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":538,"timestamp":"2025-06-23T16:37:32.518Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":780,"timestamp":"2025-06-23T16:37:33.888Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":638,"timestamp":"2025-06-23T16:37:34.729Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":818,"timestamp":"2025-06-23T16:37:35.556Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":968,"timestamp":"2025-06-23T16:37:36.527Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":623,"timestamp":"2025-06-23T16:37:37.161Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":619,"timestamp":"2025-06-23T16:37:37.899Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":709,"timestamp":"2025-06-23T16:37:39.035Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":705,"timestamp":"2025-06-23T16:37:39.850Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":832,"timestamp":"2025-06-23T16:37:40.998Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1553,"timestamp":"2025-06-23T16:37:42.570Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1213,"timestamp":"2025-06-23T16:37:43.796Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":953,"timestamp":"2025-06-23T16:37:44.756Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":661,"timestamp":"2025-06-23T16:37:45.806Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":652,"timestamp":"2025-06-23T16:37:46.905Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":926,"timestamp":"2025-06-23T16:37:48.354Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1070,"timestamp":"2025-06-23T16:37:49.543Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":2283,"timestamp":"2025-06-23T16:37:52.526Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1069,"timestamp":"2025-06-23T16:37:53.596Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":601,"timestamp":"2025-06-23T16:37:54.730Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":912,"timestamp":"2025-06-23T16:37:55.845Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":761,"timestamp":"2025-06-23T16:37:56.609Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1946,"timestamp":"2025-06-23T16:37:58.594Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":871,"timestamp":"2025-06-23T16:37:59.718Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":864,"timestamp":"2025-06-23T16:38:00.627Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":530,"timestamp":"2025-06-23T16:38:01.280Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":190798,"timestamp":"2025-06-23T16:38:09.861Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3288,"timestamp":"2025-06-23T16:38:19.882Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3501,"timestamp":"2025-06-23T16:39:25.945Z"}
+{"level":"error","message":"✘ Completions for node Send ([108:9, 108:21] - personaje.wlk) failed: Error: [Send]{f3b4b4} at personaje.wlk:108 exhausted all cases without a match [Send]{f3b4b4} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [Send]{f3b4b4} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)\n    at Dt (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6189)\n    at Zi (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6378)\n    at Immediate._onImmediate (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6142)\n    at process.processImmediate (node:internal/timers:485:21)","timestamp":"2025-06-23T16:39:27.912Z"}
+{"level":"error","message":"✘ Completions for node Send ([108:9, 108:26] - personaje.wlk) failed: Error: [Send]{6f20e5} at personaje.wlk:108 exhausted all cases without a match [Send]{6f20e5} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [Send]{6f20e5} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)\n    at Dt (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6189)\n    at Zi (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6378)","timestamp":"2025-06-23T16:39:27.912Z"}
+{"level":"error","message":"✘ Completions for node If ([108:5, 111:10] - personaje.wlk) failed: Error: [If]{eb25b9} at personaje.wlk:108 exhausted all cases without a match [If]{eb25b9} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [If]{eb25b9} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:39:27.913Z"}
+{"level":"info","message":"⌛ Autocomplete - Send","timeElapsed":819,"timestamp":"2025-06-23T16:39:28.050Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":5353,"timestamp":"2025-06-23T16:39:35.538Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":81497,"timestamp":"2025-06-23T16:39:38.085Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3177,"timestamp":"2025-06-23T16:39:47.263Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":975,"timestamp":"2025-06-23T16:41:42.270Z"}
+{"level":"error","message":"✘ Completions for node Send ([109:27, 109:39] - personaje.wlk) failed: Error: [Send]{14a79d} at personaje.wlk:109 exhausted all cases without a match [Send]{14a79d} at personaje.wlk:109 exhausted all cases without a match","stack":"Error: [Send]{14a79d} at personaje.wlk:109 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:41:42.615Z"}
+{"level":"error","message":"✘ Completions for node Send ([109:7, 109:40] - personaje.wlk) failed: Error: [Send]{8f530d} at personaje.wlk:109 exhausted all cases without a match [Send]{8f530d} at personaje.wlk:109 exhausted all cases without a match","stack":"Error: [Send]{8f530d} at personaje.wlk:109 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:41:42.615Z"}
+{"level":"error","message":"✘ Completions for node If ([108:5, 111:10] - personaje.wlk) failed: Error: [If]{63b98d} at personaje.wlk:108 exhausted all cases without a match [If]{63b98d} at personaje.wlk:108 exhausted all cases without a match","stack":"Error: [If]{63b98d} at personaje.wlk:108 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)","timestamp":"2025-06-23T16:41:42.616Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":305,"timestamp":"2025-06-23T16:41:42.626Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":918,"timestamp":"2025-06-23T16:41:43.610Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":140893,"timestamp":"2025-06-23T16:42:04.969Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3199,"timestamp":"2025-06-23T16:42:14.622Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1289,"timestamp":"2025-06-23T16:43:18.511Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":1058,"timestamp":"2025-06-23T16:43:19.678Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1267,"timestamp":"2025-06-23T16:43:29.336Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":879,"timestamp":"2025-06-23T16:43:30.217Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":972,"timestamp":"2025-06-23T16:43:31.620Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1322,"timestamp":"2025-06-23T16:43:32.944Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1052,"timestamp":"2025-06-23T16:43:34.662Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":745,"timestamp":"2025-06-23T16:43:35.410Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":732,"timestamp":"2025-06-23T16:43:36.837Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":691,"timestamp":"2025-06-23T16:43:37.530Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":557,"timestamp":"2025-06-23T16:43:38.198Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":780,"timestamp":"2025-06-23T16:43:39.241Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":596,"timestamp":"2025-06-23T16:44:40.896Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":473,"timestamp":"2025-06-23T16:44:41.370Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":566,"timestamp":"2025-06-23T16:44:42.168Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":868,"timestamp":"2025-06-23T16:44:43.100Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1013,"timestamp":"2025-06-23T16:44:44.115Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":240,"timestamp":"2025-06-23T16:44:44.393Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1076,"timestamp":"2025-06-23T16:44:45.470Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":526,"timestamp":"2025-06-23T16:44:46.001Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":744,"timestamp":"2025-06-23T16:44:47.118Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":477,"timestamp":"2025-06-23T16:44:47.989Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":433,"timestamp":"2025-06-23T16:44:48.424Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":490,"timestamp":"2025-06-23T16:44:48.920Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":841,"timestamp":"2025-06-23T16:44:49.818Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":488,"timestamp":"2025-06-23T16:44:50.308Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":569,"timestamp":"2025-06-23T16:44:50.880Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":575,"timestamp":"2025-06-23T16:44:51.612Z"}
+{"level":"error","message":"✘ Completions for node If ([21:9, 22:41] - cartas.wlk) failed: Error: [If]{330ee9} at cartas.wlk:21 exhausted all cases without a match [If]{330ee9} at cartas.wlk:21 exhausted all cases without a match","stack":"Error: [If]{330ee9} at cartas.wlk:21 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:44:51.778Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":121,"timestamp":"2025-06-23T16:44:51.792Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":418,"timestamp":"2025-06-23T16:44:52.211Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":401,"timestamp":"2025-06-23T16:44:52.658Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":542,"timestamp":"2025-06-23T16:44:53.758Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":623,"timestamp":"2025-06-23T16:44:54.383Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":608,"timestamp":"2025-06-23T16:44:54.994Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":383,"timestamp":"2025-06-23T16:44:55.380Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":465,"timestamp":"2025-06-23T16:44:55.847Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":462,"timestamp":"2025-06-23T16:44:56.312Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":523,"timestamp":"2025-06-23T16:44:56.849Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":615,"timestamp":"2025-06-23T16:44:57.564Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":709,"timestamp":"2025-06-23T16:44:58.278Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":630,"timestamp":"2025-06-23T16:44:58.919Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":598,"timestamp":"2025-06-23T16:44:59.518Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":637,"timestamp":"2025-06-23T16:45:00.220Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1628,"timestamp":"2025-06-23T16:45:01.849Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":883,"timestamp":"2025-06-23T16:45:02.743Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1142,"timestamp":"2025-06-23T16:45:03.892Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":814,"timestamp":"2025-06-23T16:45:04.707Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":970,"timestamp":"2025-06-23T16:45:05.887Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1031,"timestamp":"2025-06-23T16:45:07.005Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":681,"timestamp":"2025-06-23T16:45:07.688Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":650,"timestamp":"2025-06-23T16:45:08.406Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":668,"timestamp":"2025-06-23T16:45:09.100Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":606,"timestamp":"2025-06-23T16:45:09.729Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":564,"timestamp":"2025-06-23T16:45:10.294Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":691,"timestamp":"2025-06-23T16:45:11.108Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":656,"timestamp":"2025-06-23T16:45:12.058Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":391,"timestamp":"2025-06-23T16:45:12.500Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":423,"timestamp":"2025-06-23T16:45:13.285Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":802,"timestamp":"2025-06-23T16:45:14.151Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":665,"timestamp":"2025-06-23T16:45:14.869Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":609,"timestamp":"2025-06-23T16:45:16.615Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1189,"timestamp":"2025-06-23T16:45:17.840Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2535,"timestamp":"2025-06-23T16:45:20.559Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1577,"timestamp":"2025-06-23T16:45:23.472Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":731,"timestamp":"2025-06-23T16:45:24.342Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":653,"timestamp":"2025-06-23T16:45:25.022Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":828,"timestamp":"2025-06-23T16:45:25.855Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":830,"timestamp":"2025-06-23T16:45:26.709Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":785,"timestamp":"2025-06-23T16:45:27.495Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1305,"timestamp":"2025-06-23T16:45:28.802Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":432,"timestamp":"2025-06-23T16:45:29.243Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":507,"timestamp":"2025-06-23T16:45:29.764Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1009,"timestamp":"2025-06-23T16:45:30.853Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":682,"timestamp":"2025-06-23T16:45:31.547Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1111,"timestamp":"2025-06-23T16:45:33.047Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1319,"timestamp":"2025-06-23T16:45:34.367Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1532,"timestamp":"2025-06-23T16:45:35.903Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1196,"timestamp":"2025-06-23T16:45:37.183Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1098,"timestamp":"2025-06-23T16:45:38.309Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1123,"timestamp":"2025-06-23T16:45:39.610Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":791,"timestamp":"2025-06-23T16:45:42.095Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":500,"timestamp":"2025-06-23T16:45:43.196Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":914,"timestamp":"2025-06-23T16:45:44.395Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":881,"timestamp":"2025-06-23T16:45:45.276Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":524,"timestamp":"2025-06-23T16:45:45.807Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":889,"timestamp":"2025-06-23T16:45:46.698Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":757,"timestamp":"2025-06-23T16:45:47.493Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":499,"timestamp":"2025-06-23T16:45:47.996Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":641,"timestamp":"2025-06-23T16:45:48.661Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1066,"timestamp":"2025-06-23T16:45:49.802Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1531,"timestamp":"2025-06-23T16:45:51.466Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1042,"timestamp":"2025-06-23T16:45:52.620Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":881,"timestamp":"2025-06-23T16:45:54.606Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":506,"timestamp":"2025-06-23T16:45:55.899Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":682,"timestamp":"2025-06-23T16:45:57.217Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse cartas.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  25 |         game.onTick(1000, \"mostrarMensaje\", {game.addVisual(estoyLista)}) \n  26 |         }\n> 27 |         }\n     |         ^\n  28 |          }\n  29 |     method reiniciarCooldown() { cooldown = 0 }\n\nExpected one of the following: \n\n' ', '@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"}\r\n         \", whitespace\n","stack":"Error: Failed to parse cartas.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  25 |         game.onTick(1000, \"mostrarMensaje\", {game.addVisual(estoyLista)}) \n  26 |         }\n> 27 |         }\n     |         ^\n  28 |          }\n  29 |     method reiniciarCooldown() { cooldown = 0 }\n\nExpected one of the following: \n\n' ', '@', 'class', 'const', 'describe', 'mixin', 'object', 'only', 'package', 'program', 'test', 'var', '{', EOF, comment, not \"}\r\n         \", whitespace\n\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:13026\n    at Array.map (<anonymous>)\n    at D1n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:12950)\n    at W2.buildEnvironmentFrom (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:5254)\n    at W2.updateEnvironmentWith (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:4989)\n    at GF (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:7383)\n    at L3.invoke (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:157326)\n    at o.fire (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:158096)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:57871\n    at Kr (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-06-23T16:45:57.776Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":818,"timestamp":"2025-06-23T16:45:58.607Z"}
+{"level":"error","message":"✘ Completions for node Send ([23:17, 23:29] - cartas.wlk) failed: Error: [Send]{845034} at cartas.wlk:23 exhausted all cases without a match [Send]{845034} at cartas.wlk:23 exhausted all cases without a match","stack":"Error: [Send]{845034} at cartas.wlk:23 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:45:58.853Z"}
+{"level":"error","message":"✘ Completions for node Send ([23:17, 23:34] - cartas.wlk) failed: Error: [Send]{0a9b96} at cartas.wlk:23 exhausted all cases without a match [Send]{0a9b96} at cartas.wlk:23 exhausted all cases without a match","stack":"Error: [Send]{0a9b96} at cartas.wlk:23 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:45:58.853Z"}
+{"level":"error","message":"✘ Completions for node If ([23:13, 26:10] - cartas.wlk) failed: Error: [If]{ad3653} at cartas.wlk:23 exhausted all cases without a match [If]{ad3653} at cartas.wlk:23 exhausted all cases without a match","stack":"Error: [If]{ad3653} at cartas.wlk:23 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)","timestamp":"2025-06-23T16:45:58.854Z"}
+{"level":"error","message":"✘ Completions for node If ([21:9, 27:10] - cartas.wlk) failed: Error: [If]{7adae0} at cartas.wlk:21 exhausted all cases without a match [If]{7adae0} at cartas.wlk:21 exhausted all cases without a match","stack":"Error: [If]{7adae0} at cartas.wlk:21 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)","timestamp":"2025-06-23T16:45:58.854Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":230,"timestamp":"2025-06-23T16:45:58.867Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":517,"timestamp":"2025-06-23T16:45:59.412Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":437,"timestamp":"2025-06-23T16:45:59.856Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":558,"timestamp":"2025-06-23T16:46:00.421Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":613,"timestamp":"2025-06-23T16:46:01.160Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":627,"timestamp":"2025-06-23T16:46:02.015Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":703,"timestamp":"2025-06-23T16:46:02.865Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":546,"timestamp":"2025-06-23T16:46:03.414Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":524,"timestamp":"2025-06-23T16:46:03.949Z"}
+{"level":"error","message":"✘ Completions for node Send ([24:29, 24:41] - cartas.wlk) failed: Error: [Send]{0fe33d} at cartas.wlk:24 exhausted all cases without a match [Send]{0fe33d} at cartas.wlk:24 exhausted all cases without a match","stack":"Error: [Send]{0fe33d} at cartas.wlk:24 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:46:04.119Z"}
+{"level":"error","message":"✘ Completions for node Send ([24:9, 24:42] - cartas.wlk) failed: Error: [Send]{85c7c6} at cartas.wlk:24 exhausted all cases without a match [Send]{85c7c6} at cartas.wlk:24 exhausted all cases without a match","stack":"Error: [Send]{85c7c6} at cartas.wlk:24 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:46:04.123Z"}
+{"level":"error","message":"✘ Completions for node If ([23:13, 26:10] - cartas.wlk) failed: Error: [If]{ad4812} at cartas.wlk:23 exhausted all cases without a match [If]{ad4812} at cartas.wlk:23 exhausted all cases without a match","stack":"Error: [If]{ad4812} at cartas.wlk:23 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)","timestamp":"2025-06-23T16:46:04.123Z"}
+{"level":"error","message":"✘ Completions for node If ([21:9, 27:10] - cartas.wlk) failed: Error: [If]{1a8981} at cartas.wlk:21 exhausted all cases without a match [If]{1a8981} at cartas.wlk:21 exhausted all cases without a match","stack":"Error: [If]{1a8981} at cartas.wlk:21 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)","timestamp":"2025-06-23T16:46:04.124Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":158,"timestamp":"2025-06-23T16:46:04.132Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":619,"timestamp":"2025-06-23T16:46:04.850Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":846,"timestamp":"2025-06-23T16:46:05.697Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":930,"timestamp":"2025-06-23T16:46:06.630Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":620,"timestamp":"2025-06-23T16:46:07.253Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":766,"timestamp":"2025-06-23T16:46:08.515Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":616,"timestamp":"2025-06-23T16:46:09.868Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":552,"timestamp":"2025-06-23T16:46:10.523Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":510,"timestamp":"2025-06-23T16:46:11.182Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":407,"timestamp":"2025-06-23T16:46:11.739Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":509,"timestamp":"2025-06-23T16:46:12.658Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":506,"timestamp":"2025-06-23T16:46:13.229Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":521,"timestamp":"2025-06-23T16:46:13.821Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":521,"timestamp":"2025-06-23T16:46:14.451Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":371,"timestamp":"2025-06-23T16:46:14.900Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":511,"timestamp":"2025-06-23T16:46:15.770Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":377,"timestamp":"2025-06-23T16:46:16.218Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":515,"timestamp":"2025-06-23T16:46:16.844Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":392,"timestamp":"2025-06-23T16:46:17.246Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":534,"timestamp":"2025-06-23T16:46:17.930Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":511,"timestamp":"2025-06-23T16:46:18.463Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":499,"timestamp":"2025-06-23T16:46:19.026Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":517,"timestamp":"2025-06-23T16:46:19.779Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":503,"timestamp":"2025-06-23T16:46:20.459Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":500,"timestamp":"2025-06-23T16:46:21.193Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":516,"timestamp":"2025-06-23T16:46:21.773Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":510,"timestamp":"2025-06-23T16:46:22.343Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":454,"timestamp":"2025-06-23T16:46:25.735Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":498,"timestamp":"2025-06-23T16:46:26.385Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1006,"timestamp":"2025-06-23T16:46:27.394Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":868,"timestamp":"2025-06-23T16:46:28.406Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1705,"timestamp":"2025-06-23T16:46:30.609Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1000,"timestamp":"2025-06-23T16:46:32.299Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":669,"timestamp":"2025-06-23T16:46:32.989Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":736,"timestamp":"2025-06-23T16:46:33.727Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":583,"timestamp":"2025-06-23T16:46:34.611Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":706,"timestamp":"2025-06-23T16:46:35.519Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1563,"timestamp":"2025-06-23T16:46:37.468Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1070,"timestamp":"2025-06-23T16:46:38.580Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":447,"timestamp":"2025-06-23T16:46:39.395Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":424,"timestamp":"2025-06-23T16:46:40.013Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":502,"timestamp":"2025-06-23T16:46:40.517Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":652,"timestamp":"2025-06-23T16:46:41.218Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1064,"timestamp":"2025-06-23T16:46:50.239Z"}
+{"level":"error","message":"✘ Completions for node Send ([25:12, 25:73] - cartas.wlk) failed: Error: [Send]{aec2b1} at cartas.wlk:25 exhausted all cases without a match [Send]{aec2b1} at cartas.wlk:25 exhausted all cases without a match","stack":"Error: [Send]{aec2b1} at cartas.wlk:25 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)\n    at Dt (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6189)\n    at Zi (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6378)\n    at Immediate._onImmediate (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:6142)\n    at process.processImmediate (node:internal/timers:485:21)","timestamp":"2025-06-23T16:46:50.329Z"}
+{"level":"error","message":"✘ Completions for node If ([23:13, 26:14] - cartas.wlk) failed: Error: [If]{8cf5a8} at cartas.wlk:23 exhausted all cases without a match [If]{8cf5a8} at cartas.wlk:23 exhausted all cases without a match","stack":"Error: [If]{8cf5a8} at cartas.wlk:23 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:46:50.330Z"}
+{"level":"error","message":"✘ Completions for node If ([21:9, 27:10] - cartas.wlk) failed: Error: [If]{1093bf} at cartas.wlk:21 exhausted all cases without a match [If]{1093bf} at cartas.wlk:21 exhausted all cases without a match","stack":"Error: [If]{1093bf} at cartas.wlk:21 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at p8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:818)","timestamp":"2025-06-23T16:46:50.331Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":665,"timestamp":"2025-06-23T16:46:51.015Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":724,"timestamp":"2025-06-23T16:46:51.741Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":375,"timestamp":"2025-06-23T16:46:52.119Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":423,"timestamp":"2025-06-23T16:46:52.577Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":617,"timestamp":"2025-06-23T16:46:53.203Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":536,"timestamp":"2025-06-23T16:46:53.741Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":414,"timestamp":"2025-06-23T16:46:54.158Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":446,"timestamp":"2025-06-23T16:46:54.606Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":437,"timestamp":"2025-06-23T16:46:55.278Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":743,"timestamp":"2025-06-23T16:46:56.131Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":445,"timestamp":"2025-06-23T16:46:56.639Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":471,"timestamp":"2025-06-23T16:46:57.124Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":579,"timestamp":"2025-06-23T16:46:57.760Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":461,"timestamp":"2025-06-23T16:46:58.222Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":495,"timestamp":"2025-06-23T16:46:58.719Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":659,"timestamp":"2025-06-23T16:47:03.345Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":436,"timestamp":"2025-06-23T16:47:03.861Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":492,"timestamp":"2025-06-23T16:47:04.446Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":431,"timestamp":"2025-06-23T16:47:04.882Z"}
+{"level":"error","message":"✘ Completions for node Return (undefined - cartas.wlk) failed: Error: [Return]{64f6a7} at cartas.wlk:-- exhausted all cases without a match [Return]{64f6a7} at cartas.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{64f6a7} at cartas.wlk:-- exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:47:04.983Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":450,"timestamp":"2025-06-23T16:47:05.442Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":716,"timestamp":"2025-06-23T16:47:06.235Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":726,"timestamp":"2025-06-23T16:47:07.040Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":591,"timestamp":"2025-06-23T16:47:07.706Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":523,"timestamp":"2025-06-23T16:47:11.393Z"}
+{"level":"error","message":"✘ Completions for node Return (undefined - cartas.wlk) failed: Error: [Return]{8f0f1a} at cartas.wlk:-- exhausted all cases without a match [Return]{8f0f1a} at cartas.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{8f0f1a} at cartas.wlk:-- exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:47:11.495Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":367,"timestamp":"2025-06-23T16:47:11.921Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":575,"timestamp":"2025-06-23T16:47:12.589Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":576,"timestamp":"2025-06-23T16:47:13.196Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":864,"timestamp":"2025-06-23T16:47:14.091Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":523,"timestamp":"2025-06-23T16:47:14.714Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":506,"timestamp":"2025-06-23T16:47:15.221Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":653,"timestamp":"2025-06-23T16:47:16.298Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":506,"timestamp":"2025-06-23T16:47:16.806Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":578,"timestamp":"2025-06-23T16:47:17.390Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":765,"timestamp":"2025-06-23T16:47:18.198Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":562,"timestamp":"2025-06-23T16:47:18.763Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":416,"timestamp":"2025-06-23T16:47:19.196Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":365,"timestamp":"2025-06-23T16:47:19.567Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":440,"timestamp":"2025-06-23T16:47:20.133Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":400,"timestamp":"2025-06-23T16:47:20.535Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":592,"timestamp":"2025-06-23T16:47:21.130Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":755,"timestamp":"2025-06-23T16:47:21.888Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":413,"timestamp":"2025-06-23T16:47:22.302Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":420,"timestamp":"2025-06-23T16:47:22.820Z"}
+{"level":"error","message":"✘ Completions for node Return (undefined - cartas.wlk) failed: Error: [Return]{04d6ca} at cartas.wlk:-- exhausted all cases without a match [Return]{04d6ca} at cartas.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{04d6ca} at cartas.wlk:-- exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:47:23.503Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":583,"timestamp":"2025-06-23T16:47:23.511Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":536,"timestamp":"2025-06-23T16:47:24.168Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":522,"timestamp":"2025-06-23T16:47:24.768Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":401,"timestamp":"2025-06-23T16:47:25.171Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":356,"timestamp":"2025-06-23T16:47:25.565Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":396,"timestamp":"2025-06-23T16:47:25.966Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":408,"timestamp":"2025-06-23T16:47:26.379Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":453,"timestamp":"2025-06-23T16:47:26.835Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":361,"timestamp":"2025-06-23T16:47:27.200Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":404,"timestamp":"2025-06-23T16:47:27.606Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":451,"timestamp":"2025-06-23T16:47:28.058Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":385,"timestamp":"2025-06-23T16:47:28.450Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":366,"timestamp":"2025-06-23T16:47:28.817Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":400,"timestamp":"2025-06-23T16:47:29.219Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1443,"timestamp":"2025-06-23T16:47:30.672Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":596,"timestamp":"2025-06-23T16:47:31.270Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":870,"timestamp":"2025-06-23T16:47:32.227Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":2079,"timestamp":"2025-06-23T16:47:34.483Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":626,"timestamp":"2025-06-23T16:47:35.115Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":472,"timestamp":"2025-06-23T16:47:35.649Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":549,"timestamp":"2025-06-23T16:47:36.210Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":611,"timestamp":"2025-06-23T16:47:36.896Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":573,"timestamp":"2025-06-23T16:47:37.470Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":585,"timestamp":"2025-06-23T16:47:38.146Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":696,"timestamp":"2025-06-23T16:47:39.362Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":631,"timestamp":"2025-06-23T16:47:39.994Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1091,"timestamp":"2025-06-23T16:47:41.086Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":808,"timestamp":"2025-06-23T16:47:41.895Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1533,"timestamp":"2025-06-23T16:47:43.555Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1395,"timestamp":"2025-06-23T16:47:44.952Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":667,"timestamp":"2025-06-23T16:47:45.673Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":3340,"timestamp":"2025-06-23T16:47:49.014Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":919,"timestamp":"2025-06-23T16:47:49.937Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":833,"timestamp":"2025-06-23T16:47:50.771Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":1443,"timestamp":"2025-06-23T16:47:52.837Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":972,"timestamp":"2025-06-23T16:47:54.046Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":705,"timestamp":"2025-06-23T16:47:54.802Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":614,"timestamp":"2025-06-23T16:47:55.417Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":758,"timestamp":"2025-06-23T16:47:56.267Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":999,"timestamp":"2025-06-23T16:47:57.300Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":818,"timestamp":"2025-06-23T16:47:58.153Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":810,"timestamp":"2025-06-23T16:47:59.047Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1353,"timestamp":"2025-06-23T16:48:00.525Z"}
+{"level":"info","message":"⌛ Autocomplete - Singleton","timeElapsed":166,"timestamp":"2025-06-23T16:48:00.691Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":844,"timestamp":"2025-06-23T16:48:01.542Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":759,"timestamp":"2025-06-23T16:48:02.332Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":609,"timestamp":"2025-06-23T16:48:02.943Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":739,"timestamp":"2025-06-23T16:48:03.690Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse interfaz.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  147 |     method position() = game.at(posicion.x()+3, posicion.y()+1)\n  148 |     method\n> 149 | }\n      | ^\n  150 | \n  151 | object nivelCompletado {\n\nExpected one of the following: \n\n'!=', '!==', '%', '&&', '*', '**', '+', '-', '->', '..', '..<', '/', '<', '<<', '<<<', '<=', '<=>', '<>', '==', '===', '>', '>..', '>=', '>>', '>>>', '?:', '@', 'and', 'class', 'const', 'describe', 'invert', 'mixin', 'negate', 'object', 'only', 'or', 'package', 'plus', 'program', 'test', 'var', '{', '||', EOF, comment, identifier, not \"}\r\n\r\n\", whitespace\n","stack":"Error: Failed to parse interfaz.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  147 |     method position() = game.at(posicion.x()+3, posicion.y()+1)\n  148 |     method\n> 149 | }\n      | ^\n  150 | \n  151 | object nivelCompletado {\n\nExpected one of the following: \n\n'!=', '!==', '%', '&&', '*', '**', '+', '-', '->', '..', '..<', '/', '<', '<<', '<<<', '<=', '<=>', '<>', '==', '===', '>', '>..', '>=', '>>', '>>>', '?:', '@', 'and', 'class', 'const', 'describe', 'invert', 'mixin', 'negate', 'object', 'only', 'or', 'package', 'plus', 'program', 'test', 'var', '{', '||', EOF, comment, identifier, not \"}\r\n\r\n\", whitespace\n\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:13026\n    at Array.map (<anonymous>)\n    at D1n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:12950)\n    at W2.buildEnvironmentFrom (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:5254)\n    at W2.updateEnvironmentWith (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:4989)\n    at GF (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:7383)\n    at L3.invoke (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:157326)\n    at o.fire (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:158096)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:57871\n    at Kr (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-06-23T16:48:04.139Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse interfaz.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  147 |     method position() = game.at(posicion.x()+3, posicion.y()+1)\n  148 |     method \n> 149 | }\n      | ^\n  150 | \n  151 | object nivelCompletado {\n\nExpected one of the following: \n\n'!=', '!==', '%', '&&', '*', '**', '+', '-', '->', '..', '..<', '/', '<', '<<', '<<<', '<=', '<=>', '<>', '==', '===', '>', '>..', '>=', '>>', '>>>', '?:', '@', 'and', 'class', 'const', 'describe', 'invert', 'mixin', 'negate', 'object', 'only', 'or', 'package', 'plus', 'program', 'test', 'var', '{', '||', EOF, comment, identifier, not \"}\r\n\r\n\", whitespace\n","stack":"Error: Failed to parse interfaz.wlk: \n-- PARSING FAILED --------------------------------------------------\n\n  147 |     method position() = game.at(posicion.x()+3, posicion.y()+1)\n  148 |     method \n> 149 | }\n      | ^\n  150 | \n  151 | object nivelCompletado {\n\nExpected one of the following: \n\n'!=', '!==', '%', '&&', '*', '**', '+', '-', '->', '..', '..<', '/', '<', '<<', '<<<', '<=', '<=>', '<>', '==', '===', '>', '>..', '>=', '>>', '>>>', '?:', '@', 'and', 'class', 'const', 'describe', 'invert', 'mixin', 'negate', 'object', 'only', 'or', 'package', 'plus', 'program', 'test', 'var', '{', '||', EOF, comment, identifier, not \"}\r\n\r\n\", whitespace\n\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:13026\n    at Array.map (<anonymous>)\n    at D1n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2326:12950)\n    at W2.buildEnvironmentFrom (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:5254)\n    at W2.updateEnvironmentWith (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:4989)\n    at GF (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:7383)\n    at L3.invoke (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:157326)\n    at o.fire (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:3:158096)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:57871\n    at Kr (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-06-23T16:48:04.355Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1323,"timestamp":"2025-06-23T16:48:05.696Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1485,"timestamp":"2025-06-23T16:48:07.230Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":895,"timestamp":"2025-06-23T16:48:08.126Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":900,"timestamp":"2025-06-23T16:48:09.028Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":839,"timestamp":"2025-06-23T16:48:09.868Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":994,"timestamp":"2025-06-23T16:48:10.865Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":980,"timestamp":"2025-06-23T16:48:11.846Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1254,"timestamp":"2025-06-23T16:48:13.260Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":966,"timestamp":"2025-06-23T16:48:14.253Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1034,"timestamp":"2025-06-23T16:48:15.372Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":557,"timestamp":"2025-06-23T16:48:15.935Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":598,"timestamp":"2025-06-23T16:48:16.536Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":552,"timestamp":"2025-06-23T16:48:17.091Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":675,"timestamp":"2025-06-23T16:48:17.771Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1080,"timestamp":"2025-06-23T16:48:18.853Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":939,"timestamp":"2025-06-23T16:48:20.004Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":597,"timestamp":"2025-06-23T16:48:22.101Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":597,"timestamp":"2025-06-23T16:48:22.703Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":592,"timestamp":"2025-06-23T16:48:23.336Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":486,"timestamp":"2025-06-23T16:48:23.846Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":481,"timestamp":"2025-06-23T16:48:24.328Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":965,"timestamp":"2025-06-23T16:48:25.295Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":782,"timestamp":"2025-06-23T16:48:26.090Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1325,"timestamp":"2025-06-23T16:48:27.417Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":707,"timestamp":"2025-06-23T16:48:28.179Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1089,"timestamp":"2025-06-23T16:48:29.420Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":729,"timestamp":"2025-06-23T16:48:30.160Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":609,"timestamp":"2025-06-23T16:48:30.770Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":702,"timestamp":"2025-06-23T16:48:31.478Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":525,"timestamp":"2025-06-23T16:48:32.096Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":657,"timestamp":"2025-06-23T16:48:32.755Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":715,"timestamp":"2025-06-23T16:48:33.478Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2029,"timestamp":"2025-06-23T16:48:35.541Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":5725,"timestamp":"2025-06-23T16:48:41.297Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":391480,"timestamp":"2025-06-23T16:48:42.899Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2403,"timestamp":"2025-06-23T16:48:43.706Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":897,"timestamp":"2025-06-23T16:48:44.606Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1209,"timestamp":"2025-06-23T16:49:08.170Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1185,"timestamp":"2025-06-23T16:49:09.439Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":375,"timestamp":"2025-06-23T16:49:09.849Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":632,"timestamp":"2025-06-23T16:49:10.546Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":545,"timestamp":"2025-06-23T16:49:11.096Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":492,"timestamp":"2025-06-23T16:49:11.591Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":947,"timestamp":"2025-06-23T16:49:12.589Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":538,"timestamp":"2025-06-23T16:49:13.137Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":515,"timestamp":"2025-06-23T16:49:13.656Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":827,"timestamp":"2025-06-23T16:49:14.530Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":441,"timestamp":"2025-06-23T16:49:14.973Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":730,"timestamp":"2025-06-23T16:49:15.706Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":316,"timestamp":"2025-06-23T16:49:16.025Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":511,"timestamp":"2025-06-23T16:49:16.540Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":494,"timestamp":"2025-06-23T16:49:17.035Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1121,"timestamp":"2025-06-23T16:49:18.162Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":432,"timestamp":"2025-06-23T16:49:18.642Z"}
+{"level":"info","message":"⌛ Validating sonido.wlk","timeElapsed":379,"timestamp":"2025-06-23T16:49:19.036Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wtest","timeElapsed":407,"timestamp":"2025-06-23T16:49:19.462Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1016,"timestamp":"2025-06-23T16:49:20.480Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":1230,"timestamp":"2025-06-23T16:49:21.713Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":944,"timestamp":"2025-06-23T16:49:22.700Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":898,"timestamp":"2025-06-23T16:49:23.600Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":748,"timestamp":"2025-06-23T16:49:24.350Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1222,"timestamp":"2025-06-23T16:49:25.586Z"}
+{"level":"info","message":"⌛ Validating estado.wlk","timeElapsed":908,"timestamp":"2025-06-23T16:49:26.497Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":781,"timestamp":"2025-06-23T16:49:27.288Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":574,"timestamp":"2025-06-23T16:49:27.877Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":540,"timestamp":"2025-06-23T16:49:28.419Z"}
+{"level":"info","message":"⌛ Validating sonido.wlk","timeElapsed":549,"timestamp":"2025-06-23T16:49:28.970Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wtest","timeElapsed":500,"timestamp":"2025-06-23T16:49:29.471Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":534,"timestamp":"2025-06-23T16:49:30.007Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":607,"timestamp":"2025-06-23T16:49:30.620Z"}
+{"level":"info","message":"⌛ Validating menu.wlk","timeElapsed":788,"timestamp":"2025-06-23T16:49:31.420Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":651,"timestamp":"2025-06-23T16:49:32.136Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":541,"timestamp":"2025-06-23T16:49:32.681Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":606,"timestamp":"2025-06-23T16:49:33.291Z"}
+{"level":"info","message":"⌛ Validating estado.wlk","timeElapsed":2280,"timestamp":"2025-06-23T16:49:35.575Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":7132,"timestamp":"2025-06-23T16:49:37.745Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1285,"timestamp":"2025-06-23T16:49:42.315Z"}
+{"level":"error","message":"✘ Completions for node Send ([149:9, 149:26] - interfaz.wlk) failed: Error: [Send]{eb785e} at interfaz.wlk:149 exhausted all cases without a match [Send]{eb785e} at interfaz.wlk:149 exhausted all cases without a match","stack":"Error: [Send]{eb785e} at interfaz.wlk:149 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:49:42.596Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":233,"timestamp":"2025-06-23T16:49:42.651Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1181,"timestamp":"2025-06-23T16:49:43.866Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1511,"timestamp":"2025-06-23T16:49:45.382Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":887,"timestamp":"2025-06-23T16:49:46.271Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":589,"timestamp":"2025-06-23T16:49:46.988Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":600,"timestamp":"2025-06-23T16:49:47.663Z"}
+{"level":"error","message":"✘ Completions for node Send ([150:30, 150:50] - interfaz.wlk) failed: Error: [Send]{f1dc63} at interfaz.wlk:150 exhausted all cases without a match [Send]{f1dc63} at interfaz.wlk:150 exhausted all cases without a match","stack":"Error: [Send]{f1dc63} at interfaz.wlk:150 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:49:47.823Z"}
+{"level":"error","message":"✘ Completions for node Return (undefined - interfaz.wlk) failed: Error: [Return]{3a2e58} at interfaz.wlk:-- exhausted all cases without a match [Return]{3a2e58} at interfaz.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{3a2e58} at interfaz.wlk:-- exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:544)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440","timestamp":"2025-06-23T16:49:47.824Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":117,"timestamp":"2025-06-23T16:49:47.843Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":638,"timestamp":"2025-06-23T16:49:48.520Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":662,"timestamp":"2025-06-23T16:49:49.184Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":634,"timestamp":"2025-06-23T16:49:49.822Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":706,"timestamp":"2025-06-23T16:49:50.641Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":531,"timestamp":"2025-06-23T16:49:51.291Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":573,"timestamp":"2025-06-23T16:49:51.927Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":575,"timestamp":"2025-06-23T16:49:52.509Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":572,"timestamp":"2025-06-23T16:49:53.084Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1270,"timestamp":"2025-06-23T16:49:54.364Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":607,"timestamp":"2025-06-23T16:49:54.976Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":760,"timestamp":"2025-06-23T16:50:05.363Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":874,"timestamp":"2025-06-23T16:50:06.273Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":602,"timestamp":"2025-06-23T16:50:07.003Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":766,"timestamp":"2025-06-23T16:50:07.773Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1028,"timestamp":"2025-06-23T16:50:08.822Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":820,"timestamp":"2025-06-23T16:50:09.827Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":593,"timestamp":"2025-06-23T16:50:10.494Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":523,"timestamp":"2025-06-23T16:50:11.042Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":49109,"timestamp":"2025-06-23T16:50:19.673Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":9060,"timestamp":"2025-06-23T16:50:35.802Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1239,"timestamp":"2025-06-23T16:51:32.584Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1738,"timestamp":"2025-06-23T16:51:34.378Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":936,"timestamp":"2025-06-23T16:51:35.531Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1489,"timestamp":"2025-06-23T16:51:37.438Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":808,"timestamp":"2025-06-23T16:51:38.516Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3015,"timestamp":"2025-06-23T16:51:41.690Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1002,"timestamp":"2025-06-23T16:51:43.608Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":661,"timestamp":"2025-06-23T16:51:44.564Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":81006,"timestamp":"2025-06-23T16:51:47.742Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3234,"timestamp":"2025-06-23T16:51:57.806Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1770,"timestamp":"2025-06-23T16:52:41.282Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":4833,"timestamp":"2025-06-23T16:52:46.218Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1351,"timestamp":"2025-06-23T16:52:48.220Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1641,"timestamp":"2025-06-23T16:52:50.291Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":55761,"timestamp":"2025-06-23T16:52:50.332Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":5857,"timestamp":"2025-06-23T16:53:34.142Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":836,"timestamp":"2025-06-23T16:56:57.884Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1101,"timestamp":"2025-06-23T16:56:58.989Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":401,"timestamp":"2025-06-23T16:56:59.454Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1313,"timestamp":"2025-06-23T16:57:00.770Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":770,"timestamp":"2025-06-23T16:57:01.591Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1206,"timestamp":"2025-06-23T16:57:02.804Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":860,"timestamp":"2025-06-23T16:57:03.666Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1001,"timestamp":"2025-06-23T16:57:04.720Z"}
+{"level":"info","message":"⌛ Autocomplete - Body","timeElapsed":112,"timestamp":"2025-06-23T16:57:05.050Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":545,"timestamp":"2025-06-23T16:57:05.677Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":992,"timestamp":"2025-06-23T16:57:06.704Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":769,"timestamp":"2025-06-23T16:57:07.475Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1464,"timestamp":"2025-06-23T16:57:08.941Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":690,"timestamp":"2025-06-23T16:57:09.776Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":485,"timestamp":"2025-06-23T16:57:10.277Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":602,"timestamp":"2025-06-23T16:57:10.882Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":629,"timestamp":"2025-06-23T16:57:11.524Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":633,"timestamp":"2025-06-23T16:57:13.112Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2076,"timestamp":"2025-06-23T16:57:15.454Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1737,"timestamp":"2025-06-23T16:57:17.216Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3339,"timestamp":"2025-06-23T16:57:20.668Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":2136,"timestamp":"2025-06-23T16:57:22.869Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1656,"timestamp":"2025-06-23T16:57:25.238Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3631,"timestamp":"2025-06-23T16:57:28.961Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1854,"timestamp":"2025-06-23T16:57:30.985Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":2235,"timestamp":"2025-06-23T16:57:33.223Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1244,"timestamp":"2025-06-23T16:57:34.493Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":930,"timestamp":"2025-06-23T16:57:35.431Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1385,"timestamp":"2025-06-23T16:57:36.837Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3940,"timestamp":"2025-06-23T16:57:41.140Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":556,"timestamp":"2025-06-23T16:57:41.750Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":910,"timestamp":"2025-06-23T16:57:42.661Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1161,"timestamp":"2025-06-23T16:57:43.896Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":637,"timestamp":"2025-06-23T16:57:44.553Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":706,"timestamp":"2025-06-23T16:57:45.427Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1060,"timestamp":"2025-06-23T16:57:46.513Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":2189,"timestamp":"2025-06-23T16:57:49.377Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":775,"timestamp":"2025-06-23T16:57:50.153Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":899,"timestamp":"2025-06-23T16:57:51.084Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":682,"timestamp":"2025-06-23T16:57:51.951Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":584,"timestamp":"2025-06-23T16:57:52.610Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":593,"timestamp":"2025-06-23T16:57:53.277Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":517,"timestamp":"2025-06-23T16:57:53.801Z"}
+{"level":"error","message":"✘ Completions for node Send ([82:4, 82:25] - personaje.wlk) failed: Error: [Send]{196680} at personaje.wlk:82 exhausted all cases without a match [Send]{196680} at personaje.wlk:82 exhausted all cases without a match","stack":"Error: [Send]{196680} at personaje.wlk:82 exhausted all cases without a match\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6142\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at Gh (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1092)\n    at l8n (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:1248)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at C2 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:42)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2362:2988\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:2371:8440\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-06-23T16:57:53.940Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":114,"timestamp":"2025-06-23T16:57:53.969Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":911,"timestamp":"2025-06-23T16:57:54.924Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1738,"timestamp":"2025-06-23T16:57:56.691Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":883,"timestamp":"2025-06-23T16:57:57.586Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":905,"timestamp":"2025-06-23T16:57:58.495Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":594,"timestamp":"2025-06-23T16:57:59.190Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":535,"timestamp":"2025-06-23T16:57:59.815Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":573,"timestamp":"2025-06-23T16:58:00.466Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":595,"timestamp":"2025-06-23T16:58:01.062Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":580,"timestamp":"2025-06-23T16:58:01.658Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":551,"timestamp":"2025-06-23T16:58:02.273Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":565,"timestamp":"2025-06-23T16:58:02.859Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":621,"timestamp":"2025-06-23T16:58:03.481Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":564,"timestamp":"2025-06-23T16:58:04.108Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":573,"timestamp":"2025-06-23T16:58:04.683Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":569,"timestamp":"2025-06-23T16:58:05.271Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":585,"timestamp":"2025-06-23T16:58:05.861Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":562,"timestamp":"2025-06-23T16:58:06.425Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":548,"timestamp":"2025-06-23T16:58:06.995Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":587,"timestamp":"2025-06-23T16:58:07.584Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":666,"timestamp":"2025-06-23T16:58:08.253Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":651,"timestamp":"2025-06-23T16:58:08.999Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":649,"timestamp":"2025-06-23T16:58:10.079Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":672,"timestamp":"2025-06-23T16:58:10.755Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":1040,"timestamp":"2025-06-23T16:58:11.804Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":665,"timestamp":"2025-06-23T16:58:12.473Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":339272,"timestamp":"2025-06-23T16:59:07.547Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":5344,"timestamp":"2025-06-23T16:59:21.676Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":4350,"timestamp":"2025-06-23T17:02:40.367Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2181,"timestamp":"2025-06-23T17:02:44.675Z"}
+{"level":"info","message":"⌛ Validating sonido.wlk","timeElapsed":2672,"timestamp":"2025-06-23T17:02:48.840Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":3405,"timestamp":"2025-06-23T17:02:54.632Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1871,"timestamp":"2025-06-23T17:03:04.087Z"}
+{"level":"info","message":"⌛ Validating nivel.wlk","timeElapsed":6083,"timestamp":"2025-06-23T17:03:10.640Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":249546,"timestamp":"2025-06-23T17:03:25.876Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":10587,"timestamp":"2025-06-23T17:03:45.445Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1121,"timestamp":"2025-06-23T17:09:04.771Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1726,"timestamp":"2025-06-23T17:09:06.577Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":874,"timestamp":"2025-06-23T17:09:07.459Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":1278,"timestamp":"2025-06-23T17:09:08.990Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":699,"timestamp":"2025-06-23T17:09:09.692Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":627,"timestamp":"2025-06-23T17:09:10.334Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":681,"timestamp":"2025-06-23T17:09:11.023Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":718,"timestamp":"2025-06-23T17:09:11.744Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":601,"timestamp":"2025-06-23T17:09:12.408Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":722,"timestamp":"2025-06-23T17:09:13.131Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":614,"timestamp":"2025-06-23T17:09:13.749Z"}
+{"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":822,"timestamp":"2025-06-23T17:09:14.901Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\wunic\\Desktop\\programacion-obj1\\TPGameIntegrador-code-carry","timeElapsed":384093,"timestamp":"2025-06-23T17:09:58.947Z"}
+{"errors":{"errors":[null,"INSTRUCCIONES\r\n        - ¡Recupera tus Porogalletas!\r\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\r\n        - Cada carta tiene un cooldown y efecto especial.\r\n        - Peleas en 3 niveles contra: \r\n        1. Larva del Vacio \r\n        2. Heraldo de la Grieta \r\n        3. Baron Nashor.\r\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\r\n        - Si pierdes, podes reintentar una vez mas el nivel.\r\n        - Si pierdes tus intentos, vuelves al inicio.\r\n\r\n        "]},"level":"error","message":"✘ Failed to get type description: Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n} {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}","stack":"Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}\n    at pS (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34609)\n    at G1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34682)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37949\n    at o.v1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:57694)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37918\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:55723\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:7948\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:3664\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:5330","timestamp":"2025-06-23T17:10:43.383Z"}
+{"errors":{"errors":[null,"INSTRUCCIONES\r\n        - ¡Recupera tus Porogalletas!\r\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\r\n        - Cada carta tiene un cooldown y efecto especial.\r\n        - Peleas en 3 niveles contra: \r\n        1. Larva del Vacio \r\n        2. Heraldo de la Grieta \r\n        3. Baron Nashor.\r\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\r\n        - Si pierdes, podes reintentar una vez mas el nivel.\r\n        - Si pierdes tus intentos, vuelves al inicio.\r\n\r\n        "]},"level":"error","message":"✘ Failed to get type description: Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n} {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}","stack":"Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}\n    at pS (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34609)\n    at G1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34682)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37949\n    at o.v1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:57694)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37918\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:55723\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:7948\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:3664\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:5330","timestamp":"2025-06-23T17:10:44.935Z"}
+{"errors":{"errors":[null,"INSTRUCCIONES\r\n        - ¡Recupera tus Porogalletas!\r\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\r\n        - Cada carta tiene un cooldown y efecto especial.\r\n        - Peleas en 3 niveles contra: \r\n        1. Larva del Vacio \r\n        2. Heraldo de la Grieta \r\n        3. Baron Nashor.\r\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\r\n        - Si pierdes, podes reintentar una vez mas el nivel.\r\n        - Si pierdes tus intentos, vuelves al inicio.\r\n\r\n        "]},"level":"error","message":"✘ Failed to get type description: Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n} {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}","stack":"Error: {\n  \"errors\": [\n    null,\n    \"INSTRUCCIONES\\r\\n        - ¡Recupera tus Porogalletas!\\r\\n        - El juego es por turnos y se juega con cartas (Q/W/E/R/T)\\r\\n        - Cada carta tiene un cooldown y efecto especial.\\r\\n        - Peleas en 3 niveles contra: \\r\\n        1. Larva del Vacio \\r\\n        2. Heraldo de la Grieta \\r\\n        3. Baron Nashor.\\r\\n        - Si ganas los 3 niveles, recuperas tus Porogalletas.\\r\\n        - Si pierdes, podes reintentar una vez mas el nivel.\\r\\n        - Si pierdes tus intentos, vuelves al inicio.\\r\\n\\r\\n        \"\n  ]\n}\n    at pS (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34609)\n    at G1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:34682)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37949\n    at o.v1 (c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:57694)\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:64:37918\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:57:55723\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:7948\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:38:6131\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:3664\n    at c:\\Users\\wunic\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.2\\out\\server\\src\\server.js:68:5330","timestamp":"2025-06-23T17:10:45.608Z"}

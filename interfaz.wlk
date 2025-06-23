@@ -139,6 +139,18 @@ object turnoDe {
     method textColor() = if (poro.esSuTurno()) paleta.verde() else paleta.rojo()
 }
 
+object estoyLista {
+    var posicion = null
+    method posicion(nueva) { posicion = nueva }
+    method text() = "Estoy lista"
+    method textColor() = paleta.blanco()
+    method position() = game.at(posicion.x()+4, posicion.y()+1)
+    method mostrarYOcultar() {
+        game.addVisual(self)
+        game.schedule(2000, {game.removeVisual(self)})
+    }
+}
+
 object nivelCompletado {
     method text() = "TOQUE ENTER PARA PASAR AL SIGUIENTE NIVEL"
     method position() = game.center()
@@ -257,11 +269,7 @@ object inventarioPrueba {
         game.addVisual(mensajeVolverAlMenu)
         keyboard.enter().onPressDo{menu.mostrarMenu()}
         }
-        
     }
-
-
-
 // ----------FONDOS----------
 
 class Fondo {

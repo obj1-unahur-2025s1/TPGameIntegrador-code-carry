@@ -17,7 +17,15 @@ class Carta {
 
     // ----  COOLDOWNS  ----
     method cooldown() = cooldown
-    method reducirCooldown() {cooldown = (cooldown - 1).max(0)}
+    method reducirCooldown() { 
+        if (cooldown > 0) {
+            cooldown -= 1
+            if (self.cooldown() == 0) {
+            estoyLista.posicion(self.position())
+            game.schedule(1000,{estoyLista.mostrarYOcultar()}) 
+            }
+        }
+    }
     method reiniciarCooldown() { cooldown = 0 }
     method colocarCooldown() { cooldown = cooldownInicial }
     method tieneCooldown() = cooldown > 0
@@ -37,9 +45,9 @@ class Carta {
 
     // ----  SONIDO  ---
     method sonidoEfecto(unSonido){
-    const sonidoEfecto= new Sound(file = unSonido)
-    sonidoEfecto.volume(1)
-    sonidoEfecto.play()
+        const sonidoEfecto= new Sound(file = unSonido)
+        sonidoEfecto.volume(1)
+        sonidoEfecto.play()
   }
 } 
 
@@ -51,7 +59,6 @@ class CartaDanio inherits Carta(esDanio = true) {
             self.sonidoAtaque().play()
             self.colocarCooldown() 
         }
-        
         else {
             self.mensajeCooldown()
         }

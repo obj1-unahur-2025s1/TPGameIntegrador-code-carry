@@ -79,6 +79,7 @@ class Personaje {
     curacionTotal.corroborarCuracion(curazao)
     game.schedule( 1000, { => game.addVisual(curacionTotal) } )
     enemigo.cambiarTurno()
+    poro.reducirCooldowns()
     }
 
   method estaMuerto() = vida == 0
@@ -95,6 +96,7 @@ class Personaje {
       if (cartaAUsar.esDanio()) { cartaAUsar.atacarConCarta(enemigo) }
       else { cartaAUsar.curar(self) }
       self.cambiarTurno()
+      self.reducirCooldowns()
     }
     else-if (!turno) { self.noEsMiTurno() }
     else-if (cartaAUsar.tieneCooldown()) { cartaAUsar.mensajeCooldown() }
@@ -102,7 +104,10 @@ class Personaje {
 
   // COLECCION DE CARTAS
 
-  method reducirCooldowns() { coleccion.forEach{ c=>c.reducirCooldown() } }
+  method reducirCooldowns() { mazo.forEach{ 
+    c=>c.reducirCooldown() 
+      } 
+    }
 
   method llenarMazo(unaCantidad) { coleccion.randomized().forEach{c=> if (mazo.size() < juego.nivel().cantidadDeMazo()) self.agregarAlMazo(c) } } 
 
