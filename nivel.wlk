@@ -12,12 +12,14 @@ class Nivel {
     method iniciar() {
         game.clear() // Limpia el tablero
         game.addVisual(fondoBatalla) // Agrega el fondo de batalla
+        self.campeonesInicialesEnemigo()
         jugador.desasignarCartas() // Desasigna las ubicaciones cartas 
         jugador.limpiarMazo() // Limpia el mazo
         jugador.reiniciarCooldowns() // Reinicia el cooldowns de las cartas
         jugador.maximaVida() // Maxima vida al poro
         enemigo.maximaVida() // Maxima vida al enemigo
         jugador.llenarMazo(cantidadDeMazo) // Llena el mazo segun la cantidad que permita el nivel
+        enemigo.llenarMazo(cantidadDeMazo)
         poro.enemigoNuevo(enemigo) // El poro eligue como target al nuevo enemigo
         self.iniciarJugador() // Hace que el jugador inicie los turnos
         interfaz.mostrarNivel(enemigo) // Añade al enemigo en pantalla
@@ -30,6 +32,18 @@ class Nivel {
         if (!jugador.esSuTurno()){
             jugador.cambiarTurno()
         }
+    }
+
+    method campeonesInicialesEnemigo() {
+        enemigo.agregarALaColeccion(draven)
+        enemigo.agregarALaColeccion(fiora)
+        enemigo.agregarALaColeccion(garen)
+        enemigo.agregarALaColeccion(jhin)
+        enemigo.agregarALaColeccion(karma)
+        enemigo.agregarALaColeccion(morgana)
+        enemigo.agregarALaColeccion(nasus)
+        enemigo.agregarALaColeccion(pyke)
+        enemigo.agregarALaColeccion(soraka)
     }
 }
 

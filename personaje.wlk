@@ -109,7 +109,7 @@ class Personaje {
       } 
     }
 
-  method llenarMazo(unaCantidad) { coleccion.randomized().forEach{c=> if (mazo.size() < juego.nivel().cantidadDeMazo()) self.agregarAlMazo(c) } } 
+  method llenarMazo(unaCantidad) { coleccion.randomized().forEach{c=> if (mazo.size() < unaCantidad) self.agregarAlMazo(c) } } 
 
   method agregarALaColeccion(unaCarta) { if (!coleccion.contains(unaCarta)) coleccion.add(unaCarta) } 
 
@@ -139,7 +139,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
     super(danio)
     if (self.estaMuerto()){
       game.removeVisual(turnoDe)
-      game.removeVisual(cartasInterfaz)
+      game.removeVisual(cartasMazoInGamePoro)
       game.addVisual(enemigoMuerto)
       game.addVisual(nivelCompletado)
       keyboard.enter().onPressDo{juego.subirDeNivel()}
@@ -167,20 +167,20 @@ object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, tur
 // ENEMIGOS
 
 // NIVEL 1
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 750, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
+object vacuolarva inherits PersonajeEnemigo(vidaInicial = 1000, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
   override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
 }
 // NIVEL 2
-object heraldo inherits PersonajeEnemigo(vidaInicial = 1000, ataque = 45, defensa = 30, nombre = "Heraldo") {
+object heraldo inherits PersonajeEnemigo(vidaInicial = 10, ataque = 45, defensa = 30, nombre = "Heraldo") {
   override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AlertaHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
   override method position() = game.at(13,2)
 }
 // NIVEL 3
-object baron inherits PersonajeEnemigo(vidaInicial = 1500, ataque = 60, defensa = 40, nombre = "Baron") {
+object baron inherits PersonajeEnemigo(vidaInicial = 10, ataque = 60, defensa = 40, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
   override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
   method image() = "Baron-normal.png"

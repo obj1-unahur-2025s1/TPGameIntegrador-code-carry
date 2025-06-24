@@ -7,6 +7,7 @@ object juego {
     var nivel = nivelUno // Reconoce el nivel actual
     var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
     method nivel() = nivel // musica de la batalla
+    const property todasLasCartas = [aatrox,ahri,alistar,amumu,ashe,aurelion,blitz,brand,camille,draven,fiora,jhin,garen,pyke,nasus,morgana,soraka,karma]
     //const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
     method iniciar() {
         nivel.iniciar() // inicia el nivel
@@ -53,14 +54,5 @@ object juego {
         poro.agregarALaColeccion(blitz)
         poro.agregarALaColeccion(brand)
         poro.agregarALaColeccion(camille)
-        poro.agregarALaColeccion(draven)
-        poro.agregarALaColeccion(fiora)
-        poro.agregarALaColeccion(garen)
-        poro.agregarALaColeccion(jhin)
-        poro.agregarALaColeccion(karma)
-        poro.agregarALaColeccion(morgana)
-        poro.agregarALaColeccion(nasus)
-        poro.agregarALaColeccion(pyke)
-        poro.agregarALaColeccion(soraka)
     }
 }

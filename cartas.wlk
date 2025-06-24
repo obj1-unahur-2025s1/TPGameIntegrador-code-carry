@@ -42,7 +42,6 @@ class Carta {
         posicion = unaPosicion
         posicionCooldown = unaPosicion
     }
-
     // ----  SONIDO  ---
     method sonidoEfecto(unSonido){
         const sonidoEfecto= new Sound(file = unSonido)

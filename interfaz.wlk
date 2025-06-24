@@ -10,13 +10,14 @@ object interfaz {
         game.addVisual(poro)
         game.addVisual(barraDePoro)
         game.say(poro, "Presiona Q/W/E/R/T para usar cartas")
-        barraDeEnemigo.cambiar(enemigo)
+        barraDeEnemigo.cambiar(enemigo) 
         game.addVisual(enemigo)
         game.addVisual(barraDeEnemigo)
         turnoDe.enemigoActual(enemigo)
         game.addVisual(turnoDe)
         //game.addVisual(boolPrueba) 
-        cartasMazoInGame.mostrar()
+        cartasMazoInGamePoro.mostrar()
+        cartasMazoInGameEnemigo.mostrar(juego.nivel().enemigo())
     }
 }
 
@@ -73,7 +74,7 @@ object instrucciones {
         game.addVisual(fondoInstrucciones)
         game.addVisual(menuInstrucciones)
         game.addVisual(mensajeVolverAlMenu)
-        keyboard.enter().onPressDo{menu.mostrarMenu()}
+        keyboard.enter().onPressDo{menu.iniciar()}
     }
 }
 
@@ -196,18 +197,7 @@ object curacionTotal {
 }
 
 // ----------POSICION DE LAS CARTAS IN GAME----------
-
-object cartasInterfaz { 
-    method mostrarCartas(personaje) { 
-        personaje.mazo().forEach{ c=>
-            game.addVisual(c)
-            game.addVisual(new CooldownInterfaz(carta = c, posicion = c.posicionDelCooldown()))
-            game.addVisual(new Tecla(carta = c))
-        }
-    }
-}
-
-object cartasMazoInGame {
+object cartasMazoInGamePoro {
     method mostrar() {
         var posiMazo = 1
         const x = 1
@@ -238,6 +228,19 @@ object cartasMazoInGame {
     }
 }
 
+object cartasMazoInGameEnemigo {
+    method mostrar(enemigo) {
+        const x = 21
+        var y = 13
+        enemigo.mazo().forEach{ 
+            carta => carta.asignarPosicion(game.at(x,y)) 
+            game.addVisual(carta)
+            game.addVisual(new CooldownInterfaz(carta = carta, posicion = game.at(x,y)))
+            y -= 3
+        }
+    }
+}
+
 class CooldownInterfaz {
     var carta
     var posicion
@@ -258,16 +261,16 @@ class Tecla {
 object inventarioPrueba {
     method mostrarCartas() {
         game.clear()
-        var x = 1
-        var y = 12
-        poro.coleccion().forEach{
+        var x = 1 
+        var y = 12 // y = 8
+        juego.todasLasCartas().forEach{
             carta => carta.posicionEnColeccion(game.at(x,y)) 
             game.addVisual(carta) 
             if (x == 21) { x = 1 y -= 4 } // 1,12 ; 5,12 ; 9,12 ; 13,12 ; 17,12 ; 21,12 
             else { x += 4 }
             }
         game.addVisual(mensajeVolverAlMenu)
-        keyboard.enter().onPressDo{menu.mostrarMenu()}
+        keyboard.enter().onPressDo{menu.iniciar()}
         }
     }
 // ----------FONDOS----------
@@ -348,6 +351,6 @@ object inventario {
         game.addVisual(c)
         }
         game.addVisual(mensajeVolverAlMenu)
-        keyboard.enter().onPressDo{menu.mostrarMenu()}
+        keyboard.enter().onPressDo{menu.iniciar()}
     }
 }

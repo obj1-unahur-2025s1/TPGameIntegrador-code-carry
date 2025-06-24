@@ -4,7 +4,7 @@ import personaje.*
 
 object menu {
     const opciones = [iniciarJuego, irAlInventario, irAInstrucciones, salir] // LISTA DE OPCIONES
-    method mostrarMenu() {
+    method iniciar() {
         game.clear() // LIMPIA EL TABLERO
         poro.coleccion().forEach{c=>c.desasignarPosicion()} // DESASIGNA LAS CARTAS CADA VEZ QUE VUELVE AL MENU DESDE LA COLECCION
         // VISUALES
