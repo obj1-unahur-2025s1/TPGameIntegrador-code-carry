@@ -1,5 +1,0 @@
-import personaje.*
-
-describe "test de pelea" {
-  
-}
