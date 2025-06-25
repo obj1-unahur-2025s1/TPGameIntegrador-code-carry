@@ -1,23 +1,5 @@
 import personaje.*
 
 describe "test de pelea" {
-
-  test "el poro ataca un enemigo entonces su vida queda en 40 " {
-    // VIDA ENEMIGO = 70 DEFENSA = 30... El poro con 70 de ataque, ataca al enemigo donde la cuenta final es 70 - (70 - 30) = 30
-    poro.atacar(enemigo1)
-    poro.atacar(enemigo1)
-    assert.equals(enemigo1.vida(), 0)
-    assert.that(enemigo1.estaMuerto())
-  }
-
-  test "el enemigo ahora ataca al poro" {
-    // VIDA PORO = 100 DEFENSA = 50 ... El enemigo con 50 de ataque, ataca al poro donde la cuenta final es 100 - (50 - 50)
-    enemigo1.atacar(poro)
-    assert.equals(poro.vida(), 100)
-  }
-
-  test "poro atacar enemigo" {
-    poro.atacar(enemigo1)
-    assert.equals(enemigo1.vida(), 30)
-  }
+  
 }

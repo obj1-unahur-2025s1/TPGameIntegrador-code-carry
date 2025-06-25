@@ -20,3 +20,10 @@ object sonidoDeMenu{
     }
   
 }
+
+object sonidoDeHeal {
+    method iniciar() {
+        const sonidoHeal = new Sound(file = "HaelSound.mp3")
+        sonidoHeal.play()
+    }
+}

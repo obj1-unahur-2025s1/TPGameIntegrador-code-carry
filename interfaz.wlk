@@ -29,7 +29,7 @@ object paleta {
     const property rojo = "FF0000"
     const property verde = "00FF00"
     const property amarillo = "FFFF00"
-    const property azul = "0000FF"
+    const property azul = "4290F5"
     const property violeta = "6100FF"
 }
 
@@ -39,7 +39,7 @@ class Opciones {
     var estaSeleccionado
     method text()
     method position()
-    method textColor() = if (self.estaSeleccionado()) paleta.verde() else paleta.blanco() 
+    method textColor() = if (self.estaSeleccionado()) paleta.violeta() else paleta.blanco() 
     method estaSeleccionado() = estaSeleccionado
     method cambiarSeleccion() { 
         sonidoDeMenu.iniciarSonidoMenu()
@@ -144,18 +144,6 @@ object turnoDe {
     method textColor() = if (poro.esSuTurno()) paleta.verde() else paleta.rojo()
 }
 
-object estoyLista {
-    var posicion = null
-    method posicion(nueva) { posicion = nueva }
-    method text() = "Estoy lista"
-    method textColor() = paleta.blanco()
-    method position() = game.at(posicion.x()+4, posicion.y()+1)
-    method mostrarYOcultar() {
-        game.addVisual(self)
-        game.schedule(2000, {game.removeVisual(self)})
-    }
-}
-
 object nivelCompletado {
     method text() = "TOQUE ENTER PARA PASAR AL SIGUIENTE NIVEL"
     method position() = game.center()
@@ -181,7 +169,6 @@ object danioInflijido {
     method textColor() { 
         var color = paleta.rojo()
         if (!especie.esAD()) {
-
             color = paleta.azul()
         }
         return color
@@ -209,7 +196,7 @@ object cartasMazoInGamePoro {
         poro.mazo().forEach{ 
             carta => carta.asignarPosicion(game.at(x,y)) 
             game.addVisual(carta)
-            game.addVisual(new CooldownInterfaz(carta = carta, posicion = game.at(x,y)))
+            game.addVisual(new CooldownInterfaz(carta = carta))
             if (posiMazo == 1) {
                 carta.tecla("Q")
             }
@@ -239,22 +226,21 @@ object cartasMazoInGameEnemigo {
         enemigo.mazo().forEach{ 
             carta => carta.asignarPosicion(game.at(x,y)) 
             game.addVisual(carta)
-            game.addVisual(new CooldownInterfaz(carta = carta, posicion = game.at(x,y)))
+            game.addVisual(new CooldownInterfaz(carta = carta))
             y -= 3
         }
     }
 }
 
 class CooldownInterfaz {
-    var carta
-    var posicion
+    const carta
     method text() = if (carta.cooldown() != 0 ) carta.cooldown().toString() else ""
     method textColor() = paleta.blanco()
     method position() = game.at(carta.position().x()+1, carta.position().y() + 1)
 }
 
 class Tecla {
-    var carta
+    const carta
     method text() = carta.tecla()
     method position() = game.at(carta.position().x()+2, carta.position().y()+2)
     method textColor() = paleta.blanco()

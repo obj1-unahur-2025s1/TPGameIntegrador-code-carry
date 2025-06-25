@@ -2,17 +2,18 @@ import interfaz.*
 import cartas.*
 import juego.*
 import nivel.*
+import sonido.*
 class Personaje {
   const property vidaInicial 
   var vida = vidaInicial
-  var ataque 
-  var defensa
+  const ataque 
+  const defensa
   var turno 
   var enemigo
   const property esAD = true
   const property coleccion = []
   const property mazo = []
- 
+
   method noEsMiTurno() = game.say(self,"No es mi turno")
 
   method position()
@@ -20,7 +21,6 @@ class Personaje {
   method vida() = vida
   method ataque() = ataque
   method defensa() = defensa
-
   method atacar() { 
     if (turno) {
       enemigo.recibirAtaque(self) 
@@ -39,7 +39,7 @@ class Personaje {
     const danioCompleto = if (!especie.esAD()) especie.poderMagico() * 1.3 - defensa else especie.ataque() - defensa * 0.2
     vida = (vida - danioCompleto).max(0).round()
     danioInflijido.posicionEnemigo(self.position())
-    danioInflijido.corroborarDanio(danioCompleto)
+    danioInflijido.corroborarDanio(danioCompleto.round())
     danioInflijido.tipo(especie)
     game.schedule(1000, { => game.addVisual(danioInflijido) })
     self.reducirCooldowns()
@@ -53,15 +53,13 @@ class Personaje {
     if (!turno) {
       self.noEsMiTurno()
     }
-    else-if (vida == vidaInicial) {
-      game.say(self, "Mi vida esta al maximo")
-    }
-    else-if (turno) {
-      const sonidoHeal = new Sound(file = "HaelSound.mp3")
-      const curacion = vidaInicial  *  0.3
-      vida = vidaInicial  *  0.3
+    else {
+      // CUENTA CURACION
+      const curacion = vidaInicial * 0.1 
+      // LO CURA
+      vida = vida + vidaInicial  *  0.1
       game.say(self, "CURACION")
-      sonidoHeal.play()
+      sonidoDeHeal.iniciar()
       curacionTotal.posicionMia(self.position())
       curacionTotal.corroborarCuracion(curacion)
       game.schedule(1000, { => game.addVisual(curacionTotal) })
@@ -104,10 +102,7 @@ class Personaje {
 
   // COLECCION DE CARTAS
 
-  method reducirCooldowns() { mazo.forEach{ 
-    c=>c.reducirCooldown() 
-      } 
-    }
+  method reducirCooldowns() { mazo.forEach{ c=>c.reducirCooldown() } }
 
   method llenarMazo(unaCantidad) { coleccion.randomized().forEach{c=> if (mazo.size() < unaCantidad) self.agregarAlMazo(c) } } 
 
@@ -137,7 +132,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
   method nombre() = nombre
   override method recibirAtaque(danio) {
     super(danio)
-    game.onTick(2700,"Ataque Enemigo",{self.contestar()})
+    game.schedule(2800,{self.contestar()})
     if (self.estaMuerto()){
       game.removeVisual(turnoDe)
       game.removeVisual(cartasMazoInGamePoro)
@@ -156,24 +151,18 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
       self.usarUnaCarta()
       }
     }
-    
   }
 
   method usarUnaCarta() {
-    var indice = 0
-    mazo.forEach{
-        carta => 
-        if (self.puedoUsarLaCarta(carta)){
-            self.usarLaCarta(indice)
-        }
-        else{
-            indice += 1
-        }
+    var indice = 1
+    mazo.forEach{ carta=>
+      if (self.puedoUsarLaCarta(carta) and turno){
+        self.usarLaCarta(indice)    
+      }
+      indice+=1
     }
+  }
 }
-
-}
-
 object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
    
   method image() = "poro-normal.png" 
@@ -188,26 +177,29 @@ object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, tur
       juego.reiniciarPartida()
     }
   }
+
+  override method curarse() {
+    super()
+    game.schedule(2800,{enemigo.contestar()})
+  }
 }
-
-
 // ENEMIGOS
 
 // NIVEL 1
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 300, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
+object vacuolarva inherits PersonajeEnemigo(vidaInicial = 250, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
   override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
 }
 // NIVEL 2
-object heraldo inherits PersonajeEnemigo(vidaInicial = 10, ataque = 45, defensa = 30, nombre = "Heraldo") {
+object heraldo inherits PersonajeEnemigo(vidaInicial = 400, ataque = 45, defensa = 30, nombre = "Heraldo") {
   override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AlertaHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
   override method position() = game.at(13,2)
 }
 // NIVEL 3
-object baron inherits PersonajeEnemigo(vidaInicial = 10, ataque = 60, defensa = 40, nombre = "Baron") {
+object baron inherits PersonajeEnemigo(vidaInicial = 600, ataque = 60, defensa = 40, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
   override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
   method image() = "Baron-normal.png"

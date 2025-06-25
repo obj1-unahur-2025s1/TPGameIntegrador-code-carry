@@ -16,6 +16,7 @@ class Nivel {
         jugador.desasignarCartas() // Desasigna las ubicaciones cartas 
         jugador.limpiarMazo() // Limpia el mazo
         jugador.reiniciarCooldowns() // Reinicia el cooldowns de las cartas
+        enemigo.reiniciarCooldowns()
         jugador.maximaVida() // Maxima vida al poro
         enemigo.maximaVida() // Maxima vida al enemigo
         jugador.llenarMazo(cantidadDeMazo) // Llena el mazo segun la cantidad que permita el nivel
