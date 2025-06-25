@@ -3,6 +3,7 @@ import interfaz.*
 import nivel.*
 import cartas.*
 import sonido.*
+import menu.*
 object juego {
     var nivel = nivelUno // Reconoce el nivel actual
     var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
@@ -22,11 +23,22 @@ object juego {
         self.iniciar()
     }
 
-    method subirDeNivel() {
-        sonidoDeFondo.parar()
-        nivel = nivel.siguiente()
+    method iniciarDe0(){
+        nivel = nivelUno
         enemigo = nivel.enemigo()
         self.iniciar()
+    }
+
+    method subirDeNivel() {
+        nivel = nivel.siguiente()
+        if(nivel == menu) {
+            menu.iniciar()
+        }
+        else {
+            sonidoDeFondo.parar()
+            enemigo = nivel.enemigo()
+            self.iniciar()
+        }
     }
 
     method teclasDeCombate() {

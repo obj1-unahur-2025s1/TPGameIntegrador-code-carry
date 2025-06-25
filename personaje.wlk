@@ -194,7 +194,7 @@ object vacuolarva inherits PersonajeEnemigo(vidaInicial = 250, ataque = 30, defe
 // NIVEL 2
 object heraldo inherits PersonajeEnemigo(vidaInicial = 400, ataque = 45, defensa = 30, nombre = "Heraldo") {
   override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
-  override method sonidoAparicion() = new Sound(file="AlertaHeraldo.mp3") //.volume(1)
+  override method sonidoAparicion() = new Sound(file="AparicionHeraldo.mp3") //.volume(1)
   method image() = "heraldoNuevo-normal.png"
   override method position() = game.at(13,2)
 }

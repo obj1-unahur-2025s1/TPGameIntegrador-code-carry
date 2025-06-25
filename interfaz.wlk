@@ -51,7 +51,7 @@ class Opciones {
 object iniciarJuego inherits Opciones(estaSeleccionado = true){
     override method text() = "NUEVA PARTIDA"
     override method position() = game.at(12,10)
-    override method entrar() { juego.iniciar() }
+    override method entrar() { juego.iniciarDe0() }
 }
 
 object irAlInventario inherits Opciones(estaSeleccionado = false) {
@@ -251,6 +251,7 @@ class Tecla {
 object inventarioPrueba {
     method mostrarCartas() {
         game.clear()
+        game.addVisual(fondoMenu)
         var x = 1 
         var y = 12 // y = 8
         juego.todasLasCartas().forEach{
