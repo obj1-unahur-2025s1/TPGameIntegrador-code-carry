@@ -9,3 +9,14 @@ object sonidoDeFondo {
 
     method parar() { sonido.stop() }
 }
+
+object sonidoDeMenu{
+   
+
+    method iniciarSonidoMenu() {
+        const sonidoMenu = new Sound(file="Menu-Seleccion.mp3")
+        sonidoMenu.volume(1)
+        sonidoMenu.play()
+    }
+  
+}

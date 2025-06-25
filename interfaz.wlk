@@ -2,6 +2,7 @@ import nivel.*
 import personaje.*
 import juego.*
 import menu.*
+import sonido.*
 
 object interfaz {
     method mostrarNivel(enemigo) {
@@ -39,7 +40,10 @@ class Opciones {
     method position()
     method textColor() = if (self.estaSeleccionado()) paleta.verde() else paleta.blanco() 
     method estaSeleccionado() = estaSeleccionado
-    method cambiarSeleccion() { if (estaSeleccionado) estaSeleccionado = false else estaSeleccionado = true }
+    method cambiarSeleccion() { 
+        sonidoDeMenu.iniciarSonidoMenu()
+        if (estaSeleccionado) estaSeleccionado = false 
+        else estaSeleccionado = true }
     method entrar() {}
 }
 

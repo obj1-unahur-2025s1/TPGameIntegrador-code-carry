@@ -1,3 +1,4 @@
+import sonido.*
 import juego.*
 import interfaz.*
 import personaje.*
@@ -37,6 +38,8 @@ object menu {
             salir.cambiarSeleccion() // salir cambia a false
             irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a true
         }
+       
+        
     }
 
     method cambiarOpcionAbajo() {
@@ -50,17 +53,20 @@ object menu {
         }
         else-if (irAInstrucciones.estaSeleccionado()) { // Si instruccion esta en verdadero
             irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a false
-            salir.cambiarSeleccion() // Salir cambia a true
+            salir.cambiarSeleccion() // Salir cambia a true  
         }
         else { // Por descarte salir esta en verdadero
             salir.cambiarSeleccion() // Salir cambia a falso
             iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a true
+            
         }
+        
+       
     }
 
     method teclasDeMenu() {
-        keyboard.up().onPressDo{self.cambiarOpcionArriba()} // AL PRESIONAR {ARRIBA} SELECCIONA LA OPCION SUPERIOR
-        keyboard.down().onPressDo{self.cambiarOpcionAbajo()} // AL PRESIONAR {ABAJO} SELECCIONA LA OPCION INFERIOR
+        keyboard.up().onPressDo{self.cambiarOpcionArriba() } // AL PRESIONAR {ARRIBA} SELECCIONA LA OPCION SUPERIOR
+        keyboard.down().onPressDo{self.cambiarOpcionAbajo() } // AL PRESIONAR {ABAJO} SELECCIONA LA OPCION INFERIOR
     }
 }
 
