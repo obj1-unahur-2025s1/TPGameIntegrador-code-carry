@@ -8,7 +8,7 @@ program PoroVsBaron {
 	game.cellSize(25)
 	game.height(17) // alto
 	game.width(25) // ancho
-	menu.mostrarMenu()
+	menu.iniciar()
 	juego.campeonesInicales()
 	game.start()
 }
