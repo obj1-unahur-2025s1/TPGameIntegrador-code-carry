@@ -50,25 +50,25 @@ class Opciones {
 
 object iniciarJuego inherits Opciones(estaSeleccionado = true){
     override method text() = "NUEVA PARTIDA"
-    override method position() = game.at(12,10)
+    override method position() = game.at(12,9)
     override method entrar() { juego.iniciarDe0() }
 }
 
 object irAlInventario inherits Opciones(estaSeleccionado = false) {
     override method text() = "COLECCION"
-    override method position() = game.at(12,9)
+    override method position() = game.at(12,8)
     override method entrar() { inventarioPrueba.mostrarCartas() } // ESTOY TESTEANDO LA COLECCION
 } 
 
 object irAInstrucciones inherits Opciones(estaSeleccionado = false) {
     override method text() = "INSTRUCCIONES" 
-    override method position() = game.at(12,8)
+    override method position() = game.at(12,7)
     override method entrar() { instrucciones.mostrar() }
 }
 
 object salir inherits Opciones(estaSeleccionado = false){
     override method text() = "SALIR"
-    override method position() = game.at(12,7)
+    override method position() = game.at(12,6)
     override method entrar() { game.stop() }
 }
 
@@ -278,6 +278,9 @@ object fondoBatalla inherits Fondo(imagen = "FondoBatalla.png") {}
 
 object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}
 
+object logoMenu inherits Fondo(imagen = "logo.png") {
+    override method position() = game.at(6,9)
+}
 
 // EL DESASTRE
 object inventario {

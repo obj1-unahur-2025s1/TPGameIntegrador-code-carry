@@ -10,6 +10,7 @@ object menu {
         poro.coleccion().forEach{c=>c.desasignarPosicion()} // DESASIGNA LAS CARTAS CADA VEZ QUE VUELVE AL MENU DESDE LA COLECCION
         // VISUALES
         game.addVisual(fondoMenu) // FONDO DEL MENU
+        game.addVisual(logoMenu)
         game.addVisual(iniciarJuego) // PRIMER OPCION = INICIAR PARTIDA
         game.addVisual(irAlInventario) // SEGUNDA OPCION = COLECCION
         game.addVisual(irAInstrucciones) // TERCERA OPCION = INSTRUCCIONES

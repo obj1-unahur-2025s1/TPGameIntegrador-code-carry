@@ -110,7 +110,7 @@ object aatrox inherits CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 
 
 object alistar inherits CartaAP(nombre = "Alistar", cooldownInicial = 5, poderMagico = 50, habilidad = "null") {
     override method image() = "alistarfinal.png"
-} //curacion y aturdimiento?
+} 
 
 object amumu inherits CartaAD(nombre = "Amumu", cooldownInicial = 3, ataque = 45, habilidad = "null") {
     override method image() = "amumufinal.png"
@@ -122,7 +122,7 @@ object aurelion inherits CartaAP(nombre = "Aurelion", cooldownInicial = 5, poder
 
 object blitz inherits CartaAP(nombre = "Blitz", cooldownInicial = 4, poderMagico = 40, habilidad = "null") {
     override method image() = "blitzfinal.png"
-}// implementar aturdir
+}
 
 object brand inherits CartaAP(nombre = "Brand", cooldownInicial = 5, poderMagico = 35, habilidad = "null") {
     override method image() = "brandfinal.png"
@@ -134,7 +134,7 @@ object camille inherits CartaAD(nombre = "Camille", cooldownInicial = 6, ataque 
 
 object fiora inherits CartaAD(nombre = "Fiora", cooldownInicial = 3, ataque = 35, habilidad = "null") {
     override method image() = "fiorafinal.png"
-} // aplicar armadura y aturdimiento
+} 
 
 object ashe inherits CartaAD(nombre = "Ashe", cooldownInicial = 4, ataque = 70, habilidad = "null") {
     override method image() = "ashefinal.png"
@@ -142,11 +142,11 @@ object ashe inherits CartaAD(nombre = "Ashe", cooldownInicial = 4, ataque = 70, 
 
 object jhin inherits CartaAD(nombre = "Jhin", cooldownInicial = 4, ataque = 74, habilidad = "null") {
     override method image() = "jhinfinal.png"
-} //aturdir?
+} 
 
 object karma inherits CartaAP(nombre = "Karma", cooldownInicial = 4, poderMagico = 75, habilidad = "null") {
     override method image() = "karmafinal.png"
-} //potenciar?
+} 
 
 object morgana inherits CartaAP(nombre = "Morgana", cooldownInicial = 5, poderMagico = 80, habilidad = "null") {
     override method image() = "morganafinal.png"
@@ -154,8 +154,8 @@ object morgana inherits CartaAP(nombre = "Morgana", cooldownInicial = 5, poderMa
 
 object nasus inherits CartaAD(nombre = "Nasus", cooldownInicial = 3, ataque = 70, habilidad = "null") {
     override method image() = "nasusfinal.png"
-} //aniquilar?
+} 
 
 object pyke inherits CartaAD(nombre = "Pyke", cooldownInicial = 10, ataque = 75, habilidad = "null") {
     override method image() = "pykefinal.png"
-} //curacion
+} 
