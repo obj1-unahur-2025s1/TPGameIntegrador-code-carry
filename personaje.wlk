@@ -199,7 +199,7 @@ object heraldo inherits PersonajeEnemigo(vidaInicial = 400, ataque = 45, defensa
   override method position() = game.at(13,2)
 }
 // NIVEL 3
-object baron inherits PersonajeEnemigo(vidaInicial = 600, ataque = 60, defensa = 40, nombre = "Baron") {
+object baron inherits PersonajeEnemigo(vidaInicial = 500, ataque = 60, defensa = 40, nombre = "Baron") {
   override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
   override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
   method image() = "Baron-normal.png"

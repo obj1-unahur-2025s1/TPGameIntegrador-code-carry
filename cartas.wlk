@@ -108,19 +108,19 @@ object aatrox inherits CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 
     override method image() = "aatroxfinal.png"
 }
 
-object alistar inherits CartaAP(nombre = "Alistar", cooldownInicial = 5, poderMagico = 50, habilidad = "null") {
+object alistar inherits CartaAP(nombre = "Alistar", cooldownInicial = 5, poderMagico = 70, habilidad = "null") {
     override method image() = "alistarfinal.png"
 } 
 
-object amumu inherits CartaAD(nombre = "Amumu", cooldownInicial = 3, ataque = 45, habilidad = "null") {
+object amumu inherits CartaAD(nombre = "Amumu", cooldownInicial = 3, ataque = 75, habilidad = "null") {
     override method image() = "amumufinal.png"
 }
 
-object aurelion inherits CartaAP(nombre = "Aurelion", cooldownInicial = 5, poderMagico = 45, habilidad = "null") {
+object aurelion inherits CartaAP(nombre = "Aurelion", cooldownInicial = 5, poderMagico = 75, habilidad = "null") {
     override method image() = "aurelionfinal.png"
 } 
 
-object blitz inherits CartaAP(nombre = "Blitz", cooldownInicial = 4, poderMagico = 40, habilidad = "null") {
+object blitz inherits CartaAP(nombre = "Blitz", cooldownInicial = 4, poderMagico = 80, habilidad = "null") {
     override method image() = "blitzfinal.png"
 }
 

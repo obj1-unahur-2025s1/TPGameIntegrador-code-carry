@@ -707,3 +707,42 @@
 {"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":362,"timestamp":"2025-06-25T11:34:29.106Z"}
 {"level":"info","message":"⌛ Validating interfaz.wlk","timeElapsed":350,"timestamp":"2025-06-25T11:34:29.463Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry","timeElapsed":86494,"timestamp":"2025-06-25T11:34:31.272Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":3218,"timestamp":"2025-06-25T11:34:42.032Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry","timeElapsed":712443,"timestamp":"2025-06-25T11:46:31.261Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2155,"timestamp":"2025-06-25T11:46:41.082Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":503,"timestamp":"2025-06-25T11:54:50.734Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":453,"timestamp":"2025-06-25T11:54:51.351Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":540,"timestamp":"2025-06-25T11:54:51.915Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":364,"timestamp":"2025-06-25T11:54:52.428Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":482,"timestamp":"2025-06-25T11:54:55.988Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":394,"timestamp":"2025-06-25T11:54:56.454Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":366,"timestamp":"2025-06-25T11:54:56.821Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":465,"timestamp":"2025-06-25T11:54:57.502Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":450,"timestamp":"2025-06-25T11:55:02.510Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":446,"timestamp":"2025-06-25T11:55:03.033Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":466,"timestamp":"2025-06-25T11:55:03.582Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":513,"timestamp":"2025-06-25T11:55:04.282Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":331,"timestamp":"2025-06-25T11:55:05.433Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":369,"timestamp":"2025-06-25T11:55:05.970Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":357,"timestamp":"2025-06-25T11:55:06.653Z"}
+{"level":"info","message":"⌛ Validating cartas.wlk","timeElapsed":343,"timestamp":"2025-06-25T11:55:07.095Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1084,"timestamp":"2025-06-25T11:55:32.233Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":611,"timestamp":"2025-06-25T11:55:33.013Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":758,"timestamp":"2025-06-25T11:55:47.233Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":353,"timestamp":"2025-06-25T11:55:47.679Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":417,"timestamp":"2025-06-25T11:55:48.165Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":398,"timestamp":"2025-06-25T11:55:48.626Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":441,"timestamp":"2025-06-25T11:55:51.083Z"}
+{"level":"info","message":"⌛ Validating porovsbaron.wpgm","timeElapsed":743,"timestamp":"2025-06-25T11:55:51.966Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry","timeElapsed":554288,"timestamp":"2025-06-25T11:55:53.211Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2026,"timestamp":"2025-06-25T11:56:01.899Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry","timeElapsed":362740,"timestamp":"2025-06-25T12:02:02.623Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2673,"timestamp":"2025-06-25T12:02:21.931Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed porovsbaron.PoroVsBaron on c:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry","timeElapsed":251020,"timestamp":"2025-06-25T12:06:30.321Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mporovsbaron.PoroVsBaron\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\leone\\Desktop\\Nueva carpeta (2)\\TPGameIntegrador-code-carry\u001b[39m\u001b[23m","ok":true,"timeElapsed":2465,"timestamp":"2025-06-25T12:06:49.070Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":981,"timestamp":"2025-06-25T12:14:32.063Z"}
+{"level":"info","message":"⌛ Validating personaje.wlk","timeElapsed":611,"timestamp":"2025-06-25T12:14:32.773Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":685,"timestamp":"2025-06-25T12:18:48.504Z"}
+{"level":"info","message":"⌛ Validating juego.wlk","timeElapsed":661,"timestamp":"2025-06-25T12:18:49.524Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1674,"timestamp":"2025-06-25T12:20:01.595Z"}
+{"level":"info","message":"⌛ Validating mazo.wlk","timeElapsed":868,"timestamp":"2025-06-25T12:20:02.761Z"}
