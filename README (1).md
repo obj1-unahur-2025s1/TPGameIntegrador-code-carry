@@ -1,4 +1,4 @@
-# Nombre del juego (<- borrar y completar)
+# Poro VS Vacio
 
 ## Equipo de desarrollo
 
@@ -6,23 +6,24 @@
 - Leonela Chazarreta
 - Cristian Ramirez
 
-## Capturas
+## Capturas!
+
+[image (1)](https://github.com/user-attachments/assets/a2aef5de-4709-4534-9323-a7e7640252a5)
+
 
 
 
 ## Reglas de Juego / Instrucciones
-
-INSTRUCCIONES
-
-El juego es por turnos y se juega con cartas (Q/W/E/R/T)
-Cada carta tiene un cooldown y efecto especial.
-Peleas en 3 niveles contra: 
-    Larva del Vacio 
-    Heraldo de la Grieta 
-    Baron Nashor.
-Si ganas los 3 niveles, recuperas tus Porogalletas.
-Si pierdes, podes reintentar una vez mas el nivel.
-Si pierdes tus intentos, vuelves al inicio.
+Ayuda al Poro a recuperar sus PoroGalletas!!
+- El juego es por turnos y se juega con cartas (Q/W/E/R/T)
+- Cada carta tiene un cooldown y aplica X cantidad de daño.
+- Peleas en 3 niveles contra: 
+    - Larva del Vacio 
+    - Heraldo de la Grieta 
+    - Baron Nashor.
+- Si ganas los 3 niveles, el Poro recupera sus Porogalletas!
+- Si pierdes, podes reintentar una vez mas el nivel.
+- Si pierdes tus intentos, vuelves al inicio.
 
 
 ## Otros
