@@ -34,4 +34,4 @@ Ayuda al Poro a recuperar sus PoroGalletas!!
 ## Otros
 
 - Comision 4 / Universidad Nacional de Hurlingham
-- Una vez terminado, no tenemos problemas en que el repositorio sea público / queremos manternerlo privado
+- Una vez terminado, no tenemos problemas en que el repositorio sea público 
