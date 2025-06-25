@@ -58,8 +58,8 @@ class Personaje {
     }
     else-if (turno) {
       const sonidoHeal = new Sound(file = "HaelSound.mp3")
-      const curacion = vidaInicial - vida
-      vida = vidaInicial 
+      const curacion = vidaInicial  *  0.3
+      vida = vidaInicial  *  0.3
       game.say(self, "CURACION")
       sonidoHeal.play()
       curacionTotal.posicionMia(self.position())
@@ -137,6 +137,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
   method nombre() = nombre
   override method recibirAtaque(danio) {
     super(danio)
+    game.onTick(2700,"Ataque Enemigo",{self.contestar()})
     if (self.estaMuerto()){
       game.removeVisual(turnoDe)
       game.removeVisual(cartasMazoInGamePoro)
@@ -145,6 +146,32 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
       keyboard.enter().onPressDo{juego.subirDeNivel()}
     }
   }
+
+  method contestar(){
+    if(turno){
+      if (vidaInicial * 0.10 > vida){
+      self.curarse()
+      }
+      else{
+      self.usarUnaCarta()
+      }
+    }
+    
+  }
+
+  method usarUnaCarta() {
+    var indice = 0
+    mazo.forEach{
+        carta => 
+        if (self.puedoUsarLaCarta(carta)){
+            self.usarLaCarta(indice)
+        }
+        else{
+            indice += 1
+        }
+    }
+}
+
 }
 
 object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
@@ -167,7 +194,7 @@ object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, tur
 // ENEMIGOS
 
 // NIVEL 1
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 1000, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
+object vacuolarva inherits PersonajeEnemigo(vidaInicial = 300, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
   override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
   override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
   method image() = "larva-normal.png"
