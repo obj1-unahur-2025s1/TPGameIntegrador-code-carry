@@ -3,6 +3,7 @@ import personaje.*
 import juego.*
 import menu.*
 import sonido.*
+import modelos.*
 
 object interfaz {
     method mostrarNivel(enemigo) {
@@ -280,71 +281,4 @@ object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}
 
 object logoMenu inherits Fondo(imagen = "logo.png") {
     override method position() = game.at(6,9)
-}
-
-// EL DESASTRE
-object inventario {
-    method mostrarCartas() {
-        game.clear()
-        poro.coleccion().forEach{ c=>  // POR CADA CARTA DE LA COLECCION
-        if (poro.coleccion().get(0) == c) { // 1
-            c.posicionEnColeccion(game.at(1,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(1) == c) { // 2
-            c.posicionEnColeccion(game.at(5,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(2) == c) { // 3
-            c.posicionEnColeccion(game.at(9,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(3) == c) { // 4
-            c.posicionEnColeccion(game.at(13,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(4) == c) { // 5
-            c.posicionEnColeccion(game.at(17,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(5) == c) { // 6
-            c.posicionEnColeccion(game.at(21,12)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(6) == c) { // 7
-            c.posicionEnColeccion(game.at(1,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(7) == c) { // 8
-            c.posicionEnColeccion(game.at(5,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(8) == c) { // 9
-            c.posicionEnColeccion(game.at(9,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(9) == c) { // 10
-            c.posicionEnColeccion(game.at(13,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(10) == c) { // 11
-            c.posicionEnColeccion(game.at(17,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(11) == c) { // 12
-            c.posicionEnColeccion(game.at(21,8)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(12) == c) { // 13
-            c.posicionEnColeccion(game.at(1,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(13) == c) { // 14
-            c.posicionEnColeccion(game.at(5,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(14) == c) { // 15
-            c.posicionEnColeccion(game.at(9,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(15) == c) { // 16
-            c.posicionEnColeccion(game.at(13,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(16) == c) { // 17
-            c.posicionEnColeccion(game.at(17,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-        if (poro.coleccion().get(17) == c) { // 18
-            c.posicionEnColeccion(game.at(21,4)) // LE SETEO LA POSICION A LA CARTA
-        }
-
-        game.addVisual(c)
-        }
-        game.addVisual(mensajeVolverAlMenu)
-        keyboard.enter().onPressDo{menu.iniciar()}
-    }
 }

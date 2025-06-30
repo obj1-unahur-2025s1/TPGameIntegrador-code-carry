@@ -4,6 +4,7 @@ import nivel.*
 import cartas.*
 import sonido.*
 import menu.*
+import modelos.*
 object juego {
     var nivel = nivelUno // Reconoce el nivel actual
     var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
@@ -49,7 +50,7 @@ object juego {
         keyboard.v().onPressDo{enemigo.curarse()}
 
         //CARTAS
-        keyboard.q().onPressDo{poro.usarLaCarta(1)}
+        keyboard.q().onPressDo{poro.usarLaCarta(poro.mazo().first())}
         keyboard.w().onPressDo{poro.usarLaCarta(2)}
         keyboard.e().onPressDo{poro.usarLaCarta(3)}
         keyboard.r().onPressDo{poro.usarLaCarta(4)}

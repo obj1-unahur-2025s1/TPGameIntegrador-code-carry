@@ -2,7 +2,7 @@ import menu.*
 import personaje.*
 import interfaz.*
 import juego.*
-import cartas.*
+import modelos.*
 
 class Nivel {
     const jugador = poro // Poro

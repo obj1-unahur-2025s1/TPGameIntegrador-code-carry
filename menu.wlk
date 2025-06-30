@@ -2,6 +2,7 @@ import sonido.*
 import juego.*
 import interfaz.*
 import personaje.*
+import modelos.*
 
 object menu {
     const opciones = [iniciarJuego, irAlInventario, irAInstrucciones, salir] // LISTA DE OPCIONES

@@ -3,20 +3,25 @@ import cartas.*
 import juego.*
 import nivel.*
 import sonido.*
+import modelos.*
+
 class Personaje {
-  const property vidaInicial 
-  var vida = vidaInicial
+  const vidaInicial 
   const ataque 
   const defensa
+  const sonidoAtaque
+  const imagen 
+  const posicion
   var turno 
   var enemigo
-  const property esAD = true
+
+  var vida = vidaInicial
   const property coleccion = []
   const property mazo = []
 
   method noEsMiTurno() = game.say(self,"No es mi turno")
 
-  method position()
+  method position() = posicion
 
   method vida() = vida
   method ataque() = ataque
@@ -88,16 +93,14 @@ class Personaje {
 
   method maximaVida() { vida = vidaInicial }
 
-  method usarLaCarta(numero) { 
-    const cartaAUsar = mazo.get(numero - 1)
-    if (turno and self.puedoUsarLaCarta(cartaAUsar)) {
-      if (cartaAUsar.esDanio()) { cartaAUsar.atacarConCarta(enemigo) }
-      else { cartaAUsar.curar(self) }
+  method usarLaCarta(carta) { 
+    if (turno and self.puedoUsarLaCarta(carta)) {
+      carta.usar(self)
       self.cambiarTurno()
       self.reducirCooldowns()
     }
     else-if (!turno) { self.noEsMiTurno() }
-    else-if (cartaAUsar.tieneCooldown()) { cartaAUsar.mensajeCooldown() }
+    else-if (carta.tieneCooldown()) { carta.mensajeCooldown() }
   }
 
   // COLECCION DE CARTAS
@@ -120,16 +123,15 @@ class Personaje {
 
   // ----  SONIDO  ----
 
-  method sonidoAtaque()
+  method sonidoAtaque() = sonidoAtaque
+  method image() = imagen
+  method enemigo() = enemigo
 }
 
 class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
-  const nombre
-  override method position() = game.at(15,2)
-
-  method sonidoAparicion()
+  const property nombre
+  const property sonidoAparicion
   
-  method nombre() = nombre
   override method recibirAtaque(danio) {
     super(danio)
     game.schedule(2800,{self.contestar()})
@@ -144,30 +146,24 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
 
   method contestar(){
     if(turno){
-      if (vidaInicial * 0.10 > vida){
-      self.curarse()
-      }
-      else{
-      self.usarUnaCarta()
-      }
+      if (vidaInicial * 0.10 > vida) self.curarse()
+      else self.usarUnaCarta()
     }
   }
 
-  method usarUnaCarta() {
-    var indice = 1
-    mazo.forEach{ carta=>
-      if (self.puedoUsarLaCarta(carta) and turno){
-        self.usarLaCarta(indice)    
-      }
-      indice+=1
-    }
-  }
+  method usarUnaCarta() { mazo.forEach{ carta=> self.usarLaCarta(carta)} }
 }
-object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, turno = true, enemigo = juego.nivel().enemigo()) {
-   
-  method image() = "poro-normal.png" 
-  override method sonidoAtaque()= new Sound(file="BolaDeNieve.mp3") //.volume(1)
-  override method position() = game.at(6,2)
+
+class PersonajePrincipal inherits Personaje(
+    vidaInicial = 750, 
+    ataque = 25, 
+    defensa = 25, 
+    turno = true, 
+    sonidoAtaque = sonidoAtaquePoro,
+    imagen = "poro-normal.png",
+    enemigo = juego.nivel().enemigo(),
+    posicion = game.at(6,2)
+    ) {
 
   method enemigoNuevo(nuevo) { enemigo = nuevo }
   
@@ -183,24 +179,5 @@ object poro inherits Personaje(vidaInicial = 750, ataque = 25, defensa = 25, tur
     game.schedule(2800,{enemigo.contestar()})
   }
 }
-// ENEMIGOS
 
-// NIVEL 1
-object vacuolarva inherits PersonajeEnemigo(vidaInicial = 250, ataque = 30, defensa = 15, nombre = "Vacuolarva") {
-  override method sonidoAtaque() = new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
-  override method sonidoAparicion() = new Sound(file="AparicionLarva.mp3") //.volume(0.05)
-  method image() = "larva-normal.png"
-}
-// NIVEL 2
-object heraldo inherits PersonajeEnemigo(vidaInicial = 400, ataque = 45, defensa = 30, nombre = "Heraldo") {
-  override method sonidoAtaque()= new Sound(file="AtaqueLarva.mp3") //.volume(0.5)
-  override method sonidoAparicion() = new Sound(file="AparicionHeraldo.mp3") //.volume(1)
-  method image() = "heraldoNuevo-normal.png"
-  override method position() = game.at(13,2)
-}
-// NIVEL 3
-object baron inherits PersonajeEnemigo(vidaInicial = 500, ataque = 60, defensa = 40, nombre = "Baron") {
-  override method sonidoAtaque() = new Sound(file ="AtaqueLarva.mp3")
-  override method sonidoAparicion() = new Sound(file = "AlertaBaron.mp3")
-  method image() = "Baron-normal.png"
-}
+
