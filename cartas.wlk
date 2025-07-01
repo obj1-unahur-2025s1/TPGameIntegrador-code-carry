@@ -9,6 +9,7 @@ class Carta {
     const property sonido
     const imagen
 
+    var indice = null
     var posicion = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
     var posicionCooldown = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
     var property tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
@@ -33,11 +34,13 @@ class Carta {
         posicion = null
         tecla = null
         posicionCooldown = null
+        indice = null
     }
 
-    method asignarPosicion(unaPosicion) {
+    method asignarPosicion(unaPosicion,indiceNuevo) {
         posicion = unaPosicion
         posicionCooldown = unaPosicion
+        indice = indiceNuevo
     }
 
     // ----  SONIDO  ---
@@ -50,16 +53,7 @@ class Carta {
 } 
 
 class CartaDanio inherits Carta {
-    override method usar(target) {
-        if (cooldown == 0) {
-            target.enemigo().recibirAtaque(self)
-            sonido.play()
-            self.colocarCooldown() 
-        }
-        else {
-            self.mensajeCooldown()
-        }
-    }
+    
 }
 
 class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
@@ -75,6 +69,30 @@ class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
     }
 }
 
-class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) { const property ataque }
+class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) { 
+    const property ataque 
+    override method usar(target) {
+        if (cooldown == 0) {
+            target.enemigo().recibirAtaque(ataque)
+            //sonidoCartaDanio.play()
+            self.colocarCooldown() 
+        }
+        else {
+            self.mensajeCooldown()
+        }
+    }
+}
 
-class CartaAP inherits CartaDanio(sonido = sonidoCartaMagia) { const property poderMagico }
+class CartaAP inherits CartaDanio(sonido = sonidoCartaMagia) { 
+    const property poderMagico 
+    override method usar(target) {
+        if (cooldown == 0) {
+            target.enemigo().recibirAtaque(poderMagico * 1.3)
+            //sonidoCartaMagia.play()
+            self.colocarCooldown() 
+        }
+        else {
+            self.mensajeCooldown()
+        }
+    }
+    }

@@ -167,13 +167,7 @@ object danioInflijido {
     method posicionEnemigo(nueva) { posicion = nueva }
     method corroborarDanio(danio) { danioInflijido = danio }
     method text() = "-" + danioInflijido.toString()
-    method textColor() { 
-        var color = paleta.rojo()
-        if (!especie.esAD()) {
-            color = paleta.azul()
-        }
-        return color
-        }
+    method textColor() =paleta.rojo()
      
     method position() = game.at(posicion.x()+3, posicion.y() +3)
 }
@@ -195,23 +189,28 @@ object cartasMazoInGamePoro {
         const x = 1
         var y = 13
         poro.mazo().forEach{ 
-            carta => carta.asignarPosicion(game.at(x,y)) 
+            carta => carta.asignarPosicion(game.at(x,y),posiMazo) 
             game.addVisual(carta)
             game.addVisual(new CooldownInterfaz(carta = carta))
             if (posiMazo == 1) {
                 carta.tecla("Q")
+                keyboard.q().onPressDo{poro.usarLaCarta(carta)}
             }
             if (posiMazo == 2){
                 carta.tecla("W")
+                keyboard.w().onPressDo{poro.usarLaCarta(carta)}
             }
             if (posiMazo == 3){
                 carta.tecla("E")
+                keyboard.e().onPressDo{poro.usarLaCarta(carta)}
             }
             if (posiMazo == 4){
                 carta.tecla("R")
+                keyboard.r().onPressDo{poro.usarLaCarta(carta)}
             }
             if (posiMazo == 5) {
                 carta.tecla("T")
+                keyboard.t().onPressDo{poro.usarLaCarta(carta)}
             }
             game.addVisual(new Tecla(carta = carta))
             y -= 3
@@ -225,7 +224,7 @@ object cartasMazoInGameEnemigo {
         const x = 21
         var y = 13
         enemigo.mazo().forEach{ 
-            carta => carta.asignarPosicion(game.at(x,y)) 
+            carta => carta.asignarPosicion(game.at(x,y),0) 
             game.addVisual(carta)
             game.addVisual(new CooldownInterfaz(carta = carta))
             y -= 3

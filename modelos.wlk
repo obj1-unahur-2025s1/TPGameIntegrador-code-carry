@@ -61,7 +61,7 @@ const blitz = new CartaAP(nombre = "Blitzcranck", cooldownInicial = 5, poderMagi
 
 const brand = new CartaAP(nombre = "Brand", cooldownInicial = 5, poderMagico = 85, imagen = "brandfinal.png")
 
-const camille = new CartaAD(nombre = "Camille", cooldownInicial = 6, ataque = 65, imagen = "camilleFinal.png")
+const camille = new CartaAD(nombre = "Camille", cooldownInicial = 6, ataque = 65, imagen = "camillefinal.png")
 
 const fiora = new CartaAD(nombre = "Fiora", cooldownInicial = 7, ataque = 75, imagen = "fiorafinal.png")
 

@@ -28,7 +28,7 @@ class Personaje {
   method defensa() = defensa
   method atacar() { 
     if (turno) {
-      enemigo.recibirAtaque(self) 
+      enemigo.recibirAtaque(ataque) 
       self.cambiarTurno() 
       self.sonidoAtaque().play()
       }
@@ -37,15 +37,14 @@ class Personaje {
     }
   }
 
-  method recibirAtaque(especie) { 
+  method recibirAtaque(danio) { 
     game.removeVisual(danioInflijido)
     game.removeVisual(curacionTotal)
     self.cambiarTurno()
-    const danioCompleto = if (!especie.esAD()) especie.poderMagico() * 1.3 - defensa else especie.ataque() - defensa * 0.2
-    vida = (vida - danioCompleto).max(0).round()
+    const totalInflijido = vidaInicial - ((vida - (danio - defensa * 0.3))).max(0) // 70 - ()
+    vida -= totalInflijido.round()
     danioInflijido.posicionEnemigo(self.position())
-    danioInflijido.corroborarDanio(danioCompleto.round())
-    danioInflijido.tipo(especie)
+    danioInflijido.corroborarDanio(totalInflijido.round())
     game.schedule(1000, { => game.addVisual(danioInflijido) })
     self.reducirCooldowns()
   }
@@ -151,7 +150,7 @@ class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
     }
   }
 
-  method usarUnaCarta() { mazo.forEach{ carta=> self.usarLaCarta(carta)} }
+  method usarUnaCarta() { mazo.randomized().forEach{carta=>  if (self.esSuTurno() && self.puedoUsarLaCarta(carta)) self.usarLaCarta(carta)} }
 }
 
 class PersonajePrincipal inherits Personaje(
