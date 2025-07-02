@@ -11,6 +11,7 @@ object juego {
     method nivel() = nivel // musica de la batalla
     const property todasLasCartas = [aatrox,ahri,alistar,amumu,ashe,aurelion,blitz,brand,camille,draven,fiora,jhin,garen,pyke,nasus,morgana,soraka,karma]
     method iniciar() {
+        enemigo = nivel.enemigo()
         nivel.iniciar() // inicia el nivel
         enemigo.sonidoAparicion().iniciar()
         sonidoDeFondo.iniciar() // inicia la musica de batalla
@@ -30,13 +31,7 @@ object juego {
 
     method subirDeNivel() {
         nivel = nivel.siguiente()
-        if(nivel == menu) {
-            menu.iniciar()
-        }
-        else {
-            enemigo = nivel.enemigo()
-            self.iniciar()
-        }
+        nivel.iniciar()
     }
 
     method teclasDeCombate() {

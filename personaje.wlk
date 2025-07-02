@@ -102,18 +102,15 @@ class Personaje {
 
   method maximaVida() { vida = vidaInicial }
 
-  method usarLaCarta(carta) { 
+method usarLaCarta(carta) { 
     if (turno and self.puedoUsarLaCarta(carta)) {
       carta.usar(self)
       self.cambiarTurno()
       self.reducirCooldowns()
-      estado = "-ataque"
-      game.schedule(700, { estado = "-normal"})
     }
     else-if (!turno) { self.noEsMiTurno() }
-    else-if (carta.tieneCooldown()) { carta.mensajeCooldown() }
-  }
-
+    else-if (carta.tieneCooldown()) { carta.mensajeCooldown() }
+  }
   // COLECCION DE CARTAS
 
   method reducirCooldowns() { mazo.forEach{ c=>c.reducirCooldown() } }

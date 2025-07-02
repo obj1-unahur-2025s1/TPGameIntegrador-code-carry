@@ -159,9 +159,9 @@ object enemigoMuerto {
 // ----------MOSTRAR DAMAGE O HEALTH----------
 
 object danioInflijido {
-    var danioInflijido = null
-    var posicion = null
-    var especie = null
+    var danioInflijido = 0
+    var posicion = game.at(0,0)
+    var especie = poro
     method tipo(nuevo) { especie = nuevo }
     method posicionEnemigo(nueva) { posicion = nueva }
     method corroborarDanio(danio) { danioInflijido = danio }
@@ -172,8 +172,8 @@ object danioInflijido {
 }
 
 object curacionTotal {
-    var curacionRecibida = null
-    var posicion = null
+    var curacionRecibida = 0
+    var posicion = game.at(0,0)
     method posicionMia(nueva) { posicion = nueva }
     method corroborarCuracion(curazao) { curacionRecibida = curazao }
     method text() = "+"+ curacionRecibida.toString()
@@ -187,10 +187,12 @@ object cartasMazoInGamePoro {
         var posiMazo = 1
         const x = 1
         var y = 13
+        //const teclas = ["Q","W","E","R","T"]
         poro.mazo().forEach{ 
             carta => carta.asignarPosicion(game.at(x,y),posiMazo) 
             game.addVisual(carta)
             game.addVisual(new CooldownInterfaz(carta = carta))
+            //carta.tecla(teclas.take(posiMazo).last())
             if (posiMazo == 1) {
                 carta.tecla("Q")
                 keyboard.q().onPressDo{poro.usarLaCarta(carta)}

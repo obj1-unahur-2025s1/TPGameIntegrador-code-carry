@@ -8,7 +8,7 @@ const poro = new PersonajePrincipal(nombre = "Poro")
 
 //ENEMIGOS
 const vacuolarva = new PersonajeEnemigo (
-  vidaInicial = 250, 
+  vidaInicial = 250, //250
   ataque = 30, 
   defensa = 15, 
   nombre = "Vacuolarva",
@@ -18,7 +18,7 @@ const vacuolarva = new PersonajeEnemigo (
 )
 
 const heraldo = new PersonajeEnemigo (
-  vidaInicial = 400,
+  vidaInicial = 400, //400
   ataque = 45,
   defensa = 30,
   nombre = "Heraldo",
@@ -28,7 +28,7 @@ const heraldo = new PersonajeEnemigo (
 )
 
 const baron = new PersonajeEnemigo (
-  vidaInicial = 500,
+  vidaInicial = 500, //500
   ataque = 60,
   defensa = 40,
   nombre = "Baron",
