@@ -36,10 +36,10 @@ object paleta {
 
 // ----------MENU----------
 
-class Opciones {
+class Opcion {
     var estaSeleccionado
-    method text()
-    method position()
+    method text() 
+    method position() 
     method textColor() = if (self.estaSeleccionado()) paleta.violeta() else paleta.blanco() 
     method estaSeleccionado() = estaSeleccionado
     method cambiarSeleccion() { 
@@ -49,28 +49,33 @@ class Opciones {
     method entrar() {}
 }
 
-object iniciarJuego inherits Opciones(estaSeleccionado = true){
+object iniciarJuego inherits Opcion(estaSeleccionado = true){
     override method text() = "NUEVA PARTIDA"
     override method position() = game.at(12,9)
     override method entrar() { juego.iniciarDe0() }
 }
 
-object irAlInventario inherits Opciones(estaSeleccionado = false) {
+object irAlInventario inherits Opcion(estaSeleccionado = false) {
     override method text() = "COLECCION"
     override method position() = game.at(12,8)
     override method entrar() { inventarioPrueba.mostrarCartas() } // ESTOY TESTEANDO LA COLECCION
 } 
 
-object irAInstrucciones inherits Opciones(estaSeleccionado = false) {
+object irAInstrucciones inherits Opcion(estaSeleccionado = false) {
     override method text() = "INSTRUCCIONES" 
     override method position() = game.at(12,7)
     override method entrar() { instrucciones.mostrar() }
 }
 
-object salir inherits Opciones(estaSeleccionado = false){
+object salir inherits Opcion(estaSeleccionado = false){
     override method text() = "SALIR"
     override method position() = game.at(12,6)
     override method entrar() { game.stop() }
+}
+
+object mensajeVolverAlMenu inherits Opcion(estaSeleccionado = false) {
+    override method position() = game.at(12,1)
+    override method text() = "Presione ENTER para volver al menu"
 }
 
 object instrucciones {
@@ -81,11 +86,6 @@ object instrucciones {
         game.addVisual(mensajeVolverAlMenu)
         keyboard.enter().onPressDo{menu.iniciar()}
     }
-}
-
-object mensajeVolverAlMenu inherits Opciones(estaSeleccionado = false) {
-    override method position() = game.at(12,1)
-    override method text() = "Presione ENTER para volver al menu"
 }
 
 object menuInstrucciones {
@@ -118,18 +118,17 @@ object boolPrueba {
 class BarraDeVida {
     var personaje
     const posicion
+    const color 
     method text() = "VIDA:" + personaje.vida().toString()
-    method textColor() = if (personaje.vida() == 0) paleta.rojo() else paleta.blanco()
+    method textColor() = if (personaje.vida() == 0) paleta.rojo() else color
     method position() = posicion
 
     method cambiar(nuevo) { personaje = nuevo }
 }
 
-object barraDePoro inherits BarraDeVida(personaje = poro, posicion = game.at(7,1)) {}
+const barraDePoro = new BarraDeVida(personaje = poro, posicion = game.at(7,1), color = paleta.blanco()) 
 
-object barraDeEnemigo inherits BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1)) {
-    override method textColor() = if (personaje.vida() == 0) paleta.rojo() else paleta.violeta()
-}
+const barraDeEnemigo = new BarraDeVida(personaje = juego.nivel().enemigo(), posicion = game.at(17,1), color = paleta.violeta()) 
 
 object nivelInterfaz {
     method text() = "NIVEL " + juego.nivel().numeroDeNivel().toString() + " : " + juego.nivel().enemigo().nombre()

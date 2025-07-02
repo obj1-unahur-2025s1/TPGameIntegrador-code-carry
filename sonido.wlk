@@ -10,13 +10,10 @@ class Sonido{
         sonido.volume(volume)
         sonido.play()
     }
-
-
 }
 
 // Sonido de fondo
 const sonidoDeFondo = new Sonido(archivo = "Worlds-London-MusicaFondo.mp3",volume= 0.03,loop= true)
-
 // Sonido de menu
 const sonidoDeMenu = new Sonido(archivo = "Menu-Seleccion.mp3",volume= 1,loop= false)
 

@@ -6,14 +6,15 @@ import sonido.*
 import modelos.*
 
 class Personaje {
+  const property nombre
   const vidaInicial 
   const ataque 
   const defensa
   const sonidoAtaque
-  const imagen
   const posicion
   var turno 
   var enemigo
+  var estado = "-normal"
 
   var vida = vidaInicial
   const property coleccion = []
@@ -35,6 +36,8 @@ class Personaje {
     else {
       self.noEsMiTurno()
     }
+    estado = "-ataque"
+    game.schedule(700, {estado = "-normal"})
   }
 
   method recibirAtaque(danio) { 
@@ -47,6 +50,8 @@ class Personaje {
     danioInflijido.corroborarDanio(totalInflijido.round())
     game.schedule(1000, { => game.addVisual(danioInflijido) })
     self.reducirCooldowns()
+    estado = "-daño"
+    game.schedule(700, { estado = "-normal"})
   }
 
   method puedoCurarme() = vida < vidaInicial
@@ -63,7 +68,9 @@ class Personaje {
       // LO CURA
       vida = vida + vidaInicial  *  0.1
       game.say(self, "CURACION")
+      //Sonido
       sonidoDeHeal.iniciar()
+      //Interfaz de curacion
       curacionTotal.posicionMia(self.position())
       curacionTotal.corroborarCuracion(curacion)
       game.schedule(1000, { => game.addVisual(curacionTotal) })
@@ -100,6 +107,8 @@ class Personaje {
       carta.usar(self)
       self.cambiarTurno()
       self.reducirCooldowns()
+      estado = "-ataque"
+      game.schedule(700, { estado = "-normal"})
     }
     else-if (!turno) { self.noEsMiTurno() }
     else-if (carta.tieneCooldown()) { carta.mensajeCooldown() }
@@ -126,12 +135,11 @@ class Personaje {
   // ----  SONIDO  ----
 
   method sonidoAtaque() = sonidoAtaque
-  method image() = imagen
+  method image() = nombre + estado + ".png"
   method enemigo() = enemigo
 }
 
 class PersonajeEnemigo inherits Personaje(turno = false, enemigo = poro) {
-  const property nombre
   const property sonidoAparicion
   
   override method recibirAtaque(danio) {
@@ -162,7 +170,6 @@ class PersonajePrincipal inherits Personaje(
     defensa = 25, 
     turno = true, 
     sonidoAtaque = sonidoAtaquePoro,
-    imagen = "poro-normal.png",
     enemigo = juego.nivel().enemigo(),
     posicion = game.at(6,2)
     ) {

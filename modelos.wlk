@@ -4,7 +4,7 @@ import sonido.*
 
 // PORO
 
-const poro = new PersonajePrincipal()
+const poro = new PersonajePrincipal(nombre = "Poro")
 
 //ENEMIGOS
 const vacuolarva = new PersonajeEnemigo (
@@ -14,7 +14,6 @@ const vacuolarva = new PersonajeEnemigo (
   nombre = "Vacuolarva",
   sonidoAtaque = sonidoAtaqueLarva,
   sonidoAparicion = sonidoAparicionLarva,
-  imagen = "larva-normal.png",
   posicion = game.at(15,2)
 )
 
@@ -25,7 +24,6 @@ const heraldo = new PersonajeEnemigo (
   nombre = "Heraldo",
   sonidoAtaque = sonidoAtaqueLarva,
   sonidoAparicion = sonidoAparicionHeraldo,
-  imagen = "heraldoNuevo-normal.png",
   posicion = game.at(13,2)
 )
 
@@ -36,7 +34,6 @@ const baron = new PersonajeEnemigo (
   nombre = "Baron",
   sonidoAtaque = sonidoAtaqueLarva,
   sonidoAparicion = sonidoAparicionBaron,
-  imagen = "Baron-normal.png",
   posicion = game.at(13,2)
 )
 

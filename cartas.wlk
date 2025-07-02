@@ -14,7 +14,7 @@ class Carta {
     var property tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
     var cooldown = 0
 
-    method image() = nombre.toString() + estado + ".png"
+    method image() = nombre + estado + ".png"
     method position() = posicion
 
     method posicionEnColeccion(nueva) { posicion = nueva }
