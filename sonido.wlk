@@ -1,44 +1,43 @@
-object sonidoDeFondo {
-    const sonido = new Sound(file = "Worlds-London-MusicaFondo.mp3")
+
+class Sonido{
+    const archivo
+    const volume
+    const loop 
 
     method iniciar(){
-        sonido.shouldLoop(true)
-        sonido.volume(0.05)
+        const sonido= new Sound(file = archivo)
+        sonido.shouldLoop(loop)
+        sonido.volume(volume)
         sonido.play()
     }
-    method parar() { sonido.stop() }
+
+
 }
 
-object sonidoDeMenu{
-    method iniciarSonidoMenu() {
-        const sonidoMenu = new Sound(file="Menu-Seleccion.mp3")
-        sonidoMenu.volume(1)
-        sonidoMenu.play()
-    }
-}
+// Sonido de fondo
+const sonidoDeFondo = new Sonido(archivo = "Worlds-London-MusicaFondo.mp3",volume= 0.03,loop= true)
 
-object sonidoDeHeal {
-    method iniciar() {
-        const sonidoHeal = new Sound(file = "HaelSound.mp3")
-        sonidoHeal.play()
-    }
-}
+// Sonido de menu
+const sonidoDeMenu = new Sonido(archivo = "Menu-Seleccion.mp3",volume= 1,loop= false)
+
+// Sonido de curacion
+const sonidoDeHeal = new Sonido(archivo = "HaelSound.mp3",volume= 1,loop= false)
 
 // Sonidos de cartas
-const sonidoCartaCuracion = new Sound(file = "Sonido-Carta-Supp3.mp3")
+const sonidoCartaCuracion = new Sonido(archivo = "Sonido-Carta-Supp3.mp3",volume= 1,loop= false)
 
-const sonidoCartaDanio = new Sound(file = "Sonido-Carta-AD.mp3")
+const sonidoCartaDanio = new Sonido(archivo = "Sonido-Carta-AD.mp3",volume= 1,loop= false)
 
-const sonidoCartaMagia = new Sound(file = "Sonido-Carta-AP.mp3")
+const sonidoCartaMagia = new Sonido(archivo = "Sonido-Carta-AP.mp3",volume= 1,loop= false)
 
 // Sonidos de personajes
 
-const sonidoAtaquePoro = new Sound(file="BolaDeNieve.mp3") // Poro
+const sonidoAtaquePoro = new Sonido(archivo="BolaDeNieve.mp3",volume= 1,loop= false) // Poro
 
-const sonidoAtaqueLarva = new Sound(file="AtaqueLarva.mp3") // Larva
+const sonidoAtaqueLarva = new Sonido(archivo="AtaqueLarva.mp3",volume= 1,loop= false) // Larva
 
-const sonidoAparicionLarva = new Sound(file="AparicionLarva.mp3") // Larva
+const sonidoAparicionLarva = new Sonido(archivo="AparicionLarva.mp3",volume= 1,loop= false) // Larva
 
-const sonidoAparicionHeraldo = new Sound(file="AparicionHeraldo.mp3") // Heraldo
+const sonidoAparicionHeraldo = new Sonido(archivo="AparicionHeraldo.mp3",volume= 1,loop= false) // Heraldo
 
-const sonidoAparicionBaron = new Sound(file = "AlertaBaron.mp3") // Baron
+const sonidoAparicionBaron = new Sonido(archivo = "AlertaBaron.mp3",volume= 1,loop= false) // Baron

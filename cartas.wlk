@@ -61,7 +61,7 @@ class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
         super(target)
         if (cooldown == 0) {
             target.curarsePor(self)
-            sonido.play()
+            sonidoCartaCuracion.iniciar()
             self.colocarCooldown()
         }
         else {
@@ -76,7 +76,7 @@ class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) {
         super(target)
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(ataque)
-            //sonidoCartaDanio.play()
+            sonidoCartaDanio.iniciar()
             self.colocarCooldown() 
         }
         else {
@@ -91,7 +91,7 @@ class CartaAP inherits CartaDanio(sonido = sonidoCartaMagia) {
         super(target)
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(poderMagico * 1.3)
-            //sonidoCartaMagia.play()
+            sonidoCartaMagia.iniciar()
             self.colocarCooldown() 
         }
         else {

@@ -41,8 +41,8 @@ class Personaje {
     game.removeVisual(danioInflijido)
     game.removeVisual(curacionTotal)
     self.cambiarTurno()
-    const totalInflijido = vidaInicial - ((vida - (danio - defensa * 0.3))).max(0) // 70 - ()
-    vida -= totalInflijido.round()
+    const totalInflijido =(danio - defensa).round().max(0) // 70 - ()
+    vida =  (vida - totalInflijido).max(0)
     danioInflijido.posicionEnemigo(self.position())
     danioInflijido.corroborarDanio(totalInflijido.round())
     game.schedule(1000, { => game.addVisual(danioInflijido) })
@@ -78,8 +78,8 @@ class Personaje {
 
   method curarsePor(unaCarta) { 
     game.removeVisual(danioInflijido)
-    const curazao = vidaInicial - vida 
-    vida =  ( vida + unaCarta.poderMagico() * 3 ).min(100)
+    const curazao = unaCarta.poderMagico() * 3
+    vida =  ( vida + curazao ).min(100)
     curacionTotal.posicionMia(self.position())
     curacionTotal.corroborarCuracion(curazao)
     game.schedule( 1000, { => game.addVisual(curacionTotal) } )
