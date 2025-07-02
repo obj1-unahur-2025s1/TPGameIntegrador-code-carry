@@ -7,27 +7,25 @@ class Carta {
     const nombre
     const property cooldownInicial 
     const property sonido
-    const imagen
-
+    var estado = "-lista"
     var indice = null
     var posicion = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
     var posicionCooldown = null // Al colocarlo vacio, al crear una carta me piden una posicion y no deberia tener una predefinida
     var property tecla = null // Al colocarlo vacio, al crear una carta me piden una tecla y no deberia tener una predefinida
     var cooldown = 0
 
-    method image() = imagen
+    method image() = nombre.toString() + estado + ".png"
     method position() = posicion
 
     method posicionEnColeccion(nueva) { posicion = nueva }
 
     // ----  COOLDOWNS  ----
     method cooldown() = cooldown
-    method reducirCooldown() { cooldown = (cooldown -1).max(0) } 
-    method reiniciarCooldown() { cooldown = 0 }
+    method reducirCooldown() { cooldown = (cooldown -1).max(0) if (cooldown == 0) estado = "-lista" } 
+    method reiniciarCooldown() { cooldown = 0 estado = "-lista" }
     method colocarCooldown() { cooldown = cooldownInicial }
     method tieneCooldown() = cooldown > 0
     method mensajeCooldown() = game.say(poro, "A la carta " + nombre + " le faltan " + cooldown + " turnos")
-
     // ----  POSICIONES  ----
 
     method desasignarPosicion() { 
@@ -49,7 +47,9 @@ class Carta {
         sonidoEfecto.volume(1)
         sonidoEfecto.play()
     }
-    method usar(target) 
+    method usar(target) {
+        estado = "-cooldown"
+    }
 } 
 
 class CartaDanio inherits Carta {
@@ -58,6 +58,7 @@ class CartaDanio inherits Carta {
 
 class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
     override method usar(target) {
+        super(target)
         if (cooldown == 0) {
             target.curarsePor(self)
             sonido.play()
@@ -72,6 +73,7 @@ class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
 class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) { 
     const property ataque 
     override method usar(target) {
+        super(target)
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(ataque)
             //sonidoCartaDanio.play()
@@ -86,6 +88,7 @@ class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) {
 class CartaAP inherits CartaDanio(sonido = sonidoCartaMagia) { 
     const property poderMagico 
     override method usar(target) {
+        super(target)
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(poderMagico * 1.3)
             //sonidoCartaMagia.play()

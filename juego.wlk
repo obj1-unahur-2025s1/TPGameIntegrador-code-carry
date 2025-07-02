@@ -10,7 +10,6 @@ object juego {
     var enemigo = nivel.enemigo() // Seteamos el enemigo que lo reconoce desde el nivel
     method nivel() = nivel // musica de la batalla
     const property todasLasCartas = [aatrox,ahri,alistar,amumu,ashe,aurelion,blitz,brand,camille,draven,fiora,jhin,garen,pyke,nasus,morgana,soraka,karma]
-    //const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
     method iniciar() {
         nivel.iniciar() // inicia el nivel
         enemigo.sonidoAparicion().play()

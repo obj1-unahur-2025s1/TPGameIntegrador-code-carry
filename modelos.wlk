@@ -41,39 +41,39 @@ const baron = new PersonajeEnemigo (
 )
 
 // CARTAS
-const garen = new CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 70, imagen = "garenfinal.png")
+const garen = new CartaAD(nombre = "Garen", cooldownInicial = 5, ataque = 70)
 
-const ahri = new CartaAP(nombre = "Ahri", cooldownInicial = 5, poderMagico = 80, imagen = "ahrifinal.png")
+const ahri = new CartaAP(nombre = "Ahri", cooldownInicial = 5, poderMagico = 80)
 
-const soraka = new CartaSUPP(nombre = "Soraka", cooldownInicial = 10, poderMagico = 40, imagen = "sorakafinal.png")
+const soraka = new CartaSUPP(nombre = "Soraka", cooldownInicial = 10, poderMagico = 40)
 
-const draven = new CartaAD(nombre = "Draven", cooldownInicial = 8, ataque = 70, imagen = "dravenfinal.png")
+const draven = new CartaAD(nombre = "Draven", cooldownInicial = 8, ataque = 70)
 
-const aatrox = new CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 65, imagen = "aatroxfinal.png")
+const aatrox = new CartaAD(nombre = "Aatrox", cooldownInicial = 3, ataque = 65)
 
-const alistar = new CartaAP(nombre = "Alistar", cooldownInicial = 5, poderMagico = 70, imagen = "alistarfinal.png")
+const alistar = new CartaAP(nombre = "Alistar", cooldownInicial = 5, poderMagico = 70)
 
-const amumu = new CartaAP(nombre = "Amumu", cooldownInicial = 4, poderMagico = 75, imagen = "amumufinal.png")
+const amumu = new CartaAP(nombre = "Amumu", cooldownInicial = 4, poderMagico = 75)
 
-const aurelion = new CartaAP(nombre = "Aurelion", cooldownInicial = 5, poderMagico = 80, imagen = "aurelionfinal.png")
+const aurelion = new CartaAP(nombre = "Aurelion", cooldownInicial = 5, poderMagico = 80)
 
-const blitz = new CartaAP(nombre = "Blitzcranck", cooldownInicial = 5, poderMagico = 65, imagen = "blitzfinal.png")
+const blitz = new CartaAP(nombre = "Blitz", cooldownInicial = 5, poderMagico = 65)
 
-const brand = new CartaAP(nombre = "Brand", cooldownInicial = 5, poderMagico = 85, imagen = "brandfinal.png")
+const brand = new CartaAP(nombre = "Brand", cooldownInicial = 5, poderMagico = 85)
 
-const camille = new CartaAD(nombre = "Camille", cooldownInicial = 6, ataque = 65, imagen = "camillefinal.png")
+const camille = new CartaAD(nombre = "Camille", cooldownInicial = 6, ataque = 65)
 
-const fiora = new CartaAD(nombre = "Fiora", cooldownInicial = 7, ataque = 75, imagen = "fiorafinal.png")
+const fiora = new CartaAD(nombre = "Fiora", cooldownInicial = 7, ataque = 75)
 
-const ashe = new CartaAD(nombre = "Ashe", cooldownInicial = 4, ataque = 70, imagen = "ashefinal.png")
+const ashe = new CartaAD(nombre = "Ashe", cooldownInicial = 4, ataque = 70)
 
-const jhin = new CartaAD(nombre = "Jhin", cooldownInicial = 4, ataque = 74, imagen = "jhinfinal.png")
+const jhin = new CartaAD(nombre = "Jhin", cooldownInicial = 4, ataque = 74)
 
-const karma = new CartaAP(nombre = "Karma", cooldownInicial = 6, poderMagico = 80, imagen = "karmafinal.png")
+const karma = new CartaAP(nombre = "Karma", cooldownInicial = 6, poderMagico = 80)
 
-const morgana = new CartaAP(nombre = "Morgana", cooldownInicial = 5, poderMagico = 56, imagen = "morganafinal.png")
+const morgana = new CartaAP(nombre = "Morgana", cooldownInicial = 5, poderMagico = 56)
 
-const nasus = new CartaAD(nombre = "Nasus", cooldownInicial = 3, ataque = 70, imagen = "nasusfinal.png")
+const nasus = new CartaAD(nombre = "Nasus", cooldownInicial = 3, ataque = 70)
 
-const pyke = new CartaAD(nombre = "Pyke", cooldownInicial = 4, ataque = 75, imagen = "pykefinal.png")
+const pyke = new CartaAD(nombre = "Pyke", cooldownInicial = 4, ataque = 75)
 

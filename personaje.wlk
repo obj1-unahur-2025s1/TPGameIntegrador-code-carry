@@ -10,7 +10,7 @@ class Personaje {
   const ataque 
   const defensa
   const sonidoAtaque
-  const imagen 
+  const imagen
   const posicion
   var turno 
   var enemigo
@@ -67,9 +67,12 @@ class Personaje {
       curacionTotal.posicionMia(self.position())
       curacionTotal.corroborarCuracion(curacion)
       game.schedule(1000, { => game.addVisual(curacionTotal) })
+      //Cambio de turno
       self.cambiarTurno()
       enemigo.cambiarTurno()
+      //ReduccionDeCooldowns
       self.reducirCooldowns()
+      enemigo.reducirCooldowns()
     }
   }
 
