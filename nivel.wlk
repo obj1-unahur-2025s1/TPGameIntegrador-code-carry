@@ -9,6 +9,7 @@ class Nivel {
     const property enemigo // Enemigo del nivel
     const property numeroDeNivel // Numero del nivel
     const property cantidadDeMazo   // Cantidad maxima del mazo que permite el nivel
+    const property siguiente
     method iniciar() {
         game.clear() // Limpia el tablero
         game.addVisual(fondoBatalla) // Agrega el fondo de batalla
@@ -48,14 +49,6 @@ class Nivel {
     }
 }
 
-object nivelUno inherits Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidadDeMazo = 3) {
-    method siguiente() = nivelDos
-}
-
-object nivelDos inherits Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeMazo = 4){
-    method siguiente() = nivelTres
-}
-
-object nivelTres inherits Nivel(numeroDeNivel = 3, enemigo = baron, cantidadDeMazo = 5){
-    method siguiente() = menu
-}
+const nivelUno = new Nivel(numeroDeNivel = 1, enemigo = vacuolarva, cantidadDeMazo = 3,siguiente= nivelDos)
+const nivelDos = new Nivel(numeroDeNivel = 2, enemigo = heraldo, cantidadDeMazo = 4,siguiente= nivelTres)
+const nivelTres = new Nivel(numeroDeNivel = 3, enemigo = baron, cantidadDeMazo = 5,siguiente= menu)

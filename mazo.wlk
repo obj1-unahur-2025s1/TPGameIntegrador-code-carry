@@ -23,6 +23,3 @@ class Mazo {
 
 }
 
-object mazoDePoro inherits Mazo(duenio = poro) {
-
-}

@@ -43,7 +43,7 @@ class Opciones {
     method textColor() = if (self.estaSeleccionado()) paleta.violeta() else paleta.blanco() 
     method estaSeleccionado() = estaSeleccionado
     method cambiarSeleccion() { 
-        sonidoDeMenu.iniciarSonidoMenu()
+        sonidoDeMenu.iniciar()
         if (estaSeleccionado) estaSeleccionado = false 
         else estaSeleccionado = true }
     method entrar() {}
@@ -268,16 +268,14 @@ object inventarioPrueba {
 
 class Fondo {
     const imagen
+    const x
+    const y
     method image() = imagen
-    method position() = game.at(0,0)
+    method position() = game.at(x,y)
 }
 
-object fondoMenu inherits Fondo(imagen = "FondoMenu.png") {}
 
-object fondoBatalla inherits Fondo(imagen = "FondoBatalla.png") {}
-
-object fondoInstrucciones inherits Fondo(imagen = "FondoInstrcciones.png") {}
-
-object logoMenu inherits Fondo(imagen = "logo.png") {
-    override method position() = game.at(6,9)
-}
+const fondoMenu = new Fondo(imagen="FondoMenu.png", x=0,y=0)
+const fondoBatalla = new Fondo(imagen="FondoBatalla.png", x=0,y=0)
+const fondoInstrucciones = new Fondo(imagen="FondoInstrcciones.png", x=0,y=0)
+const logoMenu = new Fondo(imagen="logo.png", x=6,y=9)

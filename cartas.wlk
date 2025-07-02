@@ -43,12 +43,6 @@ class Carta {
         indice = indiceNuevo
     }
 
-    // ----  SONIDO  ---
-    method sonidoEfecto(unSonido){
-        const sonidoEfecto= new Sound(file = unSonido)
-        sonidoEfecto.volume(1)
-        sonidoEfecto.play()
-    }
     method usar(target) 
 } 
 
@@ -60,7 +54,7 @@ class CartaSUPP inherits CartaAP(sonido = sonidoCartaCuracion) {
     override method usar(target) {
         if (cooldown == 0) {
             target.curarsePor(self)
-            sonido.play()
+            sonidoCartaCuracion.iniciar()
             self.colocarCooldown()
         }
         else {
@@ -74,7 +68,7 @@ class CartaAD inherits CartaDanio(sonido = sonidoCartaDanio) {
     override method usar(target) {
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(ataque)
-            //sonidoCartaDanio.play()
+            sonidoCartaDanio.iniciar()
             self.colocarCooldown() 
         }
         else {
@@ -88,7 +82,7 @@ class CartaAP inherits CartaDanio(sonido = sonidoCartaMagia) {
     override method usar(target) {
         if (cooldown == 0) {
             target.enemigo().recibirAtaque(poderMagico * 1.3)
-            //sonidoCartaMagia.play()
+            sonidoCartaMagia.iniciar()
             self.colocarCooldown() 
         }
         else {

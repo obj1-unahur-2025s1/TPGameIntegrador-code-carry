@@ -13,13 +13,12 @@ object juego {
     //const aparicionBaron= new Sound(file="AlertaBaron.mp3") // musica al aparecer el baron
     method iniciar() {
         nivel.iniciar() // inicia el nivel
-        enemigo.sonidoAparicion().play()
+        enemigo.sonidoAparicion().iniciar()
         sonidoDeFondo.iniciar() // inicia la musica de batalla
         self.teclasDeCombate() // setea las teclas para atacar
     }
 
     method reiniciarPartida() {
-        sonidoDeFondo.parar()
         nivel = nivelUno
         self.iniciar()
     }
@@ -36,25 +35,14 @@ object juego {
             menu.iniciar()
         }
         else {
-            sonidoDeFondo.parar()
             enemigo = nivel.enemigo()
             self.iniciar()
         }
     }
 
     method teclasDeCombate() {
-        //TEST
         keyboard.z().onPressDo{poro.atacar()}
-        keyboard.x().onPressDo{enemigo.atacar()}
-        keyboard.c().onPressDo{poro.curarse()}
-        keyboard.v().onPressDo{enemigo.curarse()}
-
-        //CARTAS
-        //keyboard.q().onPressDo{poro.usarLaCarta(poro.mazo().first())}
-        //keyboard.w().onPressDo{poro.usarLaCarta(2)}
-        //keyboard.e().onPressDo{poro.usarLaCarta(3)}
-        //keyboard.r().onPressDo{poro.usarLaCarta(4)}
-        //keyboard.t().onPressDo{poro.usarLaCarta(5)}
+        keyboard.c().onPressDo{poro.curarse()}   
     }
 
     method campeonesInicales() {
