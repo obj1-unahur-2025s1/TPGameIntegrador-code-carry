@@ -107,6 +107,8 @@ method usarLaCarta(carta) {
       carta.usar(self)
       self.cambiarTurno()
       self.reducirCooldowns()
+      estado = "-ataque"
+      game.schedule(700,{estado = "-normal"})
     }
     else-if (!turno) { self.noEsMiTurno() }
     else-if (carta.tieneCooldown()) { carta.mensajeCooldown() }
