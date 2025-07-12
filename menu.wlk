@@ -28,11 +28,11 @@ object menu {
             iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a false
             salir.cambiarSeleccion() // Salir cambia a true
         }
-        else-if (irAlInventario.estaSeleccionado()) { // Si la segunda opcion es verdadera
+        else if (irAlInventario.estaSeleccionado()) { // Si la segunda opcion es verdadera
             irAlInventario.cambiarSeleccion() // Coleccion cambia false
             iniciarJuego.cambiarSeleccion() // Iniciar cambia a true
         }
-        else-if (irAInstrucciones.estaSeleccionado()) { // Si la tercera opcion es verdader
+        else if (irAInstrucciones.estaSeleccionado()) { // Si la tercera opcion es verdader
             irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a false 
             irAlInventario.cambiarSeleccion() // Coleccion cambia a true
         }
@@ -49,11 +49,11 @@ object menu {
             iniciarJuego.cambiarSeleccion() // Iniciar juego cambia a false
             irAlInventario.cambiarSeleccion() // Inventario cambia a true
         }
-        else-if (irAlInventario.estaSeleccionado()) { // Si coleccion esta en verdadero 
+        else if (irAlInventario.estaSeleccionado()) { // Si coleccion esta en verdadero 
             irAlInventario.cambiarSeleccion() // Coleccion cambia a false 
             irAInstrucciones.cambiarSeleccion() // Instruccion cambia a true 
         }
-        else-if (irAInstrucciones.estaSeleccionado()) { // Si instruccion esta en verdadero
+        else if (irAInstrucciones.estaSeleccionado()) { // Si instruccion esta en verdadero
             irAInstrucciones.cambiarSeleccion() // Instrucciones cambia a false
             salir.cambiarSeleccion() // Salir cambia a true  
         }
